@@ -233,6 +233,22 @@ animation-delay: .8s;
   text-align: center;
   margin: 95px 0 0 0;
 }
+div#about-us{
+  height: 600px;
+}
+div#about-us p{
+  font-size: 44px;
+  word-spacing: 2.5px;
+ 
+}
+div#about-us p b{
+  color:#cec044;
+}
+div#about-us hr{
+  height: 2px;
+  width: 40%;
+  color: #ffeb3b;
+}
 .theme-title h2 {
   position: relative;
   font-size:50px;
@@ -267,13 +283,13 @@ animation-delay: .8s;
 .blog-details-post-wrapper .list-img-wrapper ul li a:hover,.blog-details-post-wrapper .post-comment form button:hover,
 .blog-details-post-wrapper .post-share-area .share li a:hover,.theme-main-menu.navbar .nav>li ul li a:hover,
 .blog-details-post-wrapper .post-share-area .share li a.active {
-  color:#d73e4d;
+  color:#cec044;
 }
-.p-color-bg,.theme-title h2:before,#about-us .single-about-content:hover .icon,
+.p-color-bg,.single-about-content:hover .icon,
 #skill-section .codeconSkillbar .skillBar,#our-client .owl-theme .owl-dots .owl-dot.active span,
 #our-client .owl-theme .owl-dots .owl-dot:hover span,
 .blog-details-post-wrapper .comment-area .single-comment .comment button:hover {
-  background: #d73e4d;
+  background: #ffeb3b;
 }
 .banner .project-button,#about-us .icon,#about-us .single-about-content a.more,
 #service-section .single-service-content:hover,#project-section .project-menu ul li.active,
@@ -283,8 +299,9 @@ animation-delay: .8s;
 #contact-section .contact-address-content .left-side ul li .icon,#contact-section .send-message form button,
 .sidebar-tags ul li a:hover,.blog-details-post-wrapper .post-comment form button,
 .blog-details-post-wrapper .post-comment textarea:focus,.blog-details-post-wrapper .post-comment input:focus {
-  border-color:#d73e4d;
+  border-color:#ffeb3b;
   border-style: solid;
+  border-width: 4px;
 }
 /*** 
 
@@ -423,7 +440,7 @@ animation-delay: .8s;
   width: 170px;
   line-height: 50px;
   text-align: center;
-  border-width: 1px;
+  border-width: 3px;
   text-transform: uppercase;
 }
 /*** 
@@ -433,6 +450,25 @@ animation-delay: .8s;
 ====================================================================
 
  ***/
+
+section#about-us{
+
+  background: url(../images/home/IMG_5405.jpg) no-repeat center;
+  background-size: cover;
+  
+} 
+
+section#about-us .container{
+  width: 100%;
+  background: rgba(0,0,0,0.85);
+  text-align: center;
+}
+div#about-us h2{
+  color: white;
+}
+div#about-us{
+  opacity:1;
+}
 #about-us .single-about-content {
   text-align: center;
   margin-top: 55px;
