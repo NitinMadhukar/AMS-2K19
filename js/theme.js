@@ -24,7 +24,7 @@ function removePlaceholder () {
                 $(this).on('focusout', function() {
                     $(this).attr('placeholder',$(this).data('holder'));
                 });
-                
+
         });
   }
 }
@@ -42,7 +42,7 @@ function scrollToTop () {
         $('.scroll-top').fadeOut();
       }
     });
-    
+
     //Click event to scroll to top
     $('.scroll-top').on('click', function() {
       $('html, body').animate({scrollTop : 0},1500);
@@ -52,7 +52,7 @@ function scrollToTop () {
 }
 
 
-// Theme-banner Video slider 
+// Theme-banner Video slider
 function BannerVideoSlider () {
   var banner = $("#main-banner-slider.video-slider");
   if (banner.length) {
@@ -101,8 +101,8 @@ function BannerVideoSlider () {
                 fallbacks: {
                   simplifyAll:"off",
                   disableFocusListener:false,
-                }   
-    }); 
+                }
+    });
   };
 }
 
@@ -110,8 +110,8 @@ function BannerVideoSlider () {
 //Add OnepageNav / Sidebar
 function onePageFixedNav() {
     if($('body').length){
-      // Add scrollspy to 
-      $('body').scrollspy({target: ".theme-main-header", offset: 70});   
+      // Add scrollspy to
+      $('body').scrollspy({target: ".theme-main-header", offset: 70});
 
       // Add smooth scrolling on all links inside the one-page-menu
       $(".one-page-menu li a").on('click', function(event) {
@@ -128,7 +128,7 @@ function onePageFixedNav() {
           $('html, body').animate({
             scrollTop: $(hash).offset().top
           }, 1000, function(){
-       
+
             // Add hash (#) to URL when done scrolling (default click behavior)
             window.location.hash = hash;
           });
@@ -175,7 +175,7 @@ function clientSlider () {
 }
 
 
-// Partner Logo Footer 
+// Partner Logo Footer
 function partnersLogo () {
   var logoSlide = $("#partner_logo");
   if(logoSlide.length) {
@@ -274,7 +274,7 @@ function stickyHeader () {
 
     if (scroll >= 100) sticky.addClass('fixed');
     else sticky.removeClass('fixed');
-    
+
   };
 }
 
@@ -286,7 +286,7 @@ function cladendar () {
   }
 }
 
-// Tooggle Home page menu click Function 
+// Tooggle Home page menu click Function
 function subMenuExpend () {
   if($(".theme-main-header").length) {
     $('.theme-main-header li.dropdown-holder').append(function () {
@@ -331,3 +331,50 @@ jQuery(window).on('load', function () {
       prealoader ()
   })(jQuery);
  });
+
+
+ //Thunder bolt AMS animation
+
+$(document).ready(function () {
+
+  var $randomnbr = $('.nbr');
+  var $timer = 50;
+  var $it;
+  var $data = 0;
+  var index;
+  var change;
+  var letters = ["T", "H", "U", "N", "D", "E", "R", "B", "O", "L", "T", " ", "A", "M", " S"];
+
+  $randomnbr.each(function () {
+
+    change = Math.round(Math.random() * 100);
+    $(this).attr('data-change', change);
+
+  });
+
+  function random() {
+    return Math.round(Math.random() * 9);
+  };
+
+  function select() {
+    return Math.round(Math.random() * $randomnbr.length + 1);
+  };
+
+  function value() {
+    $('.nbr:nth-child(' + select() + ')').html('' + random() + '');
+    $('.nbr:nth-child(' + select() + ')').attr('data-number', $data);
+    $data++;
+
+    $randomnbr.each(function () {
+      if (parseInt($(this).attr('data-number')) > parseInt($(this).attr('data-change'))) {
+        index = $('.ltr').index(this);
+        $(this).html(letters[index]);
+        $(this).removeClass('nbr');
+      }
+    });
+
+  };
+
+  $it = setInterval(value, $timer);
+
+});
