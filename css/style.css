@@ -237,7 +237,7 @@ div#about-us{
   height: 600px;
 }
 div#about-us p{
-  font-size: 44px;
+  font-size: 36px;
   word-spacing: 2.5px;
 
 }
@@ -263,7 +263,7 @@ div#about-us hr{
   margin-left: -12px;
 }
 .theme-title p {
-  font-size: 16px;
+  font-size: 22px;
   width:75%;
   margin: 60px auto 0 auto;
 }
@@ -1712,7 +1712,7 @@ html, body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   text-transform: uppercase;
   font-weight: 200;
   background-color: #eee;
@@ -1725,7 +1725,7 @@ html .content, body .content {
   position: relative;
   top: 34%;
   font-weight: 600;
-  font-size: 40px;
+  font-size: 20px;
   -ms-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
