@@ -317,16 +317,17 @@ div#about-us hr{
    right: 0;
    z-index: 999;
    padding-top: 20px;
+   font-size:25px;
  }
+
  .theme-main-menu .navbar-nav>li>a {
    text-transform: uppercase;
    color:#fff;
    font-weight: 700;
    background: transparent;
-   padding: 9px 15px;s
+   padding: 10px 25px;
  }
 
- @import 'https://fonts.googleapis.com/css?family=Raleway';
 
  /* Border from Y to X  */
  .theme-main-menu .borderYtoX li a:before, div.borderYtoX li a:after
@@ -1707,6 +1708,7 @@ footer p {
 
  ***/
 
+<<<<<<< HEAD
 
 html, body {
   margin: 0;
@@ -1720,14 +1722,22 @@ html, body {
   width: 100%;
   height: 100%;
 }
+=======
+>>>>>>> 3c91e82e662bc53602513981ab6120f3e290a9ec
 html .content, body .content {
   text-indent: 55%;
   position: relative;
   top: 34%;
+<<<<<<< HEAD
   font-weight: 600;
   font-size: 20px;
+=======
+  color: #eee;
+  font-size: 45px;
+>>>>>>> 3c91e82e662bc53602513981ab6120f3e290a9ec
   -ms-transform: translateY(-50%);
   -webkit-transform: translateY(-50%);
+  font-weight:bold;
   transform: translateY(-50%);
 }
 html .content span, body .content span {
