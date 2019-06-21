@@ -1,12 +1,12 @@
 /* CSS Document */
 
-/* 
-    Created on : 1/15/2017. 
+/*
+    Created on : 1/15/2017.
     Theme Name : BizPro.
     Description: BizPro- Responsive html5 template.
     Version    : 1.1.
     Author     : @SRThemes.
-   
+
 */
 
 /* ------------------------------------------ */
@@ -61,7 +61,7 @@
 @import url('../vendor/monthly-master/css/monthly.css');
 
 
-/*** 
+/***
 
 ====================================================================
   Loading Transition
@@ -90,15 +90,15 @@
   bottom:0px;
   width: 6px;
   height: 5px;
-  background:#e04f5d; 
+  background:#e04f5d;
   position:absolute;
   animation: preloader_1 1.5s  infinite ease-in-out;
 }
- 
+
 #preloader_1 span:nth-child(2){
 left:11px;
 animation-delay: .2s;
- 
+
 }
 #preloader_1 span:nth-child(3){
 left:22px;
@@ -120,7 +120,7 @@ animation-delay: .8s;
 }
 
 
-/*** 
+/***
 
 ====================================================================
   Click To Top
@@ -151,7 +151,7 @@ animation-delay: .8s;
   background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
   background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
 }
-/*** 
+/***
 
 ====================================================================
   Global Settings
@@ -239,7 +239,7 @@ div#about-us{
 div#about-us p{
   font-size: 44px;
   word-spacing: 2.5px;
- 
+
 }
 div#about-us p b{
   color:#cec044;
@@ -283,7 +283,7 @@ div#about-us hr{
 .blog-details-post-wrapper .list-img-wrapper ul li a:hover,.blog-details-post-wrapper .post-comment form button:hover,
 .blog-details-post-wrapper .post-share-area .share li a:hover,.theme-main-menu.navbar .nav>li ul li a:hover,
 .blog-details-post-wrapper .post-share-area .share li a.active {
-  color:#cec044;
+  color:#d73e4d;
 }
 .p-color-bg,.single-about-content:hover .icon,
 #skill-section .codeconSkillbar .skillBar,#our-client .owl-theme .owl-dots .owl-dot.active span,
@@ -303,97 +303,62 @@ div#about-us hr{
   border-style: solid;
   border-width: 4px;
 }
-/*** 
+/***
 
 ====================================================================
   Theme Header
 ====================================================================
 
  ***/
-.theme-main-header {
-  position: absolute;
-  top:0;
-  left:0;
-  right: 0;
-  z-index: 999;
-  padding-top: 20px;
-}
-.theme-main-menu .navbar-nav>li>a {
-  text-transform: uppercase;
-  color:#fff;
-  font-weight: 700;
-  background: transparent;
-  padding: 9px 15px;
-} 
-.theme-main-menu .navbar-nav>li:last-child>a {
-  padding-right: 0;
-}
-.theme-main-menu.navbar {
-  border:none;
-  margin: 0;
-}
+ .theme-main-header {
+   position: absolute;
+   top:0;
+   left:0;
+   right: 0;
+   z-index: 999;
+   padding-top: 20px;
+ }
+ .theme-main-menu .navbar-nav>li>a {
+   text-transform: uppercase;
+   color:#fff;
+   font-weight: 700;
+   background: transparent;
+   padding: 9px 15px;s
+ }
 
-.theme-main-menu.navbar .nav>li ul.sub-menu {
-  position: absolute;
-  background: #1e1e1e;
-  width:150px;
-  top:120%;
-  top:calc(100% + 60px);
-  left:0;
-  opacity: 0;
-  visibility: hidden;
-  text-align: left;
-  -webkit-transition: all .5s ease-in-out;
-     -moz-transition: all .5s ease-in-out;
-      -ms-transition: all .5s ease-in-out;
-       -o-transition: all .5s ease-in-out;
-          transition: all .5s ease-in-out;
-  -webkit-box-shadow: 0px 13px 25px -12px rgba(0,0,0,0.15);
-  -moz-box-shadow: 0px 13px 25px -12px rgba(0,0,0,0.15);
-  box-shadow: 0px 13px 25px -12px rgba(0,0,0,0.15);
-}
-.theme-main-menu.navbar .nav>li ul li a {
-  line-height: 40px;
-  color:#fff;
-  font-weight: 700;
-  padding: 0 0 0 15px;
-  display: block;
-}
-.theme-main-menu.navbar .nav>li ul li:last-child a {
-  border:none;
-}
-.theme-main-menu.navbar .nav>li:hover ul.sub-menu {
-  top:100%;
-  opacity: 1;
-  visibility: visible;
-}
-.theme-main-menu .navbar-toggle {
-  margin: 0;
-  border-radius: 0;
-  color:#fff;
-  padding-right: 15px;
-}
-.theme-main-menu .navbar-toggle .fa {
-  font-size: 18px;
-  vertical-align: middle;
-  margin-left: 5px;
-}
-.theme-main-menu .navbar-nav {
-  margin: 0;
-}
-.theme-main-header li.dropdown-holder .fa {
-  position: absolute;
-  top:0;
-  right: 0;
-  text-align: center;
-  width: 45px;
-  color:#fff;
-  font-size: 18px;
-  display: none;
-  cursor: pointer;
-  line-height: 44px;
-}
-/*** 
+ @import 'https://fonts.googleapis.com/css?family=Raleway';
+
+ /* Border from Y to X  */
+ .theme-main-menu .borderYtoX li a:before, div.borderYtoX li a:after
+ {
+     position: absolute;
+     opacity: 0.5;
+     height: 100%;
+     width: 2px;
+     content: '';
+     background: #FFF;
+     transition: all 0.3s;
+
+ }
+ .theme-main-menu .borderYtoX li a:before
+ {
+     left: 0px;
+     top: 0px;
+ }
+ .theme-main-menu .borderYtoX li a:after
+ {
+     right: 0px;
+     bottom: 0px;
+ }
+
+ .theme-main-menu .borderYtoX li a:hover:before, .theme-main-menu .borderYtoX li a:hover:after
+ {
+     opacity: 1;
+     height: 2px;
+     width: 100%;
+ }
+
+/***
 
 ====================================================================
   Sticky Menu
@@ -420,7 +385,7 @@ div#about-us hr{
 .theme-main-header.fixed .logo {
   margin-top: -8px;
 }
-/*** 
+/***
 
 ====================================================================
   Theme Main Banner
@@ -443,7 +408,100 @@ div#about-us hr{
   border-width: 3px;
   text-transform: uppercase;
 }
-/*** 
+
+/***
+
+====================================================================
+  See Line CSS
+====================================================================
+***/
+
+.Iam {
+  font: normal 40px/50px Montserrat, sans-serif;
+  color: #999;
+  margin-right:0;
+  margin-left:50%;
+  margin-top:14%;
+  font-size: 30px;
+}
+.Iam p {
+  height: 50px;
+  margin-right:0;
+  margin-top:33%;
+  padding-top: 10px;
+  font-size: 30px;
+  font: sans-serif;
+  color:#eee;
+  padding-left: 45px;
+  text-transform: capitalize;
+}
+.Iam b {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+  margin-top: -6%;
+  margin-right:0;
+  padding-left: 120px;
+
+}
+.Iam .innerIam {
+  display: inline-block;
+  color: #e74c3c;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+
+/*animation*/
+-webkit-animation:move 3s;
+   -moz-animation:move 3s;
+    -ms-animation:move 3s;
+     -o-animation:move 3s;
+        animation:move 3s;
+/*animation-iteration-count*/
+-webkit-animation-iteration-count:infinite;
+   -moz-animation-iteration-count:infinite;
+    -ms-animation-iteration-count:infinite;
+     -o-animation-iteration-count:infinite;
+        animation-iteration-count:infinite;
+/*animation-delay*/
+-webkit-animation-delay:2s;
+   -moz-animation-delay:2s;
+    -ms-animation-delay:2s;
+     -o-animation-delay:2s;
+        animation-delay:2s;
+}
+
+@-webkit-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    /* 40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; } */
+}
+@-moz-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    /* 40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; } */
+}
+@-o-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    /* 40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; } */
+}
+@keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    /* 40% { top: -100px; }
+    60% { top: -150px; }
+    80% { top: -200px; } */
+}
+/***
 
 ====================================================================
   About section
@@ -455,8 +513,8 @@ section#about-us{
 
   background: url(../images/home/IMG_5428.jpg) no-repeat center;
   background-size: cover;
-  
-} 
+
+}
 
 section#about-us .container{
   width: 100%;
@@ -498,7 +556,7 @@ div#about-us{
 #about-us .single-about-content:hover .icon {
   color:#fff;
 }
-/*** 
+/***
 
 ====================================================================
   Service section
@@ -567,7 +625,7 @@ div#about-us{
        -o-transform: translate3D(0,0,0);
           transform: translate3D(0,0,0);
 }
-/*** 
+/***
 
 ====================================================================
   Project section
@@ -591,7 +649,7 @@ div#about-us{
   border-color: transparent;
   margin: 15px 10px 0 10px;
   padding-bottom: 10px;
-} 
+}
 #project-section .project-gallery .grid-item {
   width: 33.33333333333%;
   padding: 0 15px;
@@ -699,7 +757,7 @@ div#about-us{
           transform: translate3D(0,0,0);
 }
 
-/*** 
+/***
 
 ====================================================================
   Page Middle Banner
@@ -729,7 +787,7 @@ div#about-us{
   font-weight: 700;
   border-width:1px;
 }
-/*** 
+/***
 
 ====================================================================
   Team Section
@@ -903,7 +961,7 @@ div#about-us{
           transform: translate3D(0,0,0);
 }
 
-/*** 
+/***
 
 ====================================================================
   Skill Section
@@ -961,7 +1019,7 @@ div#about-us{
   padding: 0;
   float:none;
 }
-/*** 
+/***
 
 ====================================================================
   Our Client
@@ -993,7 +1051,7 @@ div#about-us{
   border: 1px solid#9d9f9f;
   margin: 0 5px;
 }
-/*** 
+/***
 
 ====================================================================
   Pricing Section
@@ -1054,7 +1112,7 @@ div#about-us{
 #pricing-section .single-price-table a:hover {
   background: #fff;
 }
-/*** 
+/***
 
 ====================================================================
   Blog Section
@@ -1117,7 +1175,7 @@ div#about-us{
 #blog-section .single-news-item .post p a {
   color: #292929;
 }
-/*** 
+/***
 
 ====================================================================
   Partner Section
@@ -1137,7 +1195,7 @@ div#about-us{
 #partner-section .item img {
   margin: 0 auto;
 }
-/*** 
+/***
 
 ====================================================================
   Contact Section
@@ -1217,7 +1275,7 @@ div#about-us{
 #contact-section .send-message form button:hover {
   background: #fff;
 }
-/*** 
+/***
 
 ====================================================================
   Conatct Form Activation
@@ -1282,7 +1340,7 @@ div#about-us{
 .form-validation textarea.error {
   border:1px solid #f03838 !important;
 }
-/*** 
+/***
 
 ====================================================================
   Footer
@@ -1354,11 +1412,11 @@ footer p {
   font-size: 15px;
   margin-top: 50px;
 }
- 
-/*** 
+
+/***
 
 ====================================================================
-  Inner Page Banner 
+  Inner Page Banner
 ====================================================================
 
  ***/
@@ -1386,7 +1444,7 @@ footer p {
 .inner-page-banner .opacity ul li a {
   color:#fff;
 }
-/*** 
+/***
 
 ====================================================================
   Blog Aside bar
@@ -1485,7 +1543,7 @@ footer p {
   border: 1px solid #dfdfdf;
   border-radius: 5px;
 }
-/*** 
+/***
 
 ====================================================================
   Blog Details Post
@@ -1639,4 +1697,40 @@ footer p {
 }
 .blog-details-post-wrapper .post-comment form button:hover {
   background:#fff;
+}
+
+/***
+
+====================================================================
+  Thunderbolt AMS Animation
+====================================================================
+
+ ***/
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 200;
+  background-color: #eee;
+  color: #eee;
+  width: 100%;
+  height: 100%;
+}
+html .content, body .content {
+  text-indent: 55%;
+  position: relative;
+  top: 34%;
+  font-weight: 600;
+  font-size: 40px;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+html .content span, body .content span {
+  width: 45px;
+  display: inline-block;
 }
