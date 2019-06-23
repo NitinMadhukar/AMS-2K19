@@ -268,7 +268,11 @@ div#about-us hr{
   margin: 60px auto 0 auto;
 }
 .p-color,.theme-main-menu .navbar-nav>li.active>a,
-.theme-main-menu .navbar-nav>li>a:hover,#about-us .single-about-content:hover h5 a,
+.theme-main-menu .navbar-nav>li>a:hover,#about-us .single-about-content:hover h5 a
+{
+  color:#e04f5d;
+}
+
 #service-section .single-service-content:hover .icon-heading .icon,
 #service-section .single-service-content:hover .icon-heading h6 a,
 #pricing-section .single-price-table a:hover,#blog-section .single-news-item .img a,
@@ -283,7 +287,7 @@ div#about-us hr{
 .blog-details-post-wrapper .list-img-wrapper ul li a:hover,.blog-details-post-wrapper .post-comment form button:hover,
 .blog-details-post-wrapper .post-share-area .share li a:hover,.theme-main-menu.navbar .nav>li ul li a:hover,
 .blog-details-post-wrapper .post-share-area .share li a.active {
-  color:#d73e4d;
+  color:#ffeb3b;
 }
 .p-color-bg,.single-about-content:hover .icon,
 #skill-section .codeconSkillbar .skillBar,#our-client .owl-theme .owl-dots .owl-dot.active span,
@@ -713,15 +717,16 @@ div#about-us{
   border: 1px solid #fff;
   text-align: center;
   border-radius: 40px;
+  border-width: 4px;
 }
 #project-section .project-gallery .single-img .opacity h6 a {
-  color:#eee;
+  color:rgb(236, 76, 76);
   font-family: 'Permanent Marker', cursive;
   font-size:25px;
 }
 #project-section .project-gallery .single-img .opacity ul li {
   display: inline-block;
-  color: #eee;
+  color: rgb(236, 76, 76);
   margin-top: 8px;
   font-family: 'Permanent Marker', cursive;
   font-size:20px;
