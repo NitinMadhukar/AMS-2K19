@@ -809,14 +809,16 @@ div#about-us{
   padding: 50px 0 50px 0;
 }
 .page-middle-banner .opacity h3 {
-  color: #fff;
+  color: rgb(236, 76, 76);
   font-size:40px;
   margin-bottom: 25px;
 }
 .page-middle-banner .opacity h3 span{
   color:#cec044;
 }
-
+.page-middle-banner .opacity .video-border{
+	border: 10px outset #ddd;
+}
 
 /***
 
