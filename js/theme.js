@@ -51,93 +51,6 @@ function scrollToTop () {
   }
 }
 
-
-// Theme-banner Video slider
-function BannerVideoSlider () {
-  var banner = $("#main-banner-slider.video-slider");
-  if (banner.length) {
-    banner.revolution({
-      sliderType:"standard",
-      sliderLayout:"auto",
-      loops:false,
-      delay:10000,
-      navigation: {
-          arrows: {
-                    style: "hermes",
-                    enable: true,
-                    hide_onmobile: false,
-                    hide_onleave: false,
-                    tmp: '<div class="tp-arr-allwrapper"> <div class="tp-arr-imgholder"></div>  <div class="tp-arr-titleholder">{{title}}</div> </div>',
-                    left: {
-                        h_align: "left",
-                        v_align: "center",
-                        h_offset: 0,
-                        v_offset: 0
-                    },
-                    right: {
-                        h_align: "right",
-                        v_align: "center",
-                        h_offset: 0,
-                        v_offset: 0
-                    }
-                },
-         bullets: {
-                  enable: false,
-              }
-
-      },
-      responsiveLevels:[2220,1183,975,751],
-                gridwidth:[1170,970,770,350],
-                gridheight:[850,850,850,700],
-                shadow:0,
-                spinner:"off",
-                autoHeight:"off",
-                disableProgressBar:"on",
-                hideThumbsOnMobile:"off",
-                hideSliderAtLimit:0,
-                hideCaptionAtLimit:0,
-                hideAllCaptionAtLilmit:0,
-                debugMode:false,
-                fallbacks: {
-                  simplifyAll:"off",
-                  disableFocusListener:false,
-                }
-    });
-  };
-}
-
-
-//Add OnepageNav / Sidebar
-function onePageFixedNav() {
-    if($('body').length){
-      // Add scrollspy to
-      $('body').scrollspy({target: ".theme-main-header", offset: 70});
-
-      // Add smooth scrolling on all links inside the one-page-menu
-      $(".one-page-menu li a").on('click', function(event) {
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
-
-          // Store hash
-          var hash = this.hash;
-
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 1000, function(){
-
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        }  // End if
-      });
-    }
-}
-
-
 // Mixitup gallery
 function mixitupGallery () {
   var mixItem = $(".project-gallery");
@@ -338,12 +251,12 @@ jQuery(window).on('load', function () {
 $(document).ready(function () {
 
   var $randomnbr = $('.nbr');
-  var $timer = 50;
+  var $timer = 40;
   var $it;
   var $data = 0;
   var index;
   var change;
-  var letters = ["T", "H", "U", "N", "D", "E", "R", "B", "O", "L", "T", " ", "A", "M", " S"];
+  var letters = ["T", "H", "U", "N", "D", "E", "R", "B", "O", "L", "T", " ", " A", "M", "S"];
 
   $randomnbr.each(function () {
 
@@ -378,3 +291,6 @@ $(document).ready(function () {
   $it = setInterval(value, $timer);
 
 });
+
+
+

@@ -167,12 +167,12 @@ animation-delay: .8s;
        url('../fonts/font-awesome/fonts/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
        url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
  }
- body {
+
+ body{
   font-family: 'Raleway', sans-serif;
   font-weight: normal;
-  color:#6f6f6f;
+  color: #6f6f6f;
   font-size: 14px;
-  position: relative;
  }
 .main-page-wrapper {
   overflow-x:hidden;
@@ -314,55 +314,24 @@ div#about-us hr{
 ====================================================================
 
  ***/
- .theme-main-header {
-   position: absolute;
-   top:0;
-   left:0;
-   right: 0;
-   z-index: 999;
-   padding-top: 20px;
-   font-size:25px;
+ .theme-main-header{
+   background:#928064;
+   overflow: hidden;
+   height:110px;
+   
+ }
+ .theme-main-header span{
+    float:right;
+    padding:25px;
+    overflow: hidden;
  }
 
- .theme-main-menu .navbar-nav>li>a {
-   text-transform: uppercase;
-   color:#fff;
-   font-weight: 700;
-   background: transparent;
-   padding: 10px 25px;
- }
-
-
- /* Border from Y to X  */
- .theme-main-menu .borderYtoX li a:before, div.borderYtoX li a:after
- {
-     position: absolute;
-     opacity: 0.5;
-     height: 100%;
-     width: 2px;
-     content: '';
-     background: #FFF;
-     transition: all 0.3s;
-
- }
- .theme-main-menu .borderYtoX li a:before
- {
-     left: 0px;
-     top: 0px;
- }
- .theme-main-menu .borderYtoX li a:after
- {
-     right: 0px;
-     bottom: 0px;
- }
-
- .theme-main-menu .borderYtoX li a:hover:before, .theme-main-menu .borderYtoX li a:hover:after
- {
-     opacity: 1;
-     height: 2px;
-     width: 100%;
- }
-
+ .main-page-wrapper .theme-main-header .logo {
+  padding-left:40px; 
+  width:auto;
+  height:auto;
+  position: fixed;
+}
 /***
 
 ====================================================================
@@ -370,11 +339,7 @@ div#about-us hr{
 ====================================================================
 
  ***/
-@keyframes menu_sticky {
-  0%   {margin-top:-120px;opacity: 0;}
-  50%  {margin-top: -64px;opacity: 0;}
-  100% {margin-top: 0;opacity: 1;}
-}
+
 .theme-main-header.fixed {
   position: fixed;
   width:100%;
@@ -382,130 +347,114 @@ div#about-us hr{
   left:0;
   z-index: 9999;
   background: rgba(0,0,0,0.5);
-  margin:0;
-  animation-name: menu_sticky;
-  animation-duration: 0.70s;
-  animation-timing-function: ease-in-out;
 }
-.theme-main-header.fixed .logo {
-  margin-top: -8px;
-}
+
+
+
+
 /***
 
 ====================================================================
-  Theme Main Banner
+  Thunderbolt AMS Animation
 ====================================================================
 
  ***/
-.rev_slider_wrapper {
-  background: #000;
-}
-.banner h1,.banner h6,.banner .project-button {
-  color:#fff;
-}
-.banner h6 {
-  font-weight: 500;
-}
-.banner .project-button {
-  width: 170px;
-  line-height: 50px;
-  text-align: center;
-  border-width: 3px;
-  text-transform: uppercase;
-}
 
-/***
-
-====================================================================
-  See Line CSS
-====================================================================
-***/
-
-.Iam {
-  font: normal 40px/50px Montserrat, sans-serif;
-  color: #999;
-  margin-right:0;
-  margin-left:50%;
-  margin-top:14%;
-  font-size: 30px;
-}
-.Iam p {
-  height: 50px;
-  margin-right:0;
-  margin-top:33%;
-  padding-top: 10px;
-  font-size: 30px;
-  font: sans-serif;
-  color:#eee;
-  padding-left: 45px;
-  text-transform: capitalize;
-}
-.Iam b {
-  float: left;
-  overflow: hidden;
+ /* .game-holder .header .content {
   position: relative;
-  height: 50px;
-  margin-top: -6%;
-  margin-right:0;
-  padding-left: 120px;
-
-}
-.Iam .innerIam {
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  font-family: 'Playfair Display';
+	font-size: 4em;
+	line-height: 1;
+  margin: 0;
+  margin-top: 80px;
+  font-weight:700;
+	letter-spacing: 0.05em;
+  color: #29241C;
   display: inline-block;
-  color: #e74c3c;
-  position: relative;
-  white-space: nowrap;
-  top: 0;
-  left: 0;
-
-/*animation*/
--webkit-animation:move 3s;
-   -moz-animation:move 3s;
-    -ms-animation:move 3s;
-     -o-animation:move 3s;
-        animation:move 3s;
-/*animation-iteration-count*/
--webkit-animation-iteration-count:infinite;
-   -moz-animation-iteration-count:infinite;
-    -ms-animation-iteration-count:infinite;
-     -o-animation-iteration-count:infinite;
-        animation-iteration-count:infinite;
-/*animation-delay*/
--webkit-animation-delay:2s;
-   -moz-animation-delay:2s;
-    -ms-animation-delay:2s;
-     -o-animation-delay:2s;
-        animation-delay:2s;
+  
+} */
+@import url(https://fonts.googleapis.com/css?family=Bevan);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+.game-holder .header .content .random {
+  font-family: "Bevan";
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing:12px;
+  line-height: 70px;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin:25px;
+  padding:30px;
+  text-shadow: 
+    0px 0px 0 rgb(-14,144,41),-1px 1px 0 rgb(-19,139,36),-2px 2px 0 rgb(-23,135,32),-3px 3px 0 rgb(-27,131,28),-4px 4px 0 rgb(-32,126,23),-5px 5px 0 rgb(-36,122,19),-6px 6px 0 rgb(-40,118,15),-7px 7px 0 rgb(-45,113,10),-8px 8px 0 rgb(-49,109,6),-9px 9px 0 rgb(-53,105,2),-10px 10px 0 rgb(-58,100,-3),-11px 11px 0 rgb(-62,96,-7),-12px 12px 0 rgb(-67,91,-12),-13px 13px 0 rgb(-71,87,-16),-14px 14px 0 rgb(-75,83,-20),-15px 15px 0 rgb(-80,78,-25),-16px 16px 0 rgb(-84,74,-29),-17px 17px 0 rgb(-88,70,-33),-18px 18px 0 rgb(-93,65,-38),-19px 19px 0 rgb(-97,61,-42), -20px 20px 0 rgb(-101,57,-46);   
+}
+.game-holder .header .content .random span { position: relative }
+.game-holder .header .content .random span:first-child { 
+  z-index: 15;
+}
+.game-holder .header .content .random span:nth-child(8) { 
+  z-index: 15;
+  text-shadow: 
+    0px 0px 0 rgb(-14,144,41),-1px 1px 0 rgb(-19,139,36),-2px 2px 0 rgb(-23,135,32),-3px 3px 0 rgb(-27,131,28),-4px 4px 0 rgb(-32,126,23),-5px 5px 0 rgb(-36,122,19),-6px 6px 0 rgb(-40,118,15),-7px 7px 0 rgb(-45,113,10),-8px 8px 0 rgb(-49,109,6),-9px 9px 0 rgb(-53,105,2),-10px 10px 0 rgb(-58,100,-3),-11px 11px 0 rgb(-62,96,-7),-12px 12px 0 rgb(-67,91,-12),-13px 13px 0 rgb(-71,87,-16),-14px 14px 0 rgb(-75,83,-20),-15px 15px 0 rgb(-80,78,-25),-16px 16px 0 rgb(-84,74,-29),-17px 17px 0 rgb(-88,70,-33),-18px 18px 0 rgb(-93,65,-38),-19px 19px 0 rgb(-97,61,-42), -20px 20px 0 rgb(-101,57,-46);
+}
+.game-holder .header .content .random span:nth-child(9) { 
+  z-index: 15;
+  text-shadow: 
+    0px 0px 0 rgb(-14,144,41),-1px 1px 0 rgb(-19,139,36),-2px 2px 0 rgb(-23,135,32),-3px 3px 0 rgb(-27,131,28),-4px 4px 0 rgb(-32,126,23),-5px 5px 0 rgb(-36,122,19),-6px 6px 0 rgb(-40,118,15),-7px 7px 0 rgb(-45,113,10),-8px 8px 0 rgb(-49,109,6),-9px 9px 0 rgb(-53,105,2),-10px 10px 0 rgb(-58,100,-3),-11px 11px 0 rgb(-62,96,-7),-12px 12px 0 rgb(-67,91,-12),-13px 13px 0 rgb(-71,87,-16),-14px 14px 0 rgb(-75,83,-20),-15px 15px 0 rgb(-80,78,-25),-16px 16px 0 rgb(-84,74,-29),-17px 17px 0 rgb(-88,70,-33),-18px 18px 0 rgb(-93,65,-38),-19px 19px 0 rgb(-97,61,-42), -20px 20px 0 rgb(-101,57,-46);
 }
 
-@-webkit-keyframes move {
-    0%  { top: 0px; }
-    20% { top: -50px; }
-    /* 40% { top: -100px; }
-    60% { top: -150px; }
-    80% { top: -200px; } */
+.game-holder .header .content .random span:nth-child(2) { 
+  z-index: 14;
+  text-shadow:0px 0px 0 rgb(167,42,152),-1px 1px 0 rgb(162,37,147),-2px 2px 0 rgb(158,33,143),-3px 3px 0 rgb(154,29,139),-4px 4px 0 rgb(149,24,134),-5px 5px 0 rgb(145,20,130),-6px 6px 0 rgb(141,16,126),-7px 7px 0 rgb(136,11,121),-8px 8px 0 rgb(132,7,117),-9px 9px 0 rgb(128,3,113),-10px 10px 0 rgb(123,-2,108),-11px 11px 0 rgb(119,-6,104),-12px 12px 0 rgb(114,-11,99),-13px 13px 0 rgb(110,-15,95),-14px 14px 0 rgb(106,-19,91),-15px 15px 0 rgb(101,-24,86),-16px 16px 0 rgb(97,-28,82),-17px 17px 0 rgb(93,-32,78),-18px 18px 0 rgb(88,-37,73),-19px 19px 0 rgb(84,-41,69), -20px 20px 0 rgb(80,-45,65);
 }
-@-moz-keyframes move {
-    0%  { top: 0px; }
-    20% { top: -50px; }
-    /* 40% { top: -100px; }
-    60% { top: -150px; }
-    80% { top: -200px; } */
+.game-holder .header .content .random span:nth-child(3) { 
+  z-index: 19;
+  text-shadow:0px 0px 0 rgb(42,142,167),-1px 1px 0 rgb(37,137,162),-2px 2px 0 rgb(33,133,158),-3px 3px 0 rgb(29,129,154),-4px 4px 0 rgb(24,124,149),-5px 5px 0 rgb(20,120,145),-6px 6px 0 rgb(16,116,141),-7px 7px 0 rgb(11,111,136),-8px 8px 0 rgb(7,107,132),-9px 9px 0 rgb(3,103,128),-10px 10px 0 rgb(-2,98,123),-11px 11px 0 rgb(-6,94,119),-12px 12px 0 rgb(-11,89,114),-13px 13px 0 rgb(-15,85,110),-14px 14px 0 rgb(-19,81,106),-15px 15px 0 rgb(-24,76,101),-16px 16px 0 rgb(-28,72,97),-17px 17px 0 rgb(-32,68,93),-18px 18px 0 rgb(-37,63,88),-19px 19px 0 rgb(-41,59,84), -20px 20px 0 rgb(-45,55,80);
 }
-@-o-keyframes move {
-    0%  { top: 0px; }
-    20% { top: -50px; }
-    /* 40% { top: -100px; }
-    60% { top: -150px; }
-    80% { top: -200px; } */
+.game-holder .header .content .random span:nth-child(4) { 
+  z-index: 18;
+  text-shadow:0px 0px 0 rgb(221,-5,59),-1px 1px 0 rgb(216,-10,54),-2px 2px 0 rgb(212,-14,50),-3px 3px 0 rgb(208,-18,46),-4px 4px 0 rgb(203,-23,41),-5px 5px 0 rgb(199,-27,37),-6px 6px 0 rgb(195,-31,33),-7px 7px 0 rgb(190,-36,28),-8px 8px 0 rgb(186,-40,24),-9px 9px 0 rgb(182,-44,20),-10px 10px 0 rgb(177,-49,15),-11px 11px 0 rgb(173,-53,11),-12px 12px 0 rgb(168,-58,6),-13px 13px 0 rgb(164,-62,2),-14px 14px 0 rgb(160,-66,-2),-15px 15px 0 rgb(155,-71,-7),-16px 16px 0 rgb(151,-75,-11),-17px 17px 0 rgb(147,-79,-15),-18px 18px 0 rgb(142,-84,-20),-19px 19px 0 rgb(138,-88,-24), -20px 20px 0 rgb(134,-92,-28);
 }
-@keyframes move {
-    0%  { top: 0px; }
-    20% { top: -50px; }
-    /* 40% { top: -100px; }
-    60% { top: -150px; }
-    80% { top: -200px; } */
+.game-holder .header .content .random span:nth-child(5) { 
+  z-index: 18;
+  text-shadow:0px 0px 0 rgb(221,-5,59),-1px 1px 0 rgb(216,-10,54),-2px 2px 0 rgb(212,-14,50),-3px 3px 0 rgb(208,-18,46),-4px 4px 0 rgb(203,-23,41),-5px 5px 0 rgb(199,-27,37),-6px 6px 0 rgb(195,-31,33),-7px 7px 0 rgb(190,-36,28),-8px 8px 0 rgb(186,-40,24),-9px 9px 0 rgb(182,-44,20),-10px 10px 0 rgb(177,-49,15),-11px 11px 0 rgb(173,-53,11),-12px 12px 0 rgb(168,-58,6),-13px 13px 0 rgb(164,-62,2),-14px 14px 0 rgb(160,-66,-2),-15px 15px 0 rgb(155,-71,-7),-16px 16px 0 rgb(151,-75,-11),-17px 17px 0 rgb(147,-79,-15),-18px 18px 0 rgb(142,-84,-20),-19px 19px 0 rgb(138,-88,-24), -20px 20px 0 rgb(134,-92,-28);
 }
+.game-holder .header .content .random span:nth-child(6) { 
+  z-index: 19;
+  text-shadow:0px 0px 0 rgb(42,142,167),-1px 1px 0 rgb(37,137,162),-2px 2px 0 rgb(33,133,158),-3px 3px 0 rgb(29,129,154),-4px 4px 0 rgb(24,124,149),-5px 5px 0 rgb(20,120,145),-6px 6px 0 rgb(16,116,141),-7px 7px 0 rgb(11,111,136),-8px 8px 0 rgb(7,107,132),-9px 9px 0 rgb(3,103,128),-10px 10px 0 rgb(-2,98,123),-11px 11px 0 rgb(-6,94,119),-12px 12px 0 rgb(-11,89,114),-13px 13px 0 rgb(-15,85,110),-14px 14px 0 rgb(-19,81,106),-15px 15px 0 rgb(-24,76,101),-16px 16px 0 rgb(-28,72,97),-17px 17px 0 rgb(-32,68,93),-18px 18px 0 rgb(-37,63,88),-19px 19px 0 rgb(-41,59,84), -20px 20px 0 rgb(-45,55,80);
+}
+.game-holder .header .content .random span:nth-child(7) { 
+  z-index: 14;
+  text-shadow:0px 0px 0 rgb(167,42,152),-1px 1px 0 rgb(162,37,147),-2px 2px 0 rgb(158,33,143),-3px 3px 0 rgb(154,29,139),-4px 4px 0 rgb(149,24,134),-5px 5px 0 rgb(145,20,130),-6px 6px 0 rgb(141,16,126),-7px 7px 0 rgb(136,11,121),-8px 8px 0 rgb(132,7,117),-9px 9px 0 rgb(128,3,113),-10px 10px 0 rgb(123,-2,108),-11px 11px 0 rgb(119,-6,104),-12px 12px 0 rgb(114,-11,99),-13px 13px 0 rgb(110,-15,95),-14px 14px 0 rgb(106,-19,91),-15px 15px 0 rgb(101,-24,86),-16px 16px 0 rgb(97,-28,82),-17px 17px 0 rgb(93,-32,78),-18px 18px 0 rgb(88,-37,73),-19px 19px 0 rgb(84,-41,69), -20px 20px 0 rgb(80,-45,65);
+}
+.game-holder .header .content .random span:nth-child(10) { 
+  z-index: 14;
+  text-shadow:0px 0px 0 rgb(167,42,152),-1px 1px 0 rgb(162,37,147),-2px 2px 0 rgb(158,33,143),-3px 3px 0 rgb(154,29,139),-4px 4px 0 rgb(149,24,134),-5px 5px 0 rgb(145,20,130),-6px 6px 0 rgb(141,16,126),-7px 7px 0 rgb(136,11,121),-8px 8px 0 rgb(132,7,117),-9px 9px 0 rgb(128,3,113),-10px 10px 0 rgb(123,-2,108),-11px 11px 0 rgb(119,-6,104),-12px 12px 0 rgb(114,-11,99),-13px 13px 0 rgb(110,-15,95),-14px 14px 0 rgb(106,-19,91),-15px 15px 0 rgb(101,-24,86),-16px 16px 0 rgb(97,-28,82),-17px 17px 0 rgb(93,-32,78),-18px 18px 0 rgb(88,-37,73),-19px 19px 0 rgb(84,-41,69), -20px 20px 0 rgb(80,-45,65);
+}
+.game-holder .header .content .random span:nth-child(11) { 
+  z-index: 19;
+  text-shadow:0px 0px 0 rgb(42,142,167),-1px 1px 0 rgb(37,137,162),-2px 2px 0 rgb(33,133,158),-3px 3px 0 rgb(29,129,154),-4px 4px 0 rgb(24,124,149),-5px 5px 0 rgb(20,120,145),-6px 6px 0 rgb(16,116,141),-7px 7px 0 rgb(11,111,136),-8px 8px 0 rgb(7,107,132),-9px 9px 0 rgb(3,103,128),-10px 10px 0 rgb(-2,98,123),-11px 11px 0 rgb(-6,94,119),-12px 12px 0 rgb(-11,89,114),-13px 13px 0 rgb(-15,85,110),-14px 14px 0 rgb(-19,81,106),-15px 15px 0 rgb(-24,76,101),-16px 16px 0 rgb(-28,72,97),-17px 17px 0 rgb(-32,68,93),-18px 18px 0 rgb(-37,63,88),-19px 19px 0 rgb(-41,59,84), -20px 20px 0 rgb(-45,55,80);
+}
+
+.game-holder .header .content .random span:nth-child(13) { 
+  z-index: 18;
+  text-shadow:0px 0px 0 rgb(221,-5,59),-1px 1px 0 rgb(216,-10,54),-2px 2px 0 rgb(212,-14,50),-3px 3px 0 rgb(208,-18,46),-4px 4px 0 rgb(203,-23,41),-5px 5px 0 rgb(199,-27,37),-6px 6px 0 rgb(195,-31,33),-7px 7px 0 rgb(190,-36,28),-8px 8px 0 rgb(186,-40,24),-9px 9px 0 rgb(182,-44,20),-10px 10px 0 rgb(177,-49,15),-11px 11px 0 rgb(173,-53,11),-12px 12px 0 rgb(168,-58,6),-13px 13px 0 rgb(164,-62,2),-14px 14px 0 rgb(160,-66,-2),-15px 15px 0 rgb(155,-71,-7),-16px 16px 0 rgb(151,-75,-11),-17px 17px 0 rgb(147,-79,-15),-18px 18px 0 rgb(142,-84,-20),-19px 19px 0 rgb(138,-88,-24), -20px 20px 0 rgb(134,-92,-28);
+}
+
+.game-holder .header .content .random span:nth-child(14) { 
+  z-index: 14;
+  text-shadow:0px 0px 0 rgb(167,42,152),-1px 1px 0 rgb(162,37,147),-2px 2px 0 rgb(158,33,143),-3px 3px 0 rgb(154,29,139),-4px 4px 0 rgb(149,24,134),-5px 5px 0 rgb(145,20,130),-6px 6px 0 rgb(141,16,126),-7px 7px 0 rgb(136,11,121),-8px 8px 0 rgb(132,7,117),-9px 9px 0 rgb(128,3,113),-10px 10px 0 rgb(123,-2,108),-11px 11px 0 rgb(119,-6,104),-12px 12px 0 rgb(114,-11,99),-13px 13px 0 rgb(110,-15,95),-14px 14px 0 rgb(106,-19,91),-15px 15px 0 rgb(101,-24,86),-16px 16px 0 rgb(97,-28,82),-17px 17px 0 rgb(93,-32,78),-18px 18px 0 rgb(88,-37,73),-19px 19px 0 rgb(84,-41,69), -20px 20px 0 rgb(80,-45,65);
+}
+.game-holder .header .content .random span:nth-child(15) { 
+  z-index: 19;
+  text-shadow:0px 0px 0 rgb(42,142,167),-1px 1px 0 rgb(37,137,162),-2px 2px 0 rgb(33,133,158),-3px 3px 0 rgb(29,129,154),-4px 4px 0 rgb(24,124,149),-5px 5px 0 rgb(20,120,145),-6px 6px 0 rgb(16,116,141),-7px 7px 0 rgb(11,111,136),-8px 8px 0 rgb(7,107,132),-9px 9px 0 rgb(3,103,128),-10px 10px 0 rgb(-2,98,123),-11px 11px 0 rgb(-6,94,119),-12px 12px 0 rgb(-11,89,114),-13px 13px 0 rgb(-15,85,110),-14px 14px 0 rgb(-19,81,106),-15px 15px 0 rgb(-24,76,101),-16px 16px 0 rgb(-28,72,97),-17px 17px 0 rgb(-32,68,93),-18px 18px 0 rgb(-37,63,88),-19px 19px 0 rgb(-41,59,84), -20px 20px 0 rgb(-45,55,80);
+}
+
+
 /***
 
 ====================================================================
@@ -528,6 +477,9 @@ section#about-us .container{
 }
 div#about-us h2{
   color: white;
+}
+div#about-us p{
+  color: #6f6f6f;
 }
 div#about-us{
   opacity:1;
@@ -640,10 +592,12 @@ div#about-us{
 
  #project-section{
    background-color: black;
- }
+  
+}
  #project-section .container{
-   padding-bottom:70px;
- }
+   padding-bottom:70px;  
+   height:2000px;
+}
 #project-section .container .theme-title h2{
   font-size: 60px;
   background: linear-gradient(45deg, red, blue);
@@ -664,31 +618,11 @@ div#about-us{
   color:#cec044;
 }
 
-
-#project-section .project-menu ul {
-  text-align: center;
-  margin-top: 34px;
-  margin-bottom: 60px;
-}
-#project-section .project-menu ul li {
-  display: inline-block;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 700;
-  color:#292929;
-  padding: 0 8px;
-  border-width: 0;
-  border-bottom-width:1px;
-  border-color: transparent;
-  margin: 15px 10px 0 10px;
-  padding-bottom: 10px;
-}
 #project-section .project-gallery .grid-item {
   width: 33.33333333333%;
   padding: 0 15px;
   margin-bottom: 32px;
   float:left;
-  display: none;
 }
 #project-section .project-gallery .single-img {
   position: relative;
@@ -1214,26 +1148,4 @@ footer p {
 }
 
 
-/***
 
-====================================================================
-  Thunderbolt AMS Animation
-====================================================================
-
- ***/
-
-html .content, body .content {
-  text-indent: 55%;
-  position: relative;
-  top: 34%;
-  color: #eee;
-  font-size: 45px;
-  -ms-transform: translateY(-50%);
-  -webkit-transform: translateY(-50%);
-  font-weight:bold;
-  transform: translateY(-50%);
-}
-html .content span, body .content span {
-  width: 45px;
-  display: inline-block;
-}
