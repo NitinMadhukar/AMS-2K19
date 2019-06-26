@@ -7,6 +7,7 @@ var Colors = {
     pink:0xF5986E,
     yellow:0xf4ce93,
     blue:0x68c3c0,
+    green:0x458200,
 
 };
 
@@ -496,7 +497,7 @@ Sea = function(){
                     });
   };
   var mat = new THREE.MeshPhongMaterial({
-    color:Colors.blue,
+    color:Colors.green,
     transparent:true,
     opacity:.8,
     shading:THREE.FlatShading,
