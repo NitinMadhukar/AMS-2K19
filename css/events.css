@@ -1,0 +1,667 @@
+
+.nav{
+    overflow: hidden;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	height: 50px;
+	width: 100%;
+	z-index: 10;
+}
+
+ul{
+    margin: 15px 0 0 0 ;
+    padding: 0;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.nav ul li{
+    display: inline;
+} 
+
+.right{
+    float: right;
+}
+
+a{
+    color: white;
+}
+
+.left{
+    margin-left: 2.5%;
+}
+
+.right{
+    margin-right: 2.5%;
+}
+
+a:hover{
+    font-size: 19px;
+    transition-delay: 0.2s;
+    transition-duration: 0.4s;
+    color: yellow;
+}
+
+#r1{
+    
+    margin: 0 4%;
+    margin-top: 120px;
+}
+
+#r2
+{
+    margin: 100px 4%;
+}
+
+#Tasveer
+{
+    margin-right: 2%;
+    margin-top: 1%;
+}
+
+#photobooth{
+    margin-left: 1%;
+}
+
+#exp
+{
+    width: 98%;
+}
+
+#exploracion{
+    margin-left: 3%;
+}
+
+.poster .image .info{
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px)
+{
+    .poster , .poster .image{
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+    }
+    
+    .poster .image .info{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        opacity: 1;
+        background-image: linear-gradient(#329cfd,#18ccfe);
+        text-align: center;
+        border-radius: 0;
+        padding: 0% 0 0 0;
+        transition: all 0.5s ease-in-out;
+        transform: scale(1,0);
+        transform-origin: 0% 0%;
+    }
+
+    #safar .image .info
+    {
+    margin-top: -30px;
+    }
+
+    .poster .image .info hr, .poster .image .info p , .poster .image .info h2, .poster .image .info a{
+    opacity: 0;
+    }
+
+    .poster:hover .image .info{
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+    .poster:hover .image .info h2
+    {
+        opacity: 1;
+       
+    }
+    
+    .poster:hover .image .info hr
+    {
+        opacity: 0.5;
+      
+    }
+    
+    .poster:hover .image .info p
+    {
+        opacity: 0.8;
+    
+    }
+
+    .poster:hover .image .info a
+    {
+    opacity: 1;
+    }
+
+    .poster .image .info p:hover{
+
+    opacity: 1;
+    font-size: 16px;
+    transition-duration: 1s;
+    }
+
+    .poster .image .info{
+        text-align: center;
+        color: white;
+    }
+    
+    .poster .image .info h2
+    {
+        color: white;
+    }
+}
+
+
+.poster .image .info h2
+{
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 40px 0 0 0;  
+}
+
+.poster .image .info hr
+{
+   margin-top: 8px;
+   opacity: 0.25;
+   border: 0.5px solid yellow;
+   width: 30%;
+}
+
+#photobooth .image .info hr
+{
+    width: 50%;
+}
+
+#exploracion .image .info hr
+{
+    width: 50%;
+}
+
+.poster .image .info p
+{
+    margin: 40px 5%;
+    font-size: 16px;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+.poster .image .info a
+{
+    text-transform: capitalize;
+    background: rgba(0,0,0,0);
+    width: 30%;
+    height: 50px;
+    margin: -10px 0 0 2%;
+    border: 3px solid yellow;
+    padding : 9px 8px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    
+
+}
+
+.poster .image .info button:hover
+{
+    background-color: yellow;
+    opacity: 1;
+}
+
+.poster{
+    box-shadow: 10px 5px 18px;
+}
+
+
+#holi
+{
+height: 30%;
+    width: 100%;
+   background: url(../images/events/holi.jpg) no-repeat center;
+   background-size: cover;
+   opacity: 0.7;
+   margin-bottom: 100px;
+   padding-top: 10px;
+}
+
+#holi .white
+{
+    height: 94%;
+    width: 97%;
+    background-color: white;
+    margin-left: 1.5%;
+    opacity: 0.6;
+    text-align: center;
+    padding-top: 4%;
+}
+
+#holi .white h6{
+    letter-spacing: 1.5px;
+}
+
+.heading
+{
+    width: 100%;
+    text-align: center;
+}
+.col-md-6.col-sm-12
+{
+    padding: 0 40px;
+}
+
+#r3,#r4,#r5,#r6,#r7,#r8
+{
+    margin: 7% 5%;
+}
+
+img{
+    border-radius: 3px;
+}
+
+#footer{
+    width: 100%;
+    height: 40%;
+    background-color: black;
+    padding-top: 3%;
+
+}
+
+.logo{
+    margin-left: 42.5%; 
+}
+
+@media screen and (max-width: 990px)
+{
+    .col-md-6.col-sm-12:nth-child(odd)
+    {
+        margin-bottom: 15%;
+        margin-top: 2%;
+    }
+
+    #r1,#r2,#r3,#r4,#r5,#r6,#r7,#r8
+    {
+    margin: 15% 3%;
+    }
+
+    .col-lg-6.col-md-12.col-sm-12:nth-child(odd)
+    {
+        margin-bottom: 15%;
+    }
+
+    .col-lg-6.col-md-12.col-sm-12:nth-child(1)
+    {
+        margin-left: 2.5%;
+        margin-right: 1%;
+    }
+
+    #r2
+    {
+       margin-top: 15%; 
+    }
+
+    #r1{
+        margin-bottom: 0;
+    }
+
+    .poster .image .info a{
+        width: 30%;
+        color: black;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 1px; 
+    }
+
+    .empty
+    {
+        width: 100%;
+        height: 20px;
+    }
+
+    .col-md-6.col-sm-12
+    {
+    padding: 0 20px;
+    }
+}
+
+i{
+    font-size: 24px;
+}
+
+#footer ul{
+    margin-top: 30px;
+    margin-left: 35%;
+    
+}
+
+#footer ul li{
+    padding: 0 10px;
+}
+
+
+.circle{
+    float:left;
+    border: 1px solid blue;
+    width: 52px;
+    height: 48px;
+    border-radius: 50%;
+    padding-top: 9px;
+    padding-left: 4.5px;
+    margin-left: 2%;
+}
+
+.circle:nth-child(1)
+{
+    border: 1px solid blue;
+}
+
+.circle:nth-child(2)
+{
+    border: 1px solid rgb(230, 126, 8);
+}
+
+.circle:nth-child(3)
+{
+    padding-left: 2px;
+    border: 1px solid red;
+}
+
+.circle:nth-child(4)
+{
+    border: 1px solid rgba(8, 186, 230, 1);
+}
+
+.circle:nth-child(5)
+{
+    border: 1px solid white;
+}
+
+.circle:nth-child(1) i{
+    color: blue;
+}
+
+.circle:nth-child(2) i{
+    color:  rgb(230, 126, 8);
+}
+
+.circle:nth-child(3) i{
+    color: red;
+}
+
+.circle:nth-child(4) i{
+    color: rgba(8, 186, 230, 1);
+}
+
+.circle:nth-child(5) i{
+    color: white
+}
+
+.circle:nth-child(1):hover{
+    background-color: blue;
+    transition-duration: 0.5s;
+}
+
+.circle:nth-child(2):hover{
+    background-color: rgb(230, 126, 8);
+    transition-duration: 0.5s;
+}
+
+.circle:nth-child(3):hover{
+    background-color:red;
+    transition-duration: 0.5s;
+}
+
+.circle:nth-child(4):hover{
+    background-color:rgba(8, 186, 230, 1); ;
+    transition-duration: 0.5s;
+}
+
+.circle:nth-child(5):hover{
+    background-color: white;
+    transition-duration: 0.5s;
+}
+
+.circle:nth-child(n):hover i{
+   color: white;
+}
+
+.circle:nth-child(5):hover i{
+    color: black;
+ }
+
+ @media screen and (max-width: 440px)
+{
+    .logo{
+        margin-left: 30%; 
+    }
+
+    #footer{
+        padding-top: 12%;
+    } 
+
+    #footer ul{
+        margin-top: 30px;
+        margin-left: 6%;  
+    }
+
+    .circle{
+        margin-left: 4%;
+    }
+
+}
+
+#r9{
+    margin: 80px 7.5%;
+}
+
+/*th{
+    padding-top: 12px;
+    padding-left: 7%;
+}
+
+.photo
+{
+    position: relative;
+    overflow: hidden;
+    text-align:center;
+}
+
+.winner
+{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 1;
+    background-color: rgba( 255, 56, 56, 0.5);
+    border-radius: 3px;
+    padding: 18% 0 0 0;
+    text-align: center;
+    transform: scale(1,0);
+    transform-origin: 0% 0%;
+}
+
+.winner h2 , .winner table{
+    opacity: 0;
+    color: white;
+}
+
+.photo:hover .winner{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.photo:hover .winner h2, .photo:hover .winner table
+{
+    opacity: 1;
+} 
+
+table
+{
+    margin-left: 15%;
+    margin-top: 15px;
+}*/
+
+.overlay
+    {
+        position: fixed;
+        display: none;
+        width: 100%;
+        height: 100%;
+        top: 10px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0);
+        z-index: 5;
+        color:white;
+        overflow-y: scroll;
+    }
+    .overlay ol{
+        margin-left:25px;
+        margin-right:25px;
+        padding-top:20px;
+        list-style-type: decimal;
+    }
+
+    @media screen and (max-width: 400px)
+    {
+        .overlay ol{
+            margin-left:15px;
+            margin-right:15px;
+            padding-top:20px;
+            list-style-type: decimal;
+        }
+
+        .poster .image .info a{
+            width: 40%;
+            color: yellow;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px; 
+        }
+    }
+
+    .overlay ol li{
+        margin-top: 10px;
+    }
+
+    .overlay u{
+        color:white;
+    }
+
+    
+    @media screen and (min-width: 990px)
+    {
+        .col-md-4.col-sm-12:nth-child(9)
+        {
+           margin-right: 50%;
+           margin-top: -330px;
+        }
+
+        .col-md-4.col-sm-12:nth-child(5)
+        {
+            margin-top: 35px;
+        }
+    
+        .col-md-4.col-sm-12:nth-child(6)
+        {
+           margin-top: -430px;
+        }
+    
+        .col-md-4.col-sm-12:nth-child(4)
+        {
+           margin-top: -15px;
+        }
+    
+        .col-md-4.col-sm-12:nth-child(7)
+        {
+           margin-top: 25px;
+        }
+    
+        .col-md-4.col-sm-12:nth-child(8)
+        {
+           margin-top: 35px;
+        }
+    
+    }
+
+    @media screen and (max-width:400px)
+    {
+        #wp{
+            margin-bottom: 60px;
+        }
+    }
+
+    #wp , #wp .winner
+    {
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    #wp .winner .instr{
+        position: absolute;
+        top: 0;
+        left:0;
+        right:0;
+        bottom:0;
+        background-color:rgba(0, 0, 0, 0.8);
+        padding: 20% 0 0 0;
+        text-align: center;
+        transition: all 0.4s ease-in-out;
+        transform: scale(1,0);
+        transform-origin: 0% 0%;
+    }
+
+    #wp.long .winner .instr{
+        padding: 40% 0 0 0;
+    }
+
+    #wp.long .winner .instr table{
+        margin-top: 30px;
+    }
+
+    #wp .winner .instr h3 , #wp .winner .instr table, #wp .winner .instr p{
+        opacity: 0;
+        color:white;
+    }
+
+    #wp .winner .instr p{
+        margin-top: 20px;
+        font-size: 16px;
+        letter-spacing: 0.4px;
+    }
+    
+
+    #wp:hover .winner .instr {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    #wp:hover .winner .instr h3 , #wp:hover .winner .instr table, #wp:hover .winner .instr p{
+        opacity: 1;
+    }
+
+    table{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        font-size: 16px;
+    }
+
+    th{
+        padding-left: 15%;
+    }
+
+    td{
+        letter-spacing: 0.7px;
+        margin-top: 4px;
+    }
+
+
+    
