@@ -537,7 +537,8 @@ div#about-us{
   border:1px solid #808489;
   text-align: center;
   margin-bottom: 20px;
-  padding: 118px 23px 65px 23px;
+  height: 400px;
+  padding: 150px 50px 80px 40px;
   overflow: hidden;
 }
 #service-section .single-service-content p {
