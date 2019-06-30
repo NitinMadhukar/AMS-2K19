@@ -520,7 +520,7 @@ div#about-us{
 
  ***/
 #service-section {
-  background: #232a34;
+  background: hsl(215, 20%, 17%);
   padding-bottom: 80px;
 }
 #service-section .theme-title h2,
