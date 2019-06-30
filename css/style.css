@@ -520,7 +520,7 @@ div#about-us{
 
  ***/
 #service-section {
-  background: #232a34;
+  background: hsl(215, 20%, 17%);
   padding-bottom: 80px;
 }
 #service-section .theme-title h2,
@@ -610,7 +610,7 @@ div#about-us{
   padding-bottom:80px;
   letter-spacing: 2px;
   line-height: 1.3;
-  font-family: 'Permanent Marker', cursive;
+  font-family: sans-serif;
   
 }
 #project-section .container .theme-title p span{
@@ -649,19 +649,19 @@ div#about-us{
   bottom: 20px;
   border: 1px solid #fff;
   text-align: center;
-  border-radius: 40px;
-  border-width: 4px;
+  /* border-radius: 40px; */
+  border-width: 2px;
 }
 #project-section .project-gallery .single-img .opacity h6 a {
   color:rgb(236, 76, 76);
-  font-family: 'Permanent Marker', cursive;
+  font-family: sans-serif;
   font-size:25px;
 }
 #project-section .project-gallery .single-img .opacity ul li {
   display: inline-block;
   color: rgb(236, 76, 76);
   margin-top: 8px;
-  font-family: 'Permanent Marker', cursive;
+  font-family: sans-serif;
   font-size:20px;
 }
 #project-section .project-gallery .single-img .opacity .border-shape>div {
