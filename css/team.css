@@ -402,3 +402,81 @@ hr.yellow{
 {
 	padding: 0;
 }*/
+
+
+/***
+
+====================================================================
+  Footer
+====================================================================
+
+ ***/
+ footer {
+	margin: 100px 0 0 0;
+	background: #1e1e1e;
+	padding: 60px 0 25px 0;
+	text-align: center;
+  }
+  footer .logo {
+	margin-bottom: 20px;
+  }
+  footer ul li {
+	display: inline-block;
+	margin-top: 13px;
+  }
+  footer ul li a {
+	width: 45px;
+	line-height: 45px;
+	font-size: 18px;
+	margin: 0 7px;
+	border:1px solid transparent;
+  }
+  footer ul li:nth-child(1) a {
+	color: #3b5998;
+	border-color:#3b5998;
+  }
+  footer ul li:nth-child(2) a {
+	color: #c4302b;
+	border-color:#c4302b;
+  }
+  footer ul li:nth-child(3) a {
+	color: #fb3958;
+	border-color:#fb3958;
+  }
+  footer ul li:nth-child(4) a {
+	color: #b23121;
+	border-color:#b23121;
+  }
+  footer ul li:nth-child(5) a {
+	color: #0063dc;
+	border-color:#0063dc;
+  }
+  
+  footer ul li:nth-child(1) a:hover {
+	background: #3b5998;
+  }
+  footer ul li:nth-child(2) a:hover {
+	background: #c4302b;
+  }
+  footer ul li:nth-child(3) a:hover {
+	background: #fb3958;
+  }
+  footer ul li:nth-child(4) a:hover {
+	background: #b23121;
+  }
+  footer ul li:nth-child(5) a:hover {
+	background: #0063dc;
+  }
+  
+  footer ul li a:hover {
+	color:#fff !important;
+  }
+  footer p {
+	color:#fff;
+	font-size: 15px;
+	margin-top: 50px;
+  }
+  
+  
+  
+  
