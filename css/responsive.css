@@ -48,9 +48,9 @@
  .game-holder .header .content .random{
   font-size:3.5em;
 }
-.game-holder .header h2{
+/* .game-holder .header h2{
   font-size:15px;
-}
+} */
 
 }
 /*(max-width: 991px)*/
@@ -61,6 +61,7 @@
   #about-us .container .theme-title p{
     font-size:30px;
   }
+ 
 }
 
 /*(min-width: 992px) and (max-width: 1199px)*/
@@ -83,6 +84,11 @@
 #about-us .container .theme-title p{
   font-size:30px;
 }
+#service-section .row .single-service-content{
+  padding: 120px 50px 80px 40px;
+  font-size:13px;
+}
+
 }
 /*(min-width: 768px) and (max-width: 991px)*/
 
@@ -113,6 +119,7 @@
 #about-us .container .theme-title p{
   font-size:30px;
 }
+
 }
 /*(max-width: 767px)*/
 
@@ -138,6 +145,7 @@
   #about-us .container .theme-title p{
     font-size:25px;
   }
+  
 }
 
 @media (max-width: 550px) {
@@ -159,6 +167,7 @@
   #about-us .container .theme-title p{
     font-size:18px;
   }
+ 
 }
 
 @media (max-width: 430px) {
