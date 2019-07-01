@@ -601,7 +601,7 @@ div#about-us{
 #project-section .container .theme-title h2{
   font-size: 60px;
   background: linear-gradient(45deg, red, blue);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 #project-section .container .theme-title p{
