@@ -216,8 +216,6 @@ jQuery(document).on('ready', function() {
 	(function ($) {
 	   removePlaceholder ();
      scrollToTop ();
-     BannerVideoSlider ();
-     onePageFixedNav();
      mixitupGallery ();
      bootstrapProgress ();
      clientSlider ();
