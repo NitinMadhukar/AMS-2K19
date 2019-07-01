@@ -24,7 +24,7 @@ function removePlaceholder () {
                 $(this).on('focusout', function() {
                     $(this).attr('placeholder',$(this).data('holder'));
                 });
-
+                
         });
   }
 }
@@ -42,7 +42,7 @@ function scrollToTop () {
         $('.scroll-top').fadeOut();
       }
     });
-
+    
     //Click event to scroll to top
     $('.scroll-top').on('click', function() {
       $('html, body').animate({scrollTop : 0},1500);
@@ -50,6 +50,93 @@ function scrollToTop () {
     });
   }
 }
+
+
+// Theme-banner Video slider 
+function BannerVideoSlider () {
+  var banner = $("#main-banner-slider.video-slider");
+  if (banner.length) {
+    banner.revolution({
+      sliderType:"standard",
+      sliderLayout:"auto",
+      loops:false,
+      delay:10000,
+      navigation: {
+          arrows: {
+                    style: "hermes",
+                    enable: true,
+                    hide_onmobile: false,
+                    hide_onleave: false,
+                    tmp: '<div class="tp-arr-allwrapper"> <div class="tp-arr-imgholder"></div>  <div class="tp-arr-titleholder">{{title}}</div> </div>',
+                    left: {
+                        h_align: "left",
+                        v_align: "center",
+                        h_offset: 0,
+                        v_offset: 0
+                    },
+                    right: {
+                        h_align: "right",
+                        v_align: "center",
+                        h_offset: 0,
+                        v_offset: 0
+                    }
+                },
+         bullets: {
+                  enable: false,
+              }
+
+      },
+      responsiveLevels:[2220,1183,975,751],
+                gridwidth:[1170,970,770,350],
+                gridheight:[850,850,850,700],
+                shadow:0,
+                spinner:"off",
+                autoHeight:"off",
+                disableProgressBar:"on",
+                hideThumbsOnMobile:"off",
+                hideSliderAtLimit:0,
+                hideCaptionAtLimit:0,
+                hideAllCaptionAtLilmit:0,
+                debugMode:false,
+                fallbacks: {
+                  simplifyAll:"off",
+                  disableFocusListener:false,
+                }   
+    }); 
+  };
+}
+
+
+//Add OnepageNav / Sidebar
+function onePageFixedNav() {
+    if($('body').length){
+      // Add scrollspy to 
+      $('body').scrollspy({target: ".theme-main-header", offset: 70});   
+
+      // Add smooth scrolling on all links inside the one-page-menu
+      $(".one-page-menu li a").on('click', function(event) {
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 1000, function(){
+       
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        }  // End if
+      });
+    }
+}
+
 
 // Mixitup gallery
 function mixitupGallery () {
@@ -88,7 +175,7 @@ function clientSlider () {
 }
 
 
-// Partner Logo Footer
+// Partner Logo Footer 
 function partnersLogo () {
   var logoSlide = $("#partner_logo");
   if(logoSlide.length) {
@@ -187,7 +274,7 @@ function stickyHeader () {
 
     if (scroll >= 100) sticky.addClass('fixed');
     else sticky.removeClass('fixed');
-
+    
   };
 }
 
@@ -199,7 +286,7 @@ function cladendar () {
   }
 }
 
-// Tooggle Home page menu click Function
+// Tooggle Home page menu click Function 
 function subMenuExpend () {
   if($(".theme-main-header").length) {
     $('.theme-main-header li.dropdown-holder').append(function () {
@@ -216,6 +303,8 @@ jQuery(document).on('ready', function() {
 	(function ($) {
 	   removePlaceholder ();
      scrollToTop ();
+     BannerVideoSlider ();
+     onePageFixedNav();
      mixitupGallery ();
      bootstrapProgress ();
      clientSlider ();
@@ -242,53 +331,3 @@ jQuery(window).on('load', function () {
       prealoader ()
   })(jQuery);
  });
-
-
- //Thunder bolt AMS animation
-
-$(document).ready(function () {
-
-  var $randomnbr = $('.nbr');
-  var $timer = 40;
-  var $it;
-  var $data = 0;
-  var index;
-  var change;
-  var letters = ["T", "H", "U", "N", "D", "E", "R", "B", "O", "L", "T", " ", " A", "M", "S"];
-
-  $randomnbr.each(function () {
-
-    change = Math.round(Math.random() * 100);
-    $(this).attr('data-change', change);
-
-  });
-
-  function random() {
-    return Math.round(Math.random() * 9);
-  };
-
-  function select() {
-    return Math.round(Math.random() * $randomnbr.length + 1);
-  };
-
-  function value() {
-    $('.nbr:nth-child(' + select() + ')').html('' + random() + '');
-    $('.nbr:nth-child(' + select() + ')').attr('data-number', $data);
-    $data++;
-
-    $randomnbr.each(function () {
-      if (parseInt($(this).attr('data-number')) > parseInt($(this).attr('data-change'))) {
-        index = $('.ltr').index(this);
-        $(this).html(letters[index]);
-        $(this).removeClass('nbr');
-      }
-    });
-
-  };
-
-  $it = setInterval(value, $timer);
-
-});
-
-
-
