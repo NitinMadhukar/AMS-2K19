@@ -131,6 +131,32 @@
 						right: 35px;
 					}
 				}
+				.button {
+         width: 110px;
+         padding-top: 5px;
+         padding-bottom: 5px;
+         text-align: center;
+         color: #000;
+         text-transform: uppercase;
+         font-weight: 60;
+         margin-top:8px;
+         margin-left: 30px;
+         margin-bottom: 30px;
+         cursor: pointer;
+         display: inline-block;
+         }
+         .button-1 {
+         background-color: transparent;
+         border: 3px solid #00d7c3;
+         border-radius: 50px;
+         -webkit-transition: all .15s ease-in-out;
+         transition: all .15s ease-in-out;
+         color: #00d7c3;
+         }
+         .button-1:hover {
+         box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
+         border: 3px solid #00d7c3;
+         }
 			</style>
 	
 			<div id="myNav" class="overlay">
@@ -144,9 +170,8 @@
 					<a href="#contact-section">CONTACT</a>
 				</div>
 			</div>
-
-			<span style=" float:right;font-size:30px; cursor: pointer; color:white; " onclick="openNav()">&#9776;
-				Menu</span>
+				<button id="showMenu" class="button button-1" style="display: inline-block;float:right;background:black;color:white;
+				" onclick="openNav()">Menu</button>
 
 			<script>
 				function openNav() {
