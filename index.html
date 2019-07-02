@@ -279,7 +279,7 @@
 					Our mission is to provide a supportive environment for interested photography students to share
 					their creativity, knowledge
 					and passion for the same.</p>
-			</div> <!-- /.theme-title -->
+		</div> <!-- /.theme-title -->
 
 
 			<div class="row">
@@ -590,48 +590,48 @@
 
 			<!--====================
 						MAP
-				====================
-			-->
+				====================-->
+			
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 					<div class="map-area">
-						<h2> </h2>
-						<div id="map"></div>
-					</div>  <!---/.map-area--> 
-				</div>  <!--/.col-->
-			</div>  <!--/.contact-address-content -->
+						<div id="map">
+							<div class="send-message">
+							<h2>Send Us A Message</h2>
+				
+								<form action="inc/sendemail.php" class="form-validation" autocomplete="off" method="post">
+									<div class="row">
+										<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+											<div class="single-input">
+												<input type="text" placeholder="First Name*" name="Fname">
+											</div> <!-- /.single-input -->
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+											<div class="single-input">
+												<input type="text" placeholder="Last Name*" name="Lname">
+											</div> <!-- /.single-input -->
+										</div>
+				
+										<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+											<div class="single-input">
+												<input type="email" placeholder="Your Email*" name="email">
+											</div> <!-- /.single-input -->
+										</div>
+									</div> <!-- /.row -->
+									<div class="single-input">
+										<input type="text" placeholder="Subject" name="sub">
+									</div> <!-- /.single-input -->
+									<textarea placeholder="Write Message" name="message"></textarea>
+									<button class="tran3s p-color-bg">Send Message</button>
+								</form>
+						</div>
+					</div>  <!--/.map-area-->
+				</div> 
+			</div>  <!---/.col
+			</div>  !--/.contact-address-content -->
 
 
 
 			<!-- Contact Form -->
-			<div class="send-message">
-				<h2>Send Us A Message</h2>
-
-				<form action="inc/sendemail.php" class="form-validation" autocomplete="off" method="post">
-					<div class="row">
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-							<div class="single-input">
-								<input type="text" placeholder="First Name*" name="Fname">
-							</div> <!-- /.single-input -->
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-							<div class="single-input">
-								<input type="text" placeholder="Last Name*" name="Lname">
-							</div> <!-- /.single-input -->
-						</div>
-						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-							<div class="single-input">
-								<input type="email" placeholder="Your Email*" name="email">
-							</div> <!-- /.single-input -->
-						</div>
-					</div> <!-- /.row -->
-					<div class="single-input">
-						<input type="text" placeholder="Subject" name="sub">
-					</div> <!-- /.single-input -->
-					<textarea placeholder="Write Message" name="message"></textarea>
-
-
-					<button class="tran3s p-color-bg">Send Message</button>
-				</form>
 
 
 				<!-- Contact Form Validation Markup -->
