@@ -171,6 +171,7 @@
 }
 
 @media (max-width: 430px) {
+
   .banner h1 {font-size: 27px;}
   .banner h6 {font-size: 14px;}
   .hermes.tparrows {display: none;}
@@ -188,5 +189,6 @@
   }
   #about-us .container .theme-title p{
     font-size:12px;
+    word-spacing:2.5px;
   }
 }
