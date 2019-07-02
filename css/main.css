@@ -413,17 +413,32 @@ animation-delay: .8s;
   background: #000;
 }
 .banner h1,.banner h6,.banner .project-button {
-  color:#fff;
+  color:white;
+  margin-top: -50px;
 }
 .banner h6 {
   font-weight: 500;
 }
 .banner .project-button {
-  width: 170px;
+  width: 150px;
   line-height: 50px;
   text-align: center;
-  border-width: 1px;
+  border: 3px solid yellow;
   text-transform: uppercase;
+}
+
+div.tp-caption{
+  margin-top: 60px;
+}
+
+.banner .project-button:hover
+{
+  color:blue;
+  text-decoration: none;
+}
+
+.adverb{
+  color:#00fff3;
 }
 /*** 
 
@@ -1336,6 +1351,14 @@ footer p {
   font-size: 15px;
   margin-top: 50px;
 }
+
+@media screen and (max-width: 440px){
+ a.logo img
+  {
+    margin-right: 0px;
+  }
+}
+
 /*** 
 
 ====================================================================

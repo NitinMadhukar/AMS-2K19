@@ -39,7 +39,8 @@
     font-size: 19px;
     transition-delay: 0.2s;
     transition-duration: 0.4s;
-    color: yellow;
+	color: yellow;
+	text-decoration: none;
 }
 .team{
 	text-align: center;
@@ -200,10 +201,10 @@ hr.yellow{
 		margin-left: 5%;
 	}
 
-	#r5{
-		margin-left: 0;
-		margin-right: 0;
+	#r5.member, #r6.member{
+		margin: 0;
 	}
+
 }
 
 
@@ -235,7 +236,11 @@ hr.yellow{
 	}
 
 	#r5 .col-md-3.col-sm-6.col-xs-6{
-		margin-bottom: 20px;
+		margin-bottom: 25px;
+	}
+
+	#r6 .col-md-2.col-md-offset-1.col-sm-6.col-xs-6{
+		margin-bottom: 25px;
 	}
 }
 
@@ -254,9 +259,9 @@ hr.yellow{
 	bottom: 0;
 	right: 0;
 	left: 0;
-	background: rgba(0 , 191, 255, 0.5);
+	background: rgba(235, 11, 11, 0.5);
 	opacity: 1;
-	padding: 60% 0 0 0;
+	padding: 50% 0 0 0;
 	text-align:center;
 	transform: scale(1,0);
 	transform-origin: 0% 0%;
