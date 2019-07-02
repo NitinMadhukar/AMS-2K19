@@ -48,10 +48,6 @@
  .game-holder .header .content .random{
   font-size:3.5em;
 }
-/* .game-holder .header h2{
-  font-size:15px;
-} */
-
 }
 /*(max-width: 991px)*/
 
@@ -91,7 +87,7 @@
   font-size:30px;
 }
 #service-section .row .single-service-content{
-  padding: 120px 50px 80px 40px;
+  padding: 100px 50px 80px 40px;
   font-size:13px;
 }
 
@@ -163,6 +159,10 @@
     padding: 60px 0 25px 0;
     text-align: center;
   }
+  #service-section .row .single-service-content{
+    height:auto;
+   }
+  
 }
 
 @media (max-width: 550px) {
@@ -184,6 +184,10 @@
   #about-us .container .theme-title p{
     font-size:18px;
   }
+  #service-section .row .single-service-content{
+   height:auto;
+  }
+ 
   footer {
     margin: 100px 0 0 0;
     background: #1e1e1e;
@@ -222,4 +226,7 @@
     padding: 60px 0 25px 0;
     text-align: center;
   }
+  #service-section .row .single-service-content{
+    height:auto;
+   }
 }

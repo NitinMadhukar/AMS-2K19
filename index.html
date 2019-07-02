@@ -40,6 +40,11 @@
 	<script type="text/javascript" src="js/game.js">
 	</script>
 
+	<!-- Navbar -->
+	<!-- <link rel="stylesheet" type="text/css" href="css/landing.css" /> -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+		integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 
 
 	<!-- Fix Internet Explorer ______________________________________-->
@@ -54,142 +59,37 @@
 
 <body>
 
-	<div class="main-page-wrapper">
-
-
-
-
-		<!--
+	<!--
 			=============================================
-				Theme Header
+				Navigation Bar
 			==============================================
-			-->
-		<header class="theme-main-header">
-			<a href="index.html" class="logo"><img src="images/logo/logoams.png" alt="Logo"></a>
-
-
-			<!-- ========================= Theme Feature Page Menu ======================= -->
-			<style>
-				body {
-					font-family: 'Lato', sans-serif;
-				}
-
-				.overlay {
-					height: 0%;
-					width: 100%;
-					position: fixed;
-					z-index: 1;
-					top: 0;
-					left: 0;
-					background-color: rgb(0, 0, 0);
-					background-color: rgba(0, 0, 0, 0.9);
-					overflow-y: hidden;
-					transition: 0.5s;
-				}
-
-				.overlay-content {
-					position: relative;
-					top: 25%;
-					width: 100%;
-					text-align: center;
-					margin-top: 30px;
-				}
-
-				.overlay a {
-					padding: 8px;
-					text-decoration: none;
-					font-size: 36px;
-					color: #f25346;
-					display: block;
-					transition: 0.3s;
-				}
-
-				.overlay a:hover,
-				.overlay a:focus {
-					color: #f1f1f1;
-				}
-
-				.overlay .closebtn {
-					position: absolute;
-					top: 20px;
-					right: 45px;
-					font-size: 60px;
-				}
-
-				@media screen and (max-height: 450px) {
-					.overlay {
-						overflow-y: auto;
-					}
-
-					.overlay a {
-						font-size: 20px
-					}
-
-					.overlay .closebtn {
-						font-size: 40px;
-						top: 15px;
-						right: 35px;
-					}
-				}
-				.button {
-         width: 110px;
-         padding-top: 5px;
-         padding-bottom: 5px;
-         text-align: center;
-         color: #000;
-         text-transform: uppercase;
-         font-weight: 60;
-         margin-top:8px;
-         margin-left: 30px;
-         margin-bottom: 30px;
-         cursor: pointer;
-         display: inline-block;
-         }
-         .button-1 {
-         background-color: transparent;
-         border: 3px solid #00d7c3;
-         border-radius: 50px;
-         -webkit-transition: all .15s ease-in-out;
-         transition: all .15s ease-in-out;
-         color: #00d7c3;
-         }
-         .button-1:hover {
-         box-shadow: 0 0 10px 0 #00d7c3 inset, 0 0 20px 2px #00d7c3;
-         border: 3px solid #00d7c3;
-         }
-			</style>
-	
-			<div id="myNav" class="overlay">
-				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-				<div class="overlay-content">
-					<a href="#about-us">ABOUT US</a>
-					<a href="#service-section">SERVICES</a>
-					<a href="gallery.html">GALLERY</a>
-					<a href="events.html">EVENTS</a>
-					<a href="team.html">TEAM</a>
-					<a href="#contact-section">CONTACT</a>
+-->
+	<div class="main-page-wrapper">
+		<div class="content">
+			<div class="background"></div>
+		</div>
+		<nav class="menu">
+			<div class="menu__item menu__item--1" data-direction="bt">
+				<div class="menu__item-inner">
+					<div class="mainmenu" id="mainmenu">
+						<a href="#about-us" class="mainmenu__item">About Us</a>
+						<a href="#service-section" class="mainmenu__item">Services</a>
+						<a href="gallery.html" class="mainmenu__item">Gallery</a>
+						<a href="events.html" class="mainmenu__item">Events</a>
+						<a href="team.html" class="mainmenu__item">Team</a>
+						<a href="#contact-section" class="mainmenu__item">Contact Us</a>
+					</div>
+					<p class="label label--topleft label--vert-mirror">Thunderbolt AMS</p>
+					<p class="label label--bottomright label--vert">Thunderbolt AMS</p>
 				</div>
 			</div>
-				<button id="showMenu" class="button button-1" style="display: inline-block;float:right;background:black;color:white;
-				" onclick="openNav()">Menu</button>
-
-			<script>
-				function openNav() {
-					document.getElementById("myNav").style.height = "100%";
-				}
-
-				function closeNav() {
-					document.getElementById("myNav").style.height = "0%";
-				}
-			</script>
-		</header> <!-- /.theme-main-header -->
-
-
-
-
+			<button class="action action--menu"><img src="img/menu.svg" width="30px" height="30px"></button>
+			<button class="action action--close"><img src="img/close.svg" width="30px" height="30px"></button>
+		</nav>
+	
 		<!--
 			=====================================================
-				Theme Main SLider
+				Theme Main Page
 			=====================================================
 			-->
 
@@ -539,7 +439,7 @@
 		<div class="opacity">
 			<h3>See Our Work <span>&amp; get a campus tour</span></h3>
 			<div>
-				<iframe class="video-border" width="60%" height="661" src="https://www.youtube.com/embed/wKB4G11HrWU"
+				<iframe class="video-border" width="100%" height="661" src="https://www.youtube.com/embed/wKB4G11HrWU"
 					frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 					allowfullscreen></iframe>
 			</div>
@@ -747,8 +647,14 @@
 
 	<!-- Theme js -->
 	<script type="text/javascript" src="js/theme.js"></script>
-	<!--<script type="text/javascript" src="js/map-script.js"></script>
--->
+	<script type="text/javascript" src="js/map-script.js"></script>
+
+	<!-- Navbar js -->
+
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/TweenMax.min.js"></script>
+	<script src="js/demo.js"></script>
+
 	</div> <!-- /.main-page-wrapper -->
 </body>
 
