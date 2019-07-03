@@ -148,9 +148,10 @@
   .game-holder .header h2{
     font-size:0.8em;
   }
-  #about-us .container .theme-title p{
-    font-size:25px;
-    
+  
+  div#about-us p{
+    color: #6f6f6f;
+    font-size:36px;
   }
   footer {
     margin: 100px 0 0 0;
@@ -169,7 +170,7 @@
   #project-section .project-gallery .grid-item img {width: 100%;}
   #project-section .project-menu ul li {font-size: 14px;margin: 15px 2px 0;border-bottom: 1px solid #fff;}
   #team-section .team-member-wrapper .single-team-member .img .opacity span {margin: 5px 0;}
-  #team-section .team-member-wrapper .single-team-member .member-name ul li a {width: 40px;line-height: 38px;}
+  #team-section team-member-wrapper .single-team-member .member-name ul li a {width: 40px;line-height: 38px;}
   .banner h1 {font-size: 35px;}
   .blog-details-post-wrapper .comment-area .single-comment.reply-comment {margin-left: 60px;}
   .game-holder .header .content .random{
@@ -220,8 +221,8 @@
     font-size:25px;
    }
   #about-us .container .theme-title p{
-    font-size:20px;
-    word-spacing:2.5px;    
+    font-size:17px;
+    word-spacing:1.5px;    
   }
   footer {
     margin: 100px 0 0 0;
