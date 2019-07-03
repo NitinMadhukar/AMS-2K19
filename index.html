@@ -237,6 +237,17 @@
 							strike your heart with their beats. That is the power held within its console, And we
 							are the ones who hold it in our hands.</p>
 						</p>
+						<script>document.addEventListener('animationstart', function (e) {
+							if (e.animationName === 'fade-in') {
+								e.target.classList.add('did-fade-in');   
+							}
+						  });
+						  
+						  document.addEventListener('animationend', function (e) {
+							if (e.animationName === 'fade-out') {
+								e.target.classList.remove('did-fade-in');
+							 }
+						  });</script>
 					</div> <!-- /.single-service-content -->
 				</div> <!-- /.col-lg -->
 			</div> <!-- /.row -->
