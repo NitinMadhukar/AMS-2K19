@@ -909,6 +909,7 @@ div#about-us{
   height: 400px;
   padding: 150px 50px 80px 40px;
   overflow: hidden;
+  
 }
 #service-section .single-service-content p {
   -webkit-transition-delay: 0.3s; /* Safari */
