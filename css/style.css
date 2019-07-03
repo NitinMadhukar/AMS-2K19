@@ -525,13 +525,12 @@ a:focus {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(../img/trail1.jpg) no-repeat 50% 50%;
   background-size: cover;
   transition: transform 0.8s cubic-bezier(0.2, 1, 0.8, 1);
 }
 .menu__item-inner:hover .menu__item-map {
   transform: scale3d(1.1, 1.1, 1);
-} */
+} 
 
 .menu__item-hoverlink {
   font-weight: bold;
@@ -575,6 +574,16 @@ a:focus {
   display: block;
   margin-top: auto;
   font-size: 0.85rem;
+}
+@media (min-width:0em) and (max-width:53em){
+  nav .list{
+    padding-top:30px;
+  }
+  
+  nav .list li{
+    display:inline;
+    padding-right:10px;
+}
 }
 
 @media screen and (min-width: 53em) {
@@ -721,15 +730,31 @@ a:focus {
   .menu__item-inner:hover .menu__item-hoverlink {
       opacity: 1;
   }
+  nav ul {
+    list-style: none;
+    margin-bottom:6em;
+  }
+  
+  nav .list li{
+    display:inline;
+  }
+  nav .list .fa {
+      font-size: 2em;
+      text-align: center;
+      text-decoration: none;
+  }
+  nav .list .list-pipe{
+      border-right: 1px solid #ae7f3b;
+      padding-left: 4px;
+      padding-right: 12px;
+  }
+  nav .list .list-pipe-last{
+    padding-left:4px;
+  } 
 }
 
-nav {
-  display: block;
-}
 
-nav ul {
-  list-style: none;
-}
+
 
 /***
 
@@ -1018,7 +1043,7 @@ div#about-us{
 }
 #project-section .project-gallery .single-img{
   position: relative;
-  /* overflow: hidden; */
+  overflow: hidden;
   
 }
 #project-section .project-gallery .single-img .opacity {
@@ -1105,12 +1130,11 @@ div#about-us{
 #team-section .team-member-wrapper .single-team-member:hover .img img,
 #skill-section:hover .img img,#blog-section .single-news-item:hover .img img {
   -webkit-filter: grayscale(0);
-  border-radius: 50%;
-  -webkit-transform: rotate(360deg);
-     -moz-transform: rotate(360deg);
-       -o-transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-          transform: rotate(360deg);
+  webkit-transform: scale3d(1.15,1.15,1);
+     -moz-transform: scale3d(1.15,1.15,1);
+      -ms-transform: scale3d(1.15,1.15,1);
+       -o-transform: scale3d(1.15,1.15,1);
+          transform: scale3d(1.15,1.15,1);
 }
 #project-section .project-gallery .single-img:hover .opacity ul,
 #project-section .project-gallery .single-img:hover .opacity h6 a {
