@@ -90,7 +90,6 @@
   padding: 100px 50px 80px 40px;
   font-size:13px;
 }
-
 }
 /*(min-width: 768px) and (max-width: 991px)*/
 
@@ -181,9 +180,18 @@
   .game-holder .header h2{
     font-size:0.8em;
   }
+<<<<<<< HEAD
   #about-us .container .theme-title p{
     font-size:23px;
   }
+=======
+  
+  div#about-us p{
+    color: #6f6f6f;
+    font-size:36px;
+    line-height: 85%;
+    }
+>>>>>>> 977c79c741934e1310bc63620924d0735d6d8171
   #service-section .row .single-service-content{
    height:auto;
   }
