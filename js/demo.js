@@ -18,14 +18,6 @@
             this.DOM.closeCtrl = this.DOM.el.querySelector('.action--close');
             this.DOM.openCtrl.addEventListener('click', () => this.open());
             this.DOM.closeCtrl.addEventListener('click', () => this.close());
-            this.DOM.openCtrl.addEventListener('mouseenter', () => {
-                allowTilt = false;
-                tilt.reset()
-            });
-            this.DOM.openCtrl.addEventListener('mouseleave', () => {
-                allowTilt = true;
-            });
-
             // The menu items.
             this.DOM.items = Array.from(this.DOM.el.querySelectorAll('.menu__item'));
             // The total number of items.
@@ -148,14 +140,7 @@
                 ease: action === 'open' ? Quint.easeInOut : Quart.easeInOut,
                 startAt: action === 'open' ? {y: '100%'} : null,
                 y: action === 'open' ? '0%' : '100%'
-            }, action === 'open' ? 0.05 : -0.05);
-
-            // The "Learn how to participate" menu link.
-            TweenMax.to(this.DOM.menulink, action === 'open' ? 0.9 : 0.6, {
-                ease: action === 'open' ? Quint.easeOut : Quart.easeInOut,
-                startAt: action === 'open' ? {x: '10%'} : null,
-                x: action === 'open' ? '0%' : '10%'
-            });
+            }, action === 'open' ? 0.05 : -0.05);         
         }
     }
 	// Initialize the Menu.
@@ -182,18 +167,5 @@
 		}
 		return { x : posx, y : posy }
     };
-
-
-
     let allowTilt = true;
-    const tilt = new TiltFx();
-
-    // Hovering the github link zooms in the main image.
-    const githubEl =  document.querySelector('.github');
-    githubEl.addEventListener('mouseenter', () => {
-        allowTilt = false;
-        tilt.zoom()
-    });
-    githubEl.addEventListener('mouseleave', () => allowTilt = true);
 }
-

@@ -330,10 +330,10 @@ nav{
 
 .main-page-wrapper .menu {
 
-  --color-text:#d4a346;
+  /* --color-text:#d4a346; */
   --color-bg: #252525;
   --color-link: #d4a346;
-  --color-link-hover: #5705D8;
+  --color-link-hover: #fff;
   --color-bg-item1: #15171b;
   --color-bg-item2: #2c35b7;
   --color-bg-item3: #0f1013;
