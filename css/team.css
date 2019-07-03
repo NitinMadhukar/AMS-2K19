@@ -46,7 +46,13 @@
 	text-align: center;
 	width: 100%;
 	margin: 40px 0 100px 0;
-}
+ }
+ .team h1{
+	 font-size: 100px;
+  	}
+	 .team h1 #our{
+	 color:orangered;
+ }
 
 .spoc{
 	border-radius:50%;
@@ -168,7 +174,9 @@ hr.yellow{
 
 	#r6{
 		margin-left: 1%;
-	}
+	} .team h1{
+		font-size: 80px;
+		 }
 }
 
 @media screen and (max-width: 400px)
@@ -192,7 +200,9 @@ hr.yellow{
 	#r3{
 		margin: 0;
 	}
-
+	.team h1{
+		font-size: 36px;
+		 }
 	#first{
 		margin-right: 5%;
 	}
