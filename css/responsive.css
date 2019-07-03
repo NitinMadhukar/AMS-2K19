@@ -162,7 +162,6 @@
   #service-section .row .single-service-content{
     height:auto;
    }
-  
 }
 
 @media (max-width: 550px) {
@@ -181,12 +180,18 @@
   .game-holder .header h2{
     font-size:0.8em;
   }
+<<<<<<< HEAD
+  #about-us .container .theme-title p{
+    font-size:23px;
+  }
+=======
   
   div#about-us p{
     color: #6f6f6f;
     font-size:36px;
     line-height: 85%;
     }
+>>>>>>> 977c79c741934e1310bc63620924d0735d6d8171
   #service-section .row .single-service-content{
    height:auto;
   }
@@ -198,6 +203,12 @@
     padding: 60px 0 25px 0;
     text-align: center;
   }
+  #project-section .container .theme-title h2{
+    font-size:35px;
+  }
+  #project-section .container .theme-title p{
+   font-size:30px;
+ }
 }
 
 @media (max-width: 430px) {
@@ -214,15 +225,13 @@
   .game-holder .header h2{
     font-size:5px;  
   }
-  
-   
-  div#about-us p{
-    color: #6f6f6f;
-    font-size:32px;
-    line-height: 85%;
+  #about-us .container .theme-title h2{
+    font-size:25px;
    }
-    
-  
+  #about-us .container .theme-title p{
+    font-size:17px;
+    word-spacing:1.5px;    
+  }
   footer {
     margin: 100px 0 0 0;
     background: #1e1e1e;
@@ -233,4 +242,10 @@
   #service-section .row .single-service-content{
     height:auto;
    }
+   #project-section .container .theme-title h2{
+     font-size:30px;
+   }
+   #project-section .container .theme-title p{
+    font-size:20px;
+  }
 }
