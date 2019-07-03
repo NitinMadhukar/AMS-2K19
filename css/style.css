@@ -234,11 +234,12 @@ animation-delay: .8s;
   margin: 95px 0 0 0;
 }
 div#about-us{
-  height: 600px;
+  height: 550px;
 }
 div#about-us p{
   font-size: 44px;
   word-spacing: 2.5px;
+  line-height:30px;
 }
 div#about-us p b{
   color:#cec044;
@@ -314,10 +315,6 @@ div#about-us hr{
 ====================================================================
 
  ***/
-
- .main-page-wrapper .logo a{
-   padding:20px 20px;
- }
 
 
 
