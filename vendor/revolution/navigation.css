@@ -1531,7 +1531,7 @@ website:    http://www.themepunch.com
 	width:30px;
 	height:110px;
 	position:absolute;
-	display:block;
+	display:none;
 	z-index:100;
 }
 
@@ -1539,7 +1539,7 @@ website:    http://www.themepunch.com
 	font-family: "revicons";
 	font-size:15px;
 	color:#fff;
-	display:block;
+	display:none;
 	line-height: 110px;
 	text-align: center;
     transform:translateX(0px);

@@ -416,26 +416,7 @@ footer {
     font-size: 15px;
     margin-top: 50px;
   }
-   @media screen and (max-width: 440px)
-{
-    .logo{
-        margin-left: 30%; 
-    }
-
-    #footer{
-        padding-top: 12%;
-    } 
-
-    #footer ul{
-        margin-top: 30px;
-        margin-left: 6%;  
-    }
-
-    .circle{
-        margin-left: 4%;
-    }
-
-}
+  
 
 #r9{
     margin: 80px 7.5%;
