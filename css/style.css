@@ -880,10 +880,10 @@ section#about-us .container{
   text-align: center;
 }
 div#about-us h2{
-  color: white;
+  color: #d4a346;
 }
 div#about-us p{
-  color: #6f6f6f;
+  color: #eee;
   font-size:36px;
 }
 div#about-us{
@@ -947,7 +947,7 @@ to {
 }
 
  #service-section {
-  background: hsl(215, 20%, 17%);
+  background: #252525;
   padding-bottom: 80px;
 }
 #service-section .theme-title h2{
@@ -998,7 +998,7 @@ to {
   color:#ffeb3b;;
   width: 80px;
   margin: 0 auto;
-  background: #232a34;
+  background: #252525;
 }
 #service-section .single-service-content .icon-heading a {
   color:#ffeb3b;;
