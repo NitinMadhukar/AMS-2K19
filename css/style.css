@@ -925,7 +925,28 @@ div#about-us{
 ====================================================================
 
  ***/
-#service-section {
+ 
+
+
+@keyframes fade-in {
+from { 
+ opacity: 0; 
+}
+to { 
+ opacity: 1; 
+}
+}
+
+@keyframes fade-out {
+from { 
+ opacity: 1; 
+}
+to { 
+ opacity: 0;
+}
+}
+
+ #service-section {
   background: hsl(215, 20%, 17%);
   padding-bottom: 80px;
 }
@@ -996,7 +1017,13 @@ div#about-us{
       -ms-transform: translate3D(0,0,0);
        -o-transform: translate3D(0,0,0);
           transform: translate3D(0,0,0);
+          display: block;
+animation: fade-in 1s;
 }
+#service-section .single-service-content:not(:hover) p.did-fade-in {
+  display: block;
+  animation: fade-out 1s;
+  } 
 /***
 
 ====================================================================
