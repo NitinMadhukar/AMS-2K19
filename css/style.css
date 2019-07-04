@@ -885,6 +885,7 @@ div#about-us h2{
 div#about-us p{
   color: #eee;
   font-size:36px;
+  font-weight:bold;
 }
 div#about-us{
   opacity:1;
@@ -893,15 +894,6 @@ div#about-us{
   text-align: center;
   margin-top: 55px;
   margin-bottom: 100px;
-}
-#about-us .icon {
-  width: 130px;
-  height: 130px;
-  margin: 0 auto;
-  line-height: 130px;
-  border-width: 2px;
-  font-size: 36px;
-  color:#292929;
 }
 #about-us h5 a {
   color:#292929;
