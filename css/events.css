@@ -233,6 +233,13 @@ a:hover{
 
 }
 
+@media screen and (max-width: 440px)
+{
+    .poster .image .info a{
+        padding : 2px 8px 8px 8px;
+    }
+}
+
 .poster .image .info button:hover
 {
     background-color: yellow;
