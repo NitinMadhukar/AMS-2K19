@@ -412,13 +412,20 @@ animation-delay: .8s;
 .rev_slider_wrapper {
   background: #000;
 }
-.banner h1,.banner h6,.banner .project-button {
-  color:white;
+.banner h1,.banner .project-button {
+    color:#d6973d;
+    font-weight:bold;
+    font-size:40px;
   margin-top: -50px;
 }
-.banner h6 {
-  font-weight: 500;
+.banner h6{
+    color:#e04f5d;
+    font-weight:bold;
+    font-size:20px;
+  margin-top: -50px;
 }
+
+
 .banner .project-button {
   width: 150px;
   line-height: 50px;
@@ -438,7 +445,10 @@ div.tp-caption{
 }
 
 .adverb{
-  color:#00fff3;
+    font-size:20px;
+  color: #e04f5d;
+  font-weight:bold;
+  margin-top: -50px;
 }
 /*** 
 
