@@ -944,14 +944,15 @@ to {
 }
 #service-section .theme-title h2{
   color:#d4a346;
+  font-size:30px;
 }
 #service-section .theme-title p {
   color:#eee;
-  font-size:25px;
+  font-size:20px;
   line-height:1.6;
   font-weight:bold;
   font-family:sans-serif;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 #service-section .row {
   margin: 50px 0 0 0;
@@ -1189,6 +1190,7 @@ animation: fade-in 1s;
   color: #d4a346;
   font-size:40px;
   margin-bottom: 25px;
+  font-weight:bold;
 }
 .page-middle-banner .opacity h3 span{
   color:#d4a346;
