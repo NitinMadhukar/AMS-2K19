@@ -1182,7 +1182,7 @@ animation: fade-in 1s;
 
  ***/
 .page-middle-banner .opacity {
-  background: rgba(0, 0, 0,0.9);
+  background: #252525;
   text-align: center;
   padding: 50px 0 50px 0;
 }
@@ -1195,6 +1195,7 @@ animation: fade-in 1s;
 .page-middle-banner .opacity h3 span{
   color:#d4a346;
 }
+
 
 
 /***
