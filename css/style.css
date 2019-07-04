@@ -251,7 +251,7 @@ div#about-us hr{
 }
 .theme-title h2 {
   position: relative;
-  font-size:50px;
+  font-size:40px;
 }
 .theme-title h2:before {
   content: '';
