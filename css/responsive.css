@@ -149,7 +149,6 @@
   }
   
   div#about-us p{
-    color: #6f6f6f;
     font-size:36px;
   }
   footer {
@@ -162,6 +161,9 @@
   #service-section .row .single-service-content{
     height:auto;
    }
+   #about-us .container .theme-title p{
+    font-size:22px;
+  }
 }
 
 @media (max-width: 550px) {
@@ -180,18 +182,9 @@
   .game-holder .header h2{
     font-size:0.8em;
   }
-<<<<<<< HEAD
   #about-us .container .theme-title p{
-    font-size:23px;
+    font-size:20px;
   }
-=======
-  
-  div#about-us p{
-    color: #6f6f6f;
-    font-size:36px;
-    line-height: 85%;
-    }
->>>>>>> 977c79c741934e1310bc63620924d0735d6d8171
   #service-section .row .single-service-content{
    height:auto;
   }
@@ -229,8 +222,8 @@
     font-size:25px;
    }
   #about-us .container .theme-title p{
-    font-size:17px;
-    word-spacing:1.5px;    
+    font-size:20px;
+    line-height:25px;  
   }
   footer {
     margin: 100px 0 0 0;
