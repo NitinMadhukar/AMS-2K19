@@ -67,26 +67,19 @@
   width: 100%;
   height: 100%;
   z-index: 99999;
-  background: #fff;
+  background: #0f0f0f;
   overflow: hidden;
 }
 #preloader_1{
+  width: 300px;
+  height: 300px;
   position: absolute;
   left: 50%;
-  margin-left: -25px;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 50%; 
+  margin-left: -150px;
+  margin-top: -150px;
 }
-#preloader_1 span{
-  display:block;
-  bottom:0px;
-  width: 6px;
-  height: 5px;
-  background:#e04f5d;
-  position:absolute;
-  animation: preloader_1 1.5s  infinite ease-in-out;
-}
-
+/* 
 #preloader_1 span:nth-child(2){
 left:11px;
 animation-delay: .2s;
@@ -109,7 +102,7 @@ animation-delay: .8s;
     25% {height:30px;transform:translateY(15px);background:#e62d3f;}
     50% {height:5px;transform:translateY(0px);background:#ee2438;}
     100% {height:5px;transform:translateY(0px);background:#ee2438;}
-}
+} */
 
 
 /***
