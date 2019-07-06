@@ -24,7 +24,11 @@
 @import url('../vendor/monthly-master/css/monthly.css');
 
 
-
+img {
+    max-width: 100%; 
+    display: block; 
+  
+}
 
 .nav{
     overflow: hidden;
