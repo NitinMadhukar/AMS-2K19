@@ -214,6 +214,18 @@ footer#team {
  .page-middle-banner .opacity h3{
    font-size:25px;
  }
+ .banner h6{
+  color:#e04f5d;
+  font-weight:bold;
+  font-size:15px;
+margin-top: -50px;
+}
+ .adverb{
+  font-size:15px;
+color: #e04f5d;
+font-weight:bold;
+margin-top: -50px;
+}
 }
 
 @media (max-width: 430px) {
@@ -255,6 +267,18 @@ footer#team {
   }
   .page-middle-banner .opacity h3 {
     font-size:20px;
+  }
+  .banner h6{
+    color:#e04f5d;
+    font-weight:bold;
+    font-size:10px;
+  margin-top: -50px;
+  }
+   .adverb{
+    font-size:10px;
+  color: #e04f5d;
+  font-weight:bold;
+  margin-top: -50px;
   }
 }
 
