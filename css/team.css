@@ -291,6 +291,13 @@ hr.yellow{
 	font-size: 2vw;
 	margin-bottom: 3px;
 }
+#team-member #spoc .links h4
+{
+	font-family: 'Architects Daughter', cursive;
+	color: white;
+	font-size: 1.5vw;
+	margin-bottom: 3px;
+}
 
 #team-member #spoc .links span{
 	font-family: 'Architects Daughter', cursive;
@@ -345,6 +352,7 @@ hr.yellow{
 	padding: 20% 0 0 0;
 }
 
+
 @media screen and (max-width: 980px)
 {
 	#team-member #spoc .links h4
@@ -356,7 +364,9 @@ hr.yellow{
 
 		font-size: 24px;
 	}
+
 }
+
 
 @media screen and (max-width: 400px)
 {
@@ -388,6 +398,8 @@ hr.yellow{
 	{
 	padding: 30% 0 0 0;
 	}
+
+
 }
 
 /*.col-md-6.col-sm-12, .col-lg-4.col-md-4.col-sm-12, .col-md-3.col-sm-6.col-xs-6 , .col-md-2.col-md-offset-1 .col-sm-6.col-xs-6
