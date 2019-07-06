@@ -174,7 +174,7 @@ animation-delay: .8s;
  ul {list-style-type: none;}
  a {text-decoration: none; display: inline-block;}
  a:hover,a:focus,a:visited {text-decoration: none; outline: none;}
- img {max-width: 100%; display: block;}
+
 
  button {border:none;outline: none;box-shadow: none;display: block; padding: 0;}
  input,textarea {outline: none; box-shadow: none;-webkit-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
