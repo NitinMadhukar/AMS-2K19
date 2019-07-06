@@ -101,12 +101,13 @@ a:hover{
 }
 
 #exploration{
-    margin-left: 3%;
-}
+    margin-left: 2%;
+  }
 
 .poster .image .info{
     text-align: center;
 }
+
 
 @media screen and (min-width: 1200px)
 {
@@ -571,8 +572,8 @@ table
         #wp{
             margin-bottom: 60px;
         }
-    }
-
+        
+    }   
     #wp , #wp .winner
     {
         position: relative;
@@ -640,4 +641,5 @@ table
     }
 
 
+    
     
