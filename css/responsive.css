@@ -257,3 +257,13 @@ footer#team {
     font-size:20px;
   }
 }
+
+@media (max-width: 395px){
+  #about-us .container .theme-title h2{
+    font-size:25px;
+   }
+  #about-us .container .theme-title p{
+    font-size:15px;
+    line-height:25px;  
+  }
+} 
