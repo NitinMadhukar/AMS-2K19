@@ -23,7 +23,6 @@
 /*----calendar css--------*/
 @import url('../vendor/monthly-master/css/monthly.css');
 
-
 img {
     max-width: 100%; 
     display: block; 
@@ -309,6 +308,12 @@ img{
         margin-top: 2%;
     }
 
+    .col-md-6.col-sm-12:nth-child(n)
+    {
+        width: 80%;
+        margin-left: 10%;
+    }
+
     #r1,#r2,#r3,#r4,#r5,#r6,#r7,#r8
     {
     margin: 15% 3%;
@@ -437,12 +442,14 @@ footer {
     padding-top: 12px;
     padding-left: 7%;
 }
+
 .photo
 {
     position: relative;
     overflow: hidden;
     text-align:center;
 }
+
 .winner
 {
     position: absolute;
@@ -458,18 +465,22 @@ footer {
     transform: scale(1,0);
     transform-origin: 0% 0%;
 }
+
 .winner h2 , .winner table{
     opacity: 0;
     color: white;
 }
+
 .photo:hover .winner{
     opacity: 1;
     transform: scale(1);
 }
+
 .photo:hover .winner h2, .photo:hover .winner table
 {
     opacity: 1;
 } 
+
 table
 {
     margin-left: 15%;
@@ -514,6 +525,13 @@ table
             text-transform: uppercase;
             letter-spacing: 1px; 
         }
+
+        .col-md-6.col-sm-12:nth-child(n)
+        {
+            width: 100%;
+            margin-left: 0%
+        }
+
     }
 
     .overlay ol li{
@@ -526,6 +544,76 @@ table
 
     
     @media screen and (min-width: 990px)
+    {
+        .col-md-4.col-sm-12:nth-child(9)
+        {
+           margin-right: 50%;
+           margin-top: -240px;
+        }
+
+        .col-md-4.col-sm-12:nth-child(5)
+        {
+            margin-top: 35px;
+        }
+    
+        .col-md-4.col-sm-12:nth-child(6)
+        {
+           margin-top: -320px;
+        }
+    
+        .col-md-4.col-sm-12:nth-child(4)
+        {
+           margin-top: -15px;
+        }
+    
+        .col-md-4.col-sm-12:nth-child(7)
+        {
+           margin-top: 25px;
+        }
+    
+        .col-md-4.col-sm-12:nth-child(8)
+        {
+           margin-top: 35px;
+        }
+
+        .empty
+        {
+            width: 100%;
+            height: 20px;
+        }
+
+        .poster .image .info a
+        {
+            background: rgba(0,0,0,0);
+            width: 40%;
+            height: 50px;
+            margin: -10px 0 0 2%;
+            border: 3px solid yellow;
+            padding: 9px 8px 9px 8px;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: black;
+        }
+        }
+        
+    }
+
+    @media screen and (min-width: 1050px)
+    {
+        .col-md-4.col-sm-12:nth-child(6)
+        {
+           margin-top: -340px;
+        }
+
+        .col-md-4.col-sm-12:nth-child(9)
+        {
+           margin-right: 50%;
+           margin-top: -240px;
+        }
+    }
+
+    @media screen and (min-width: 1200px)
     {
         .col-md-4.col-sm-12:nth-child(9)
         {
@@ -560,12 +648,35 @@ table
     
     }
 
+    @media screen and (max-width: 989px)
+    {
+        .col-md-4.col-sm-12:nth-child(n)
+        {
+           margin-bottom: 100px;
+           width: 80%;
+           margin-left: 10%;
+           
+        }
+
+        footer#team{
+            margin-top: 100px;
+        }
+    }
+
+
     @media screen and (max-width:400px)
     {
         #wp{
             margin-bottom: 60px;
         }
-    }
+
+        
+        .col-md-4.col-sm-12:nth-child(n)
+        {
+            width: 100%;
+            margin-left: 0;
+        }
+    }   
 
     #wp , #wp .winner
     {
