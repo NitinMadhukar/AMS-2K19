@@ -27,6 +27,8 @@
     <!-- fonts -->
     <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- animation in css -->
 
@@ -37,12 +39,13 @@
     <link rel="stylesheet" type="text/css" href="css/game.css" />
     <script type="text/javascript" src="js/game.js"></script>
 
-    <!-- Navbar -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Scroll Effect -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+
+    <!-- MainMenu -->
+    <link rel="stylesheet" href="css/mainmenu.css">
 
     <!-- Fix Internet Explorer ______________________________________-->
 
@@ -62,45 +65,52 @@
 			==============================================
 -->
     <div class="main-page-wrapper">
-        <div class="content">
-            <div class="background"></div>
-        </div>
-        <nav class="menu">
-            <div class="menu__item menu__item--1" data-direction="bt">
-                <div class="menu__item-inner">
-                    <div class="mainmenu">
-                        <a href="index.html" class="mainmenu__item">Home</a>
-                        <a href="#about-us" class="mainmenu__item ">About Us</a>
-                        <a href="#service-section" class="mainmenu__item ">Services</a>
-                        <a href="gallery.html" class="mainmenu__item">Gallery</a>
-                        <a href="events.html" class="mainmenu__item">Events</a>
-                        <a href="team.html" class="mainmenu__item">Team</a>
-                        <a href="#contact-section" class="mainmenu__item ">Contact Us</a>
-                    </div>
-                    <p class="label label--topleft label--vert-mirror">Thunderbolt AMS</p>
-                    <p class="label label--bottomright label--vert">Thunderbolt AMS</p>
-                    <div class="list">
-                        <ul>
-                            <li><a href="https://www.facebook.com/AMS.IIITA/" class="social "><i
-                                        class="fa fa-facebook-f list-pipe" aria-hidden="true"></i></a></li>
-                            <li><a href="https://www.youtube.com/channel/UCiTmQIcZr59tzm_gUPtJ_mw" class="social"><i
-                                        class="fa fa-youtube list-pipe" aria-hidden="true"></i></a></li>
-                            <li><a href="https://www.instagram.com/thunderboltams/" class="social"><i
-                                        class="fa fa-instagram list-pipe" aria-hidden="true"></i></a></li>
-                            <li><a href="mailto:ams.society@iiita.ac.in" class="social"><i
-                                        class="fa fa-envelope list-pipe" aria-hidden="true"></i></a></li>
-                            <li><a href="https://www.flickr.com/photos/ams_iiita/collections" class="social"><i
-                                        class="fa fa-flickr list-pipe-last" aria-hidden="true"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <button class="action action--menu"><img src="img/menu.svg" width="30px" height="30px"></button>
-            <button class="action action--close"><img src="img/close.svg" width="30px" height="30px"></button>
 
+        <a id="header-menu-trigger" href="#0">
+            <span class="header-menu-text"></span>
+            <span class="header-menu-icon"></span>
+        </a>
+
+        <nav id="menu-nav-wrap">
+
+            <a href="#0" class="close-button" title="close"><img src="img/close.svg" width="30px" height="30px"></a>
+            <ul class="nav-list">
+                <li class="current"><a class="smoothscroll mainmenu__item" href="#home" title="">Home</a></li>
+                <li><a class="smoothscroll mainmenu__item" href="#about-us" title="">About Us</a></li>
+                <li><a class="smoothscroll mainmenu__item" href="#service-section" title="">Services</a></li>
+                <li><a class="smoothscroll mainmenu__item" href="gallery.html" title="">Gallery</a></li>
+                <li>
+                    <a class="smoothscroll mainmenu__item" href="events.html" title="">Events</a>
+                </li>
+                <li>
+                    <a class="smoothscroll mainmenu__item" href="team.html" title="">Team</a>
+                </li>
+                <li>
+                    <a class="smoothscroll mainmenu__item" href="#contact-section" title="">Contact Us</a>
+                </li>
+            </ul>
+            <p class="label label--topleft label--vert-mirror">Thunderbolt AMS</p>
+            <p class="label label--bottomright label--vert">Thunderbolt AMS</p>
+
+            <ul class="header-social-list">
+                <li>
+                    <a href="https://www.facebook.com/AMS.IIITA/"><i class="fa fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.flickr.com/photos/ams_iiita/"><i class="fa fa-flickr"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/thunderboltams/"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="mailto:ams.society@iiita.ac.in"><i class="fa fa-envelope"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/channel/UCiTmQIcZr59tzm_gUPtJ_mw"><i class="fa fa-youtube"></i></a>
+                </li>
+            </ul>
 
         </nav>
-
         <!--
 			=====================================================
 				Theme Main Page
@@ -108,43 +118,45 @@
 			-->
 
         <!-- MAIN IMAGE -->
-        <div class="game-holder" id="gameHolder">
-            <div class="header">
-                <div class="content">
-                    <div class="random"><span class="nbr ltr">0</span><span class="nbr ltr">0</span><span class="nbr ltr">0</span><span class="nbr ltr">0</span><span class="nbr ltr">0</span><span class="nbr ltr">0</span><span class="nbr ltr">0</span><span class="nbr ltr">0</span>
-                        <span class="nbr ltr">0</span><span class="nbr ltr">0</span><span class="nbr ltr">0</span><span class="nbr ltr"> </span><span class="nbr ltr">0</span><span class="nbr ltr">0</span><span class="nbr ltr">0</span>
+        <section id="home">
+            <div class="game-holder" id="gameHolder">
+                <div class="header">
+                    <div class="content">
+                        <div class="random"><span class="nbr ltr">0</span><span class="nbr ltr">0</span><span class="nbr ltr">0</span><span class="nbr ltr">0</span><span class="nbr ltr">0</span><span class="nbr ltr">0</span><span class="nbr ltr">0</span><span class="nbr ltr">0</span>
+                            <span class="nbr ltr">0</span><span class="nbr ltr">0</span><span class="nbr ltr">0</span><span class="nbr ltr"> </span><span class="nbr ltr">0</span><span class="nbr ltr">0</span><span class="nbr ltr">0</span>
+                        </div>
                     </div>
-                </div>
-                <h2>See The World Through Our Perspective</h2>
-                <h2>See Our Projects</h2>
-                <div class="score" id="score">
-                    <div class="score__content" id="level">
-                        <div class="score__label">level</div>
-                        <div class="score__value score__value--level" id="levelValue">1</div>
-                        <svg class="level-circle" id="levelCircle" viewbox="0 0 200 200">
-                            <circle id="levelCircleBgr" r="80" cx="100" cy="100" fill="none" stroke="#d1b790"
-                                stroke-width="24px" />
-                            <circle id="levelCircleStroke" r="80" cx="100" cy="100" fill="none" #f25346 stroke="#68c3c0"
-                                stroke-width="14px" stroke-dasharray="502" />
-                        </svg>
-                    </div>
-                    <div class="score__content" id="dist">
-                        <div class="score__label">distance</div>
-                        <div class="score__value score__value--dist" id="distValue">000</div>
-                    </div>
-                    <div class="score__content" id="energy">
-                        <div class="score__label">energy</div>
-                        <div class="score__value score__value--energy" id="energyValue">
-                            <div class="energy-bar" id="energyBar"></div>
+                    <h2>See The World Through Our Perspective</h2>
+                    <h2>See Our Projects</h2>
+                    <div class="score" id="score">
+                        <div class="score__content" id="level">
+                            <div class="score__label">level</div>
+                            <div class="score__value score__value--level" id="levelValue">1</div>
+                            <svg class="level-circle" id="levelCircle" viewbox="0 0 200 200">
+                                <circle id="levelCircleBgr" r="80" cx="100" cy="100" fill="none" stroke="#d1b790"
+                                    stroke-width="24px" />
+                                <circle id="levelCircleStroke" r="80" cx="100" cy="100" fill="none" #f25346
+                                    stroke="#68c3c0" stroke-width="14px" stroke-dasharray="502" />
+                            </svg>
+                        </div>
+                        <div class="score__content" id="dist">
+                            <div class="score__label">distance</div>
+                            <div class="score__value score__value--dist" id="distValue">000</div>
+                        </div>
+                        <div class="score__content" id="energy">
+                            <div class="score__label">energy</div>
+                            <div class="score__value score__value--energy" id="energyValue">
+                                <div class="energy-bar" id="energyBar"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="world" id="world"></div>
+                <div class="message message--replay" id="replayMessage">Click to Replay</div>
+                <div class="message message--instructions" id="instructions">Grab the blue pills<span>avoid
+                        the red stones</span></div>
             </div>
-            <div class="world" id="world"></div>
-            <div class="message message--replay" id="replayMessage">Click to Replay</div>
-            <div class="message message--instructions" id="instructions">Grab the blue pills<span>avoid
-                    the red stones</span></div>
-        </div>
+        </section>
 
 
 
@@ -783,16 +795,24 @@
         <script type="text/javascript" src="js/theme.js"></script>
 
         <!-- Navbar js -->
-        <script src="js/imagesloaded.pkgd.min.js"></script>
-        <script src="js/TweenMax.min.js"></script>
+
         <script type="text/javascript" src="js/three.min.js"></script>
-        <script type="text/javascript" src="js/menu.js"></script>
+
 
         <!-- Scroll Effect -->
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>
             AOS.init();
         </script>
+
+
+        <!-- Java Script
+   ================================================== -->
+        <script src="js/modernizr.js"></script>
+        <script src="js/pace.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/mainmenu.js"></script>
+
 
     </div>
     <!-- /.main-page-wrapper -->
