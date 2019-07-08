@@ -51,14 +51,6 @@ function scrollToTop () {
   }
 }
 
-// Mixitup gallery
-function mixitupGallery () {
-  var mixItem = $(".project-gallery");
-  if (mixItem.length) {
-        mixItem .mixItUp()
-  };
-}
-
 // Progress Bar
 function bootstrapProgress () {
   var smartskill = $ ('.skills');
