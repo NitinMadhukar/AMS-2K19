@@ -1,410 +1,444 @@
-.nav{
+.nav {
     overflow: hidden;
-	background-color: black;
-	position: fixed;
-	top: 0;
-	height: 50px;
-	width: 100%;
-	z-index: 10;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 10;
 }
 
-.nav ul{
-    margin: 12px 0 0 0 ;
+.nav ul {
+    margin: 12px 0 0 0;
     padding: 0;
     font-size: 18px;
     font-family: Arial;
 }
 
-.nav ul li{
+.nav ul li {
     display: inline;
-} 
+}
 
-.right{
+.right {
     float: right;
 }
 
-.nav ul li a{
+.nav ul li a {
     color: white;
 }
 
-.left{
+.left {
     margin-left: 2.5%;
 }
 
-.right{
+.right {
     margin-right: 2.5%;
 }
 
-.nav ul li a:hover{
+.nav ul li a:hover {
     font-size: 19px;
     transition-delay: 0.2s;
     transition-duration: 0.4s;
-	color: yellow;
-	text-decoration: none;
-}
-.team{
-	text-align: center;
-	width: 100%;
-	margin: 40px 0 100px 0;
- }
- .team h1{
-	 font-size: 100px;
-  	}
-	 .team h1 #our{
-	 color:orangered;
- }
-
-.spoc{
-	border-radius:50%;
-	filter: grayscale(0);
+    color: yellow;
+    text-decoration: none;
 }
 
-.details{
-	text-align: center;
+.team {
+    text-align: center;
+    width: 100%;
+    margin: 40px 0 100px 0;
 }
 
-h4.name{
-	margin-top: 15px;
-	margin-bottom: 0;
-	font-weight: 700;
+.team h1 {
+    font-size: 100px;
 }
 
-hr.yellow{
-	margin-top: 5px;
-	margin-bottom: 5px;
+.team h1 #our {
+    color: orangered;
 }
 
-#r1{
-	margin-left: 34%;
-	margin-bottom: 60px;
+.spoc {
+    border-radius: 50%;
+    filter: grayscale(0);
 }
 
-#r2{
-	margin-bottom: 60px;
-	margin-left: 5%;
-	margin-right: 5%;
-	
+.details {
+    text-align: center;
 }
 
-.team-member{
-	margin-left: 10%;
-	margin-right: 10%;
+h4.name {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-weight: 700;
 }
 
-#r3{
-	margin-left: 25%;
-	margin-bottom: 60px;
-
+hr.yellow {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-#r4{
-	margin-bottom: 60px;
-	margin-left: 5%;
-	margin-right: 5%;
-	
+#r1 {
+    margin-left: 34%;
+    margin-bottom: 60px;
 }
 
-#first{
-	margin-right: 5%;
+#r2 {
+    margin-bottom: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-#second{
-	margin-left: 5%;
+.team-member {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-.developer{
-	margin-left: 15%;
-	margin-right: 15%;
+#r3 {
+    margin-left: 25%;
+    margin-bottom: 60px;
 }
 
-#r5{
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-bottom: 40px;
+#r4 {
+    margin-bottom: 60px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-#r5 .col-md-3.col-sm-6.col-xs-6{
-	padding-left: 20px;
-	padding-right: 20px;
+#first {
+    margin-right: 5%;
 }
 
-#r6{
-	margin-bottom: 40px; 
+#second {
+    margin-left: 5%;
 }
 
-.col-md-2.col-md-offset-1.col-sm-6.col-xs-6
-{
-	margin-left: 3%;
+.developer {
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
-@media screen and (max-width: 980px)
-{
-	#r1{
-		margin-left: 10%;
-		margin-right: 10%;
-	}
-
-	.team-member{
-		margin-left: 15%;
-		margin-right: 15%;
-	}
-
-	.se-member{
-		margin-left: 15%;
-		margin-right: 15%;
-	}
-
-	#r3
-	{
-		margin-left: 0;
-	}
-	
-	#first{
-		margin-right: 15%;
-	}
-
-	#second{
-		margin-left: 15%;
-	}
-
-	.col-md-2.col-md-offset-1.col-sm-6.col-xs-6
-	{
-	margin-left: 0%;
-	}
-
-	#r6{
-		margin-left: 1%;
-	} .team h1{
-		font-size: 80px;
-		 }
+#r5 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 40px;
 }
 
-@media screen and (max-width: 400px)
-{
-
-	#r1{
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-
-	.team-member{
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-
-	.se-member{
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-
-	#r3{
-		margin: 0;
-	}
-	.team h1{
-		font-size: 36px;
-		 }
-	#first{
-		margin-right: 5%;
-	}
-
-	#second{
-		margin-left: 5%;
-	}
-
-	#r5.member, #r6.member{
-		margin: 0;
-	}
-
+#r5 .col-md-3.col-sm-6.col-xs-6 {
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-
-
-@media screen and (max-width: 400px){
-
-	#r2 div.col-lg-4.col-md-4.col-sm-12{
-		margin-bottom: 40px;
-	}
-
-	#r2{
-		margin-bottom: 20px;
-	}
-
-	#r3 div.col-lg-4.col-md-4.col-sm-12{
-		margin-bottom: 40px;
-	}
-
-	#r3{
-		margin-bottom: 20px;
-	}
-
-	#r4 div.col-lg-4.col-md-4.col-sm-12{
-		margin-bottom: 40px;
-	}
-
-	#r4{
-		margin-bottom: 20px;
-	}
-
-	#r5 .col-md-3.col-sm-6.col-xs-6{
-		margin-bottom: 25px;
-	}
-
-	#r6 .col-md-2.col-md-offset-1.col-sm-6.col-xs-6{
-		margin-bottom: 25px;
-	}
+#r6 {
+    margin-bottom: 40px;
 }
 
-#team-member , #team-member #spoc{
-
-	overflow: hidden;
-	position: relative;
-	text-align: center;
-
+.col-md-2.col-md-offset-1.col-sm-6.col-xs-6 {
+    margin-left: 3%;
 }
 
-#team-member #spoc .links
-{
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;
-	background: rgba(235, 11, 11, 0.5);
-	opacity: 1;
-	padding: 50% 0 0 0;
-	text-align:center;
-	transform: scale(1,0);
-	transform-origin: 0% 0%;
+@media screen and (max-width: 980px) {
+    #r1 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .team-member {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .se-member {
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    #r3 {
+        margin-left: 0;
+    }
+    #first {
+        margin-right: 15%;
+    }
+    #second {
+        margin-left: 15%;
+    }
+    .col-md-2.col-md-offset-1.col-sm-6.col-xs-6 {
+        margin-left: 0%;
+    }
+    #r6 {
+        margin-left: 1%;
+    }
+    .team h1 {
+        font-size: 80px;
+    }
 }
 
-#team-member #spoc .links h4, #team-member #spoc .links span, #team-member #spoc .links a{
-
-	opacity: 0;
-	transition-delay: 0.5s;
-
+@media screen and (max-width: 400px) {
+    #r1 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .team-member {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .se-member {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #r3 {
+        margin: 0;
+    }
+    .team h1 {
+        font-size: 36px;
+    }
+    #first {
+        margin-right: 5%;
+    }
+    #second {
+        margin-left: 5%;
+    }
+    #r5.member,
+    #r6.member {
+        margin: 0;
+    }
 }
 
-#team-member #spoc .links h4
-{
-	font-family: 'Architects Daughter', cursive;
-	color: white;
-	font-size: 2vw;
-	margin-bottom: 3px;
-}
-#team-member #spoc .links h4
-{
-	font-family: 'Architects Daughter', cursive;
-	color: white;
-	font-size: 1.5vw;
-	margin-bottom: 3px;
-}
-
-#team-member #spoc .links span{
-	font-family: 'Architects Daughter', cursive;
-	color: white;
-	font-size: 16px;
-}
-
-#team-member #spoc .links a{
-
-	color: yellow;
-	padding: 0 0 0 5px;
-
-}
-
-#team-member:hover #spoc .links
-{
-	border-radius: 50%;
-	transition: all 0.5s ease-in-out;
-
+@media screen and (max-width: 400px) {
+    #r2 div.col-lg-4.col-md-4.col-sm-12 {
+        margin-bottom: 40px;
+    }
+    #r2 {
+        margin-bottom: 20px;
+    }
+    #r3 div.col-lg-4.col-md-4.col-sm-12 {
+        margin-bottom: 40px;
+    }
+    #r3 {
+        margin-bottom: 20px;
+    }
+    #r4 div.col-lg-4.col-md-4.col-sm-12 {
+        margin-bottom: 40px;
+    }
+    #r4 {
+        margin-bottom: 20px;
+    }
+    #r5 .col-md-3.col-sm-6.col-xs-6 {
+        margin-bottom: 25px;
+    }
+    #r6 .col-md-2.col-md-offset-1.col-sm-6.col-xs-6 {
+        margin-bottom: 25px;
+    }
 }
 
-#team-member:hover #spoc .links{
-	opacity: 1;
-	transform: scale(1);
+#team-member,
+#team-member #spoc {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
 }
 
-#team-member:hover #spoc .links h4, #team-member:hover #spoc .links span, #team-member:hover #spoc .links a{
-	opacity: 1;
+#team-member #spoc .links {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(235, 11, 11, 0.5);
+    opacity: 1;
+    padding: 50% 0 0 0;
+    text-align: center;
+    transform: scale(1, 0);
+    transform-origin: 0% 0%;
 }
 
-.spoc:hover{
-	transition: 1s;
-	opacity: 0.5;
-	filter: grayscale(50%);
+#team-member #spoc .links h4,
+#team-member #spoc .links span,
+#team-member #spoc .links a {
+    opacity: 0;
+    transition-delay: 0.5s;
 }
 
-#team-member #spoc{
-	text-align: center;
-} 
-
-.col-md-3.col-sm-6.col-xs-6 #team-member .member #spoc .links
-{
-	padding: 35% 0 0 0;
+#team-member #spoc .links h4 {
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+    font-size: 2vw;
+    margin-bottom: 3px;
 }
 
-#r4 .col-lg-4.col-md-4.col-sm-12 .developer #spoc .links{
-	padding: 50% 0 0 0;
+#team-member #spoc .links h4 {
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+    font-size: 1.5vw;
+    margin-bottom: 3px;
 }
 
-#r6 #team-member .member #spoc .links
-{
-	padding: 20% 0 0 0;
+#team-member #spoc .links span {
+    font-family: 'Architects Daughter', cursive;
+    color: white;
+    font-size: 16px;
 }
 
-
-@media screen and (max-width: 980px)
-{
-	#team-member #spoc .links h4
-	{
-		font-size: 5vw;
-	}
-
-	#team-member #spoc .links span{
-
-		font-size: 24px;
-	}
-
+#team-member #spoc .links a {
+    color: yellow;
+    padding: 0 0 0 5px;
 }
 
-
-@media screen and (max-width: 400px)
-{
-	#team-member #spoc .links h4
-	{
-		font-size: 7vw;
-	}
-
-	#team-member #spoc .links span{
-
-		font-size: 18px;
-	}
-
-	.col-lg-4.col-md-4.col-sm-12 #team-member .developer #spoc .links
-	{
-		padding: 50% 0 0 0;
-	}
-
-	#r6 #team-member .member #spoc .links h4, .col-md-3.col-sm-6.col-xs-6 #team-member .member #spoc .links h4 {
-		 font-size: 0px;
-	}
-
-	.col-md-3.col-sm-6.col-xs-6 #team-member .member #spoc .links
-	{
-	padding: 30% 0 0 0;
-	}
-
-	#r6 #team-member .member #spoc .links
-	{
-	padding: 30% 0 0 0;
-	}
-
-
+#team-member:hover #spoc .links {
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
 }
+
+#team-member:hover #spoc .links {
+    opacity: 1;
+    transform: scale(1);
+}
+
+#team-member:hover #spoc .links h4,
+#team-member:hover #spoc .links span,
+#team-member:hover #spoc .links a {
+    opacity: 1;
+}
+
+.spoc:hover {
+    transition: 1s;
+    opacity: 0.5;
+    filter: grayscale(50%);
+}
+
+#team-member #spoc {
+    text-align: center;
+}
+
+.col-md-3.col-sm-6.col-xs-6 #team-member .member #spoc .links {
+    padding: 35% 0 0 0;
+}
+
+#r4 .col-lg-4.col-md-4.col-sm-12 .developer #spoc .links {
+    padding: 50% 0 0 0;
+}
+
+#r6 #team-member .member #spoc .links {
+    padding: 20% 0 0 0;
+}
+
+@media screen and (max-width: 980px) {
+    #team-member #spoc .links h4 {
+        font-size: 5vw;
+    }
+    #team-member #spoc .links span {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #team-member #spoc .links h4 {
+        font-size: 7vw;
+    }
+    #team-member #spoc .links span {
+        font-size: 18px;
+    }
+    .col-lg-4.col-md-4.col-sm-12 #team-member .developer #spoc .links {
+        padding: 50% 0 0 0;
+    }
+    #r6 #team-member .member #spoc .links h4,
+    .col-md-3.col-sm-6.col-xs-6 #team-member .member #spoc .links h4 {
+        font-size: 0px;
+    }
+    .col-md-3.col-sm-6.col-xs-6 #team-member .member #spoc .links {
+        padding: 30% 0 0 0;
+    }
+    #r6 #team-member .member #spoc .links {
+        padding: 30% 0 0 0;
+    }
+}
+
 
 /*.col-md-6.col-sm-12, .col-lg-4.col-md-4.col-sm-12, .col-md-3.col-sm-6.col-xs-6 , .col-md-2.col-md-offset-1 .col-sm-6.col-xs-6
 {
 	padding: 0;
 }*/
 
+i {
+    font-size: 24px;
+}
 
+footer {
+    margin: 100px 0 0 0;
+    background: #1e1e1e;
+    padding: 60px 0 25px 0;
+    text-align: center;
+}
+
+footer .logo {
+    margin-bottom: 20px;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-top: 13px;
+}
+
+footer ul li a {
+    width: 45px;
+    height: 48px;
+    font-size: 14px;
+    margin: 0 7px;
+    padding-top: 3px;
+    border: 1px solid transparent;
+}
+
+footer ul li a i {
+    font-size: 19px;
+}
+
+footer ul li:nth-child(1) a {
+    color: #3b5998;
+    border-color: #3b5998;
+}
+
+footer ul li:nth-child(2) a {
+    color: #c4302b;
+    border-color: #c4302b;
+}
+
+footer ul li:nth-child(3) a {
+    color: #fb3958;
+    border-color: #fb3958;
+}
+
+footer ul li:nth-child(4) a {
+    color: #b23121;
+    border-color: #b23121;
+}
+
+footer ul li:nth-child(5) a {
+    color: #0063dc;
+    border-color: #0063dc;
+}
+
+footer ul li:nth-child(1) a:hover {
+    background: #3b5998;
+}
+
+footer ul li:nth-child(2) a:hover {
+    background: #c4302b;
+}
+
+footer ul li:nth-child(3) a:hover {
+    background: #fb3958;
+}
+
+footer ul li:nth-child(4) a:hover {
+    background: #b23121;
+}
+
+footer ul li:nth-child(5) a:hover {
+    background: #0063dc;
+}
+
+footer ul li a:hover {
+    color: #fff !important;
+}
+
+footer p {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 50px;
+}
