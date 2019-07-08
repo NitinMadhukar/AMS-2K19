@@ -1,213 +1,222 @@
-.nav{
-  background:  black;
-  width: 80%;
-  height: 40px;
-
+.nav {
+    background: black;
+    width: 80%;
+    height: 40px;
 }
-ul{
-    margin: 100px 0 ;
+
+ul {
+    margin: 100px 0;
     padding: 0;
     font-size: 16px;
     font-family: Arial;
 }
-.right{
-  float: right;
+
+.right {
+    float: right;
 }
 
-a{
-  color: white;
+a {
+    color: white;
 }
 
-.left{
-  margin-left: 2.5%;
+.left {
+    margin-left: 2.5%;
 }
 
-.right{
-  margin-right: 2.5%;
+.right {
+    margin-right: 2.5%;
 }
 
-a:hover{
-  font-size: 17px;
-  transition-delay: 0.2s;
-  transition-duration: 0.4s;
-  color: yellow;
+a:hover {
+    font-size: 17px;
+    transition-delay: 0.2s;
+    transition-duration: 0.4s;
+    color: yellow;
 }
 
-.nav{
-overflow: hidden;
-background-color: black;
-position: fixed;
-top: 0;
-height: 80px;
-width: 100%;
-z-index: 10;
+.nav {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    height: 80px;
+    width: 100%;
+    z-index: 10;
 }
 
 .body {
-  padding-bottom:0;
-  padding-top:100px;
- 
-  background-color: #eee;
+    padding-bottom: 0;
+    padding-top: 100px;
+    background-color: #eee;
 }
+
 .hello {
-  opacity: 1 !important;
-  
+    opacity: 1 !important;
 }
+
 .full {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  padding-top:40px;
-
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    padding-top: 40px;
 }
+
 .full .content {
-  background-color: rgba(0,0,0,0.75) !important;
-  height: 100%;
-  width: 100%;
-  display: grid;
+    background-color: rgba(0, 0, 0, 0.75) !important;
+    height: 100%;
+    width: 100%;
+    display: grid;
 }
+
 .full .content img {
-  left: 50%;
-  transform: translate3d(0, 0, 0);
-  animation: zoomin 1s ease;
-  max-width: 100%;
-  max-height: 100%;
-  margin: auto;
- }
+    left: 50%;
+    transform: translate3d(0, 0, 0);
+    animation: zoomin 1s ease;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
 .byebye {
-  opacity: 0;
-
+    opacity: 0;
 }
+
 .byebye:hover {
-  transform: scale(0.2) !important;
-
+    transform: scale(0.2) !important;
 }
+
 .gallery {
-  display: grid;
-  grid-column-gap: 8px;
-  grid-row-gap: 8px;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-auto-rows: 8px;
-  padding-top:100px;
-  margin:10px 50px;
+    display: grid;
+    grid-column-gap: 8px;
+    grid-row-gap: 8px;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-auto-rows: 8px;
+    padding-top: 100px;
+    margin: 10px 50px;
 }
+
 .gallery img {
-  max-width: 100%;
-  box-shadow: 0 0 16px #333;
-  transition: all 1.5s ease;
-  
-  }
+    max-width: 100%;
+    box-shadow: 0 0 16px #333;
+    transition: all 1.5s ease;
+}
+
 .gallery img:hover {
-  box-shadow: 0 0 32px #333;
-  filter: grayscale(100%);
-  transform: scale(1.05);
- }
+    box-shadow: 0 0 32px #333;
+    filter: grayscale(100%);
+    transform: scale(1.05);
+}
+
 .gallery .content {
-  padding: 4px;
-  
+    padding: 4px;
 }
+
 .gallery .gallery-item {
-  transition: grid-row-start 300ms linear;
-  transition: transform 300ms ease;
-  transition: all 0.5s ease;
-  cursor: pointer;
+    transition: grid-row-start 300ms linear;
+    transition: transform 300ms ease;
+    transition: all 0.5s ease;
+    cursor: pointer;
 }
+
 .gallery .gallery-item:hover {
-  transform: scale(1.025);
-  
+    transform: scale(1.025);
 }
+
 @media (max-width: 600px) {
-  .gallery {
-    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
-  }
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    }
 }
+
 @media (max-width: 400px) {
-  .gallery {
-    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
-  }
+    .gallery {
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+    }
 }
+
 @-moz-keyframes zoomin {
-  0% {
-    max-width: 50%;
-    transform: rotate(-30deg);
-    filter: blur(4px);
-  }
-  30% {
-    filter: blur(4px);
-    transform: rotate(-80deg);
-  }
-  70% {
-    max-width: 50%;
-    transform: rotate(45deg);
-  }
-  100% {
-    max-width: 100%;
-    transform: rotate(0deg);
-
-  }
+    0% {
+        max-width: 50%;
+        transform: rotate(-30deg);
+        filter: blur(4px);
+    }
+    30% {
+        filter: blur(4px);
+        transform: rotate(-80deg);
+    }
+    70% {
+        max-width: 50%;
+        transform: rotate(45deg);
+    }
+    100% {
+        max-width: 100%;
+        transform: rotate(0deg);
+    }
 }
+
 @-webkit-keyframes zoomin {
-  0% {
-    max-width: 50%;
-    transform: rotate(-30deg);
-    filter: blur(4px);
-  }
-  30% {
-    filter: blur(4px);
-    transform: rotate(-80deg);
-  }
-  70% {
-    max-width: 50%;
-    transform: rotate(45deg);
-  }
-  100% {
-    max-width: 100%;
-    transform: rotate(0deg);
-  }
+    0% {
+        max-width: 50%;
+        transform: rotate(-30deg);
+        filter: blur(4px);
+    }
+    30% {
+        filter: blur(4px);
+        transform: rotate(-80deg);
+    }
+    70% {
+        max-width: 50%;
+        transform: rotate(45deg);
+    }
+    100% {
+        max-width: 100%;
+        transform: rotate(0deg);
+    }
 }
+
 @-o-keyframes zoomin {
-  0% {
-    max-width: 50%;
-    transform: rotate(-30deg);
-    filter: blur(4px);
-  }
-  30% {
-    filter: blur(4px);
-    transform: rotate(-80deg);
-  }
-  70% {
-    max-width: 50%;
-    transform: rotate(45deg);
-  }
-  100% {
-    max-width: 100%;
-    transform: rotate(0deg);
-
-  }
+    0% {
+        max-width: 50%;
+        transform: rotate(-30deg);
+        filter: blur(4px);
+    }
+    30% {
+        filter: blur(4px);
+        transform: rotate(-80deg);
+    }
+    70% {
+        max-width: 50%;
+        transform: rotate(45deg);
+    }
+    100% {
+        max-width: 100%;
+        transform: rotate(0deg);
+    }
 }
+
 @keyframes zoomin {
-  0% {
-    max-width: 50%;
-    transform: rotate(-30deg);
-    filter: blur(4px);
-  }
-  30% {
-    filter: blur(4px);
-    transform: rotate(-80deg);
-  }
-  70% {
-    max-width: 50%;
-    transform: rotate(45deg);
-  }
-  100% {
-    max-width: 100%;
-    transform: rotate(0deg);
-
-  }
+    0% {
+        max-width: 50%;
+        transform: rotate(-30deg);
+        filter: blur(4px);
+    }
+    30% {
+        filter: blur(4px);
+        transform: rotate(-80deg);
+    }
+    70% {
+        max-width: 50%;
+        transform: rotate(45deg);
+    }
+    100% {
+        max-width: 100%;
+        transform: rotate(0deg);
+    }
 }
+
 
 /***
 
@@ -216,71 +225,82 @@ z-index: 10;
 ====================================================================
 
  ***/
- footer {
-  margin: 100px 0 0 0;
-  background: #1e1e1e;
-  padding: 60px 0 25px 0;
-  text-align: center;
+
+footer {
+    margin: 100px 0 0 0;
+    background: #1e1e1e;
+    padding: 60px 0 25px 0;
+    text-align: center;
 }
+
 footer .logo {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
+
 footer ul li {
-  display: inline-block;
-  margin-top: 13px;
+    display: inline-block;
+    margin-top: 13px;
 }
+
 footer ul li a {
-  width: 45px;
-  line-height: 45px;
-  font-size: 18px;
-  margin: 0 7px;
-  border:1px solid transparent;
+    width: 45px;
+    line-height: 45px;
+    font-size: 18px;
+    margin: 0 7px;
+    border: 1px solid transparent;
 }
+
 footer ul li:nth-child(1) a {
-  color: #3b5998;
-  border-color:#3b5998;
+    color: #3b5998;
+    border-color: #3b5998;
 }
+
 footer ul li:nth-child(2) a {
-  color: #c4302b;
-  border-color:#c4302b;
+    color: #c4302b;
+    border-color: #c4302b;
 }
+
 footer ul li:nth-child(3) a {
-  color: #fb3958;
-  border-color:#fb3958;
+    color: #fb3958;
+    border-color: #fb3958;
 }
+
 footer ul li:nth-child(4) a {
-  color: #b23121;
-  border-color:#b23121;
+    color: #b23121;
+    border-color: #b23121;
 }
+
 footer ul li:nth-child(5) a {
-  color: #0063dc;
-  border-color:#0063dc;
+    color: #0063dc;
+    border-color: #0063dc;
 }
 
 footer ul li:nth-child(1) a:hover {
-  background: #3b5998;
+    background: #3b5998;
 }
+
 footer ul li:nth-child(2) a:hover {
-  background: #c4302b;
+    background: #c4302b;
 }
+
 footer ul li:nth-child(3) a:hover {
-  background: #fb3958;
+    background: #fb3958;
 }
+
 footer ul li:nth-child(4) a:hover {
-  background: #b23121;
+    background: #b23121;
 }
+
 footer ul li:nth-child(5) a:hover {
-  background: #0063dc;
+    background: #0063dc;
 }
 
 footer ul li a:hover {
-  color:#fff !important;
+    color: #fff !important;
 }
+
 footer p {
-  color:#fff;
-  font-size: 15px;
-  margin-top: 50px;
+    color: #fff;
+    font-size: 15px;
+    margin-top: 50px;
 }
-
-
-

@@ -1,13 +1,4 @@
-/**
- * demo.js
- * http://www.codrops.com
- *
- * Licensed under the MIT license.
- * http://www.opensource.org/licenses/mit-license.php
- * 
- * Copyright 2018, Codrops
- * http://www.codrops.com
- */
+
 {
     // Class Menu.
     class Menu {
@@ -150,8 +141,7 @@
     imagesLoaded(document.querySelector('.background'), {background: true}, () => document.body.classList.remove('loading'));
     
     // extra stuff..
-    
-    // From http://www.quirksmode.org/js/events_properties.html#position
+   
     // Get the mouse position.
 	const getMousePos = (e) => {
         let posx = 0;
