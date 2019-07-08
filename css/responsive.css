@@ -1,5 +1,6 @@
 /* Responsive CSS Document */
 
+
 /* 
     Created on : 9/6/2019. 
     Description: AMS- ThunderBolt
@@ -7,287 +8,369 @@
    
 */
 
-
-
-
 @media (min-width: 992px) {
-	.container {
-		padding-left: 0 !important;
-		padding-right: 0 !important;
-	}
+    .container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
 }
 
 @media (max-width: 1366px) {
-  .scroll-top {bottom: 30px; right:30px;}
-  .game-holder .header .content .random{
-    font-size:3.5em;
-  }
+    .scroll-top {
+        bottom: 30px;
+        right: 30px;
+    }
+    .game-holder .header .content .random {
+        font-size: 3.5em;
+    }
+}
 
-}
 @media (max-width: 1199px) {
-  #team-section .team-member-wrapper .single-team-member .img .opacity p {padding: 0 15px;}
-  #team-section .team-member-wrapper .single-team-member .img .opacity {padding-top: 20px;}
-  .habilidades_contenedor {margin-top: 100px;}
-  .game-holder .header .content .random{
-    font-size:3.5em;
-  }
+    #team-section .team-member-wrapper .single-team-member .img .opacity p {
+        padding: 0 15px;
+    }
+    #team-section .team-member-wrapper .single-team-member .img .opacity {
+        padding-top: 20px;
+    }
+    .habilidades_contenedor {
+        margin-top: 100px;
+    }
+    .game-holder .header .content .random {
+        font-size: 3.5em;
+    }
 }
+
+
 /*(max-width: 1199px)*/
 
 @media (max-width: 991px) {
-  .game-holder .header h2{letter-spacing:auto;}
-  .theme-title p,#skill-section .img img {width: 100%;}
-  #skill-section {padding-bottom: 30px;}
-  .blog-details-page aside {margin-top: 100px;}
-  .blog-details-post-wrapper>.row p {margin-bottom: 30px;}
-  #project-section .container{
-    padding-bottom:70px;  
-    height:3000px;
- }
- .game-holder .header .content .random{
-  font-size:3.5em;
+    .game-holder .header h2 {
+        letter-spacing: auto;
+    }
+    .theme-title p,
+    #skill-section .img img {
+        width: 100%;
+    }
+    #skill-section {
+        padding-bottom: 30px;
+    }
+    .blog-details-page aside {
+        margin-top: 100px;
+    }
+    .blog-details-post-wrapper>.row p {
+        margin-bottom: 30px;
+    }
+    #project-section .container {
+        padding-bottom: 70px;
+        height: 3000px;
+    }
+    .game-holder .header .content .random {
+        font-size: 3.5em;
+    }
 }
-}
+
+
 /*(max-width: 991px)*/
 
 @media (min-width: 992px) and (max-width: 1199px) {
-  #our-client .client-slider p {width: 70%;}
-  .recent-single-post .post {width: 75%;}
-  #about-us .container .theme-title p{
-    font-size:30px;
-  }
- 
+    #our-client .client-slider p {
+        width: 70%;
+    }
+    .recent-single-post .post {
+        width: 75%;
+    }
+    #about-us .container .theme-title p {
+        font-size: 30px;
+    }
 }
+
 
 /*(min-width: 992px) and (max-width: 1199px)*/
 
 @media (min-width: 768px) and (max-width: 991px) {
-  #project-section .project-gallery .grid-item,
-  #team-section .team-member-wrapper .float-left {width: 50%;}
-  #our-client .client-slider p {width: 90%;}
-  .inner-page-banner .opacity {padding-top: 210px;}
-  #project-section .container{
-    padding-bottom:70px;  
-    height:auto;
- }footer {
-  margin: 100px 0 0 0;
-  background: #1e1e1e;
-  margin-top: 300px;
-  padding: 60px 0 25px 0;
-  text-align: center;
+    #project-section .project-gallery .grid-item,
+    #team-section .team-member-wrapper .float-left {
+        width: 50%;
+    }
+    #our-client .client-slider p {
+        width: 90%;
+    }
+    .inner-page-banner .opacity {
+        padding-top: 210px;
+    }
+    #project-section .container {
+        padding-bottom: 70px;
+        height: auto;
+    }
+    footer {
+        margin: 100px 0 0 0;
+        background: #1e1e1e;
+        margin-top: 300px;
+        padding: 60px 0 25px 0;
+        text-align: center;
+    }
+    .game-holder .header .content .random {
+        font-size: 2.5em;
+    }
+    .game-holder .header h2 {
+        font-size: 15px;
+    }
+    #about-us .container .theme-title p {
+        font-size: 30px;
+    }
+    #service-section .row .single-service-content {
+        padding: 100px 50px 80px 40px;
+        font-size: 13px;
+    }
 }
- .game-holder .header .content .random{
-  font-size:2.5em;
-}
-.game-holder .header h2{
-  font-size:15px;
-}
-#about-us .container .theme-title p{
-  font-size:30px;
-}
-#service-section .row .single-service-content{
-  padding: 100px 50px 80px 40px;
-  font-size:13px;
-}
-}
+
+
 /*(min-width: 768px) and (max-width: 991px)*/
 
 @media (max-width: 767px) {
-  .scroll-top {bottom: 10px; right:5px;}
-  #pricing-section .single-price-table {margin-bottom: 50px;}
-  #project-section .project-gallery .grid-item {width: 50%;}
-  #team-section .team-member-wrapper .float-left,
-  #team-section .team-member-wrapper .float-left img,
-  #our-client .client-slider p {width: 100%;}
-  #team-section .team-member-wrapper .float-left,
-  #project-section .project-gallery .grid-item,
-  #service-section .row [class*="col-"],#skill-section [class*="col-"],
-  #pricing-section [class*="col-"],#contact-section .send-message,
-  #contact-section .contact-address-content [class*="col-"],
-  #blog-section [class*="col-"],.theme-main-header .container,
-  .blog-details-page .p-fix {padding-left: 0;padding-right: 0;}
-  #project-section .container{
-    padding-bottom:70px;  
-    height:auto;
- }
- .game-holder .header .content .random{
-  font-size:2em;
-}
-.game-holder .header h2{
-  font-size:10px;
-}
-#about-us .container .theme-title p{
-  font-size:30px;
-}footer {
-  margin: 100px 0 0 0;
-  background: #1e1e1e;
-  margin-top: 400px;
-  padding: 60px 0 25px 0;
-  text-align: center;
-}
-footer#team {
-  margin: 20px 0 0 0;
-  background: #1e1e1e;
-  padding: 60px 0 25px 0;
-  text-align: center;
+    .scroll-top {
+        bottom: 10px;
+        right: 5px;
+    }
+    #pricing-section .single-price-table {
+        margin-bottom: 50px;
+    }
+    #project-section .project-gallery .grid-item {
+        width: 50%;
+    }
+    #team-section .team-member-wrapper .float-left,
+    #team-section .team-member-wrapper .float-left img,
+    #our-client .client-slider p {
+        width: 100%;
+    }
+    #team-section .team-member-wrapper .float-left,
+    #project-section .project-gallery .grid-item,
+    #service-section .row [class*="col-"],
+    #skill-section [class*="col-"],
+    #pricing-section [class*="col-"],
+    #contact-section .send-message,
+    #contact-section .contact-address-content [class*="col-"],
+    #blog-section [class*="col-"],
+    .theme-main-header .container,
+    .blog-details-page .p-fix {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    #project-section .container {
+        padding-bottom: 70px;
+        height: auto;
+    }
+    .game-holder .header .content .random {
+        font-size: 2em;
+    }
+    .game-holder .header h2 {
+        font-size: 10px;
+    }
+    #about-us .container .theme-title p {
+        font-size: 30px;
+    }
+    footer {
+        margin: 100px 0 0 0;
+        background: #1e1e1e;
+        margin-top: 400px;
+        padding: 60px 0 25px 0;
+        text-align: center;
+    }
+    footer#team {
+        margin: 20px 0 0 0;
+        background: #1e1e1e;
+        padding: 60px 0 25px 0;
+        text-align: center;
+    }
 }
 
-}
+
 /*(max-width: 767px)*/
+
 @media (max-width: 650px) {
-  #success, #error {
-    width: 84%;
-    height: auto;
-    top: calc(50% - 50px);
-    left: 8%;
-    padding: 30px 10px;
-    margin:0;
-  }
-  .blog-details-post-wrapper .list-img-wrapper img,
-  .blog-details-post-wrapper .post-share-area ul {float:none; width: 100%;}
-  .blog-details-post-wrapper .list-img-wrapper ul {float:none;padding: 30px 0 0 0;}
-  .blog-details-post-wrapper .post-share-area .share-icon li:first-child {margin-top: 30px;}
-  .game-holder .header .content .random{
-    font-size:1.8em;
-  }
-  .game-holder .header h2{
-    font-size:0.8em;
-  }
-  
-  div#about-us p{
-    font-size:36px;
-  }
-  footer {
-    margin: 100px 0 0 0;
-    background: #1e1e1e;
-    margin-top: 400px;
-    padding: 60px 0 25px 0;
-    text-align: center;
-  }
-  #service-section .row .single-service-content{
-    height:auto;
-   }
-   #about-us .container .theme-title p{
-    font-size:22px;
-  }
-  .page-middle-banner .opacity h3{
-    font-size:25px;
-  }
- }
+    #success,
+    #error {
+        width: 84%;
+        height: auto;
+        top: calc(50% - 50px);
+        left: 8%;
+        padding: 30px 10px;
+        margin: 0;
+    }
+    .blog-details-post-wrapper .list-img-wrapper img,
+    .blog-details-post-wrapper .post-share-area ul {
+        float: none;
+        width: 100%;
+    }
+    .blog-details-post-wrapper .list-img-wrapper ul {
+        float: none;
+        padding: 30px 0 0 0;
+    }
+    .blog-details-post-wrapper .post-share-area .share-icon li:first-child {
+        margin-top: 30px;
+    }
+    .game-holder .header .content .random {
+        font-size: 1.8em;
+    }
+    .game-holder .header h2 {
+        font-size: 0.8em;
+    }
+    div#about-us p {
+        font-size: 36px;
+    }
+    footer {
+        margin: 100px 0 0 0;
+        background: #1e1e1e;
+        margin-top: 400px;
+        padding: 60px 0 25px 0;
+        text-align: center;
+    }
+    #service-section .row .single-service-content {
+        height: auto;
+    }
+    #about-us .container .theme-title p {
+        font-size: 22px;
+    }
+    .page-middle-banner .opacity h3 {
+        font-size: 25px;
+    }
+}
 
 @media (max-width: 550px) {
-  #project-section .project-gallery .grid-item,
-  #project-section .project-gallery .grid-item img {width: 100%;}
-  #project-section .project-menu ul li {font-size: 14px;margin: 15px 2px 0;border-bottom: 1px solid #fff;}
-  #team-section .team-member-wrapper .single-team-member .img .opacity span {margin: 5px 0;}
-  #team-section team-member-wrapper .single-team-member .member-name ul li a {width: 40px;line-height: 38px;}
-  .banner h1 {font-size: 35px;}
-  .blog-details-post-wrapper .comment-area .single-comment.reply-comment {margin-left: 60px;}
-  .game-holder .header .content .random{
-    font-size:1.8em;
-    margin-left:0;
-    margin-right:0;
-  }
-  .game-holder .header h2{
-    font-size:0.8em;
-  }
-  #about-us .container .theme-title p{
-    font-size:20px;
-  }
-  #service-section .row .single-service-content{
-   height:auto;
-  }
- 
-  footer {
-    margin: 100px 0 0 0;
-    background: #1e1e1e;
-    margin-top: 400px;
-    padding: 60px 0 25px 0;
-    text-align: center;
-  }
-  #project-section .container .theme-title h2{
-    font-size:35px;
-  }
-  #project-section .container .theme-title p{
-   font-size:20px;
- }
- .page-middle-banner .opacity h3{
-   font-size:25px;
- }
- .banner h6{
-  color:#e04f5d;
-  font-weight:bold;
-  font-size:15px;
-margin-top: -50px;
-}
- .adverb{
-  font-size:15px;
-color: #e04f5d;
-font-weight:bold;
-margin-top: -50px;
-}
+    #project-section .project-gallery .grid-item,
+    #project-section .project-gallery .grid-item img {
+        width: 100%;
+    }
+    #project-section .project-menu ul li {
+        font-size: 14px;
+        margin: 15px 2px 0;
+        border-bottom: 1px solid #fff;
+    }
+    #team-section .team-member-wrapper .single-team-member .img .opacity span {
+        margin: 5px 0;
+    }
+    #team-section team-member-wrapper .single-team-member .member-name ul li a {
+        width: 40px;
+        line-height: 38px;
+    }
+    .banner h1 {
+        font-size: 35px;
+    }
+    .blog-details-post-wrapper .comment-area .single-comment.reply-comment {
+        margin-left: 60px;
+    }
+    .game-holder .header .content .random {
+        font-size: 1.8em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .game-holder .header h2 {
+        font-size: 0.8em;
+    }
+    #about-us .container .theme-title p {
+        font-size: 20px;
+    }
+    #service-section .row .single-service-content {
+        height: auto;
+    }
+    footer {
+        margin: 100px 0 0 0;
+        background: #1e1e1e;
+        margin-top: 400px;
+        padding: 60px 0 25px 0;
+        text-align: center;
+    }
+    #project-section .container .theme-title h2 {
+        font-size: 35px;
+    }
+    #project-section .container .theme-title p {
+        font-size: 20px;
+    }
+    .page-middle-banner .opacity h3 {
+        font-size: 25px;
+    }
+    .banner h6 {
+        color: #e04f5d;
+        font-weight: bold;
+        font-size: 15px;
+        margin-top: -50px;
+    }
+    .adverb {
+        font-size: 15px;
+        color: #e04f5d;
+        font-weight: bold;
+        margin-top: -50px;
+    }
 }
 
 @media (max-width: 430px) {
-
-  .banner h1 {font-size: 27px;}
-  .banner h6 {font-size: 14px;}
-  .hermes.tparrows {display: none;}
-  .recent-single-post .post {width: 100%;padding: 12px 0 0 0;}
-  .game-holder .header .content .random{
-    font-size:1em;
-    margin-left:0;
-    margin-right:0;
-  }
-  .game-holder .header h2{
-    font-size:5px;  
-  }
-  #about-us .container .theme-title h2{
-    font-size:25px;
-   }
-  #about-us .container .theme-title p{
-    font-size:19px;
-    line-height:25px;  
-  }
-  footer {
-    margin: 100px 0 0 0;
-    background: #1e1e1e;
-    margin-top: 400px;
-    padding: 60px 0 25px 0;
-    text-align: center;
-  }
-  #service-section .row .single-service-content{
-    height:auto;
-   }
-   #project-section .container .theme-title h2{
-     font-size:30px;
-   }
-   #project-section .container .theme-title p{
-    font-size:20px;
-  }
-  .page-middle-banner .opacity h3 {
-    font-size:20px;
-  }
-  .banner h6{
-    color:#e04f5d;
-    font-weight:bold;
-    font-size:10px;
-  margin-top: -50px;
-  }
-   .adverb{
-    font-size:10px;
-  color: #e04f5d;
-  font-weight:bold;
-  margin-top: -50px;
-  }
+    .banner h1 {
+        font-size: 27px;
+    }
+    .banner h6 {
+        font-size: 14px;
+    }
+    .hermes.tparrows {
+        display: none;
+    }
+    .recent-single-post .post {
+        width: 100%;
+        padding: 12px 0 0 0;
+    }
+    .game-holder .header .content .random {
+        font-size: 1em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .game-holder .header h2 {
+        font-size: 5px;
+    }
+    #about-us .container .theme-title h2 {
+        font-size: 25px;
+    }
+    #about-us .container .theme-title p {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    footer {
+        margin: 100px 0 0 0;
+        background: #1e1e1e;
+        margin-top: 400px;
+        padding: 60px 0 25px 0;
+        text-align: center;
+    }
+    #service-section .row .single-service-content {
+        height: auto;
+    }
+    #project-section .container .theme-title h2 {
+        font-size: 30px;
+    }
+    #project-section .container .theme-title p {
+        font-size: 20px;
+    }
+    .page-middle-banner .opacity h3 {
+        font-size: 20px;
+    }
+    .banner h6 {
+        color: #e04f5d;
+        font-weight: bold;
+        font-size: 10px;
+        margin-top: -50px;
+    }
+    .adverb {
+        font-size: 10px;
+        color: #e04f5d;
+        font-weight: bold;
+        margin-top: -50px;
+    }
 }
 
-@media (max-width: 395px){
-  #about-us .container .theme-title h2{
-    font-size:25px;
-   }
-  #about-us .container .theme-title p{
-    font-size:15px;
-    line-height:25px;  
-  }
-} 
+@media (max-width: 395px) {
+    #about-us .container .theme-title h2 {
+        font-size: 25px;
+    }
+    #about-us .container .theme-title p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+}
