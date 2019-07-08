@@ -34,6 +34,11 @@
 /*----calendar css--------*/
 
 @import url('../vendor/monthly-master/css/monthly.css');
+.amsteam {
+    overflow: hidden;
+    top: 0;
+}
+
 img {
     max-width: 100%;
     display: block;
