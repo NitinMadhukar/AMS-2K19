@@ -1,0 +1,243 @@
+@import url("font-awesome/css/font-awesome.min.css");
+@import url("micons/micons.css");
+@import url("fonts.css");
+.main-page-wrapper #menu-nav-wrap .nav-list .mainmenu__item {
+    font-size: 2.2em;
+    text-transform: uppercase;
+    margin: 1rem 0;
+    letter-spacing: 0.15rem;
+}
+
+
+/* Thunderbolt AMS in navbar */
+
+.label {
+    display: block;
+    color: #eee;
+    position: absolute;
+    z-index: 1000;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.label--topleft {
+    top: 2rem;
+    left: -2rem;
+    font-size: 1.35em;
+}
+
+.label--vert,
+.label--vert-mirror {
+    -webkit-writing-mode: vertical-rl;
+    writing-mode: vertical-rl;
+}
+
+.label--vert-mirror {
+    transform: rotate(180deg);
+}
+
+.label--bottomright {
+    bottom: 2rem;
+    right: 3rem;
+    font-size: 1.35em;
+}
+
+.label::before {
+    content: '------------- ';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: -1px;
+    margin: 0 0.75rem 0 0;
+}
+
+.label--vert::before,
+.label--vert-mirror::before {
+    margin: 0.75rem 0;
+}
+
+
+/* ================================ */
+
+#header-menu-trigger {
+    display: block;
+    position: fixed;
+    right: 32px;
+    top: 30px;
+    height: 42px;
+    width: 42px;
+    line-height: 42px;
+    font-family: "montserrat-regular", sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color: rgba(255, 255, 255, 0.5);
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+#header-menu-trigger.opaque {
+    background-color: #000000;
+}
+
+#header-menu-trigger.opaque .header-menu-text {
+    background-color: #000000;
+}
+
+#header-menu-trigger:hover,
+#header-menu-trigger:focus {
+    color: #FFFFFF;
+}
+
+#header-menu-trigger .header-menu-icon {
+    display: block;
+    height: 3px;
+    width: 24px;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    right: 9px;
+    margin-top: -1.5px;
+}
+
+#header-menu-trigger .header-menu-icon::before,
+#header-menu-trigger .header-menu-icon::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: inherit;
+    position: absolute;
+    left: 0;
+}
+
+#header-menu-trigger .header-menu-icon::before {
+    top: -9px;
+}
+
+#header-menu-trigger .header-menu-icon::after {
+    bottom: -9px;
+}
+
+#menu-nav-wrap {
+    text-align: center;
+    background: #15171b;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 3.6rem 3rem;
+    height: 100%;
+    width: 450px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    z-index: 800;
+    -webkit-transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateX(100%);
+    -ms-transform: translateX(100%);
+    transform: translateX(100%);
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#menu-nav-wrap a,
+#menu-nav-wrap a:visited {
+    color: #d4a346;
+    cursor: pointer;
+}
+
+#menu-nav-wrap a:hover,
+#menu-nav-wrap a:focus,
+#menu-nav-wrap a:active {
+    color: white;
+}
+
+#menu-nav-wrap .nav-list {
+    margin-top: 7rem;
+    list-style: none;
+    line-height: 5rem;
+}
+
+#menu-nav-wrap .header-social-list {
+    list-style: none;
+    display: inline-block;
+    margin-top: 6rem;
+    font-size: 2.1rem;
+}
+
+#menu-nav-wrap .header-social-list li {
+    margin-right: 12px;
+    padding-left: 0;
+    display: inline-block;
+}
+
+#menu-nav-wrap .header-social-list li a {
+    color: #ae7f3b;
+    border-right: 1px solid #ae7f3b;
+    padding-left: 4px;
+    padding-right: 12px;
+}
+
+#menu-nav-wrap .header-social-list li a:hover,
+#menu-nav-wrap .header-social-list li a:focus {
+    color: white;
+}
+
+#menu-nav-wrap .header-social-list li:last-child {
+    margin: 0;
+}
+
+#menu-nav-wrap .close-button {
+    display: block;
+    height: 30px;
+    width: 30px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 36px;
+    right: 30px;
+    font: 0/0 a;
+    text-shadow: none;
+    color: transparent;
+}
+
+#menu-nav-wrap .close-button span::before,
+#menu-nav-wrap .close-button span::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 12px;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 9px;
+    margin-top: -1px;
+}
+
+#menu-nav-wrap .close-button span::before {
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+#menu-nav-wrap .close-button span::after {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.menu-is-open #menu-nav-wrap {
+    -webkit-transform: translateX(0);
+    -ms-transform: translateX(0);
+    transform: translateX(0);
+    visibility: visible;
+    -webkit-overflow-scrolling: touch;
+}

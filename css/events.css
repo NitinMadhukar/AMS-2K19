@@ -35,7 +35,6 @@
 
 @import url('../vendor/monthly-master/css/monthly.css');
 
-
 /***
 
 ====================================================================
@@ -43,7 +42,7 @@
 ====================================================================
 
 ***/
- 
+
 .scroll-top {
     width: 45px;
     height: 45px;
@@ -69,7 +68,6 @@
     background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
     background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
 }
-
 
 .amsteam {
     overflow: hidden;
@@ -455,7 +453,7 @@ img {
         height: 500px;
     }
     .poster .image .info a {
-        padding: 0;
+        padding: 5px;
     }
 }
 
