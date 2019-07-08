@@ -207,7 +207,6 @@ jQuery(document).on('ready', function() {
     (function($) {
         removePlaceholder();
         scrollToTop();
-        mixitupGallery();
         bootstrapProgress();
         clientSlider();
         partnersLogo();
