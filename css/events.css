@@ -34,6 +34,43 @@
 /*----calendar css--------*/
 
 @import url('../vendor/monthly-master/css/monthly.css');
+
+
+/***
+
+====================================================================
+ Click To Top
+====================================================================
+
+***/
+ 
+.scroll-top {
+    width: 45px;
+    height: 45px;
+    position: fixed;
+    bottom: 52px;
+    right: 80px;
+    z-index: 9999;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    display: none;
+}
+
+.scroll-top:after {
+    position: absolute;
+    z-index: -1;
+    content: '';
+    top: 100%;
+    left: 5%;
+    height: 10px;
+    width: 90%;
+    opacity: 1;
+    background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
+    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
+}
+
+
 .amsteam {
     overflow: hidden;
     top: 0;
