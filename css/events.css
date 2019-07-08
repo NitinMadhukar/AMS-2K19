@@ -224,6 +224,7 @@ a {
 
 .poster a {
     color: yellow;
+    cursor: pointer;
 }
 
 .left {

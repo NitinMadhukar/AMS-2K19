@@ -329,7 +329,7 @@ hr.yellow {
 
 @media screen and (max-width: 400px) {
     #team-member #spoc .links h4 {
-        font-size: 7vw;
+        font-size: 5vw;
     }
     #team-member #spoc .links span {
         font-size: 18px;
@@ -339,7 +339,7 @@ hr.yellow {
     }
     #r6 #team-member .member #spoc .links h4,
     .col-md-3.col-sm-6.col-xs-6 #team-member .member #spoc .links h4 {
-        font-size: 0px;
+        font-size: 5vw;
     }
     .col-md-3.col-sm-6.col-xs-6 #team-member .member #spoc .links {
         padding: 30% 0 0 0;
