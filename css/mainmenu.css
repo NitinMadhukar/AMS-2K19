@@ -61,7 +61,6 @@
 /* ================================ */
 
 #header-menu-trigger {
-    background: black;
     display: block;
     position: fixed;
     right: 10px;
@@ -79,10 +78,6 @@
     -o-transform: translate3D(0, 0, 0);
     transform: translate3D(0, 0, 0);
     z-index: 100;
-}
-
-#header-menu-trigger.opaque {
-    background-color: #000000;
 }
 
 #header-menu-trigger.opaque .header-menu-text {
