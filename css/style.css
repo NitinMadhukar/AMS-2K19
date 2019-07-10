@@ -502,7 +502,11 @@ Homepage
      color: #FFF;
      text-shadow: 0 0 40px #FFF, 0 0 30px #FFF, 0 0 5px #FFF;
      z-index: 100;
+     font-family: serif;
  }
+ .homepage .centered h6 {
+     font-family: arial;
+}
  
  .homepage #particle-canvas .logo {
      position: absolute;
