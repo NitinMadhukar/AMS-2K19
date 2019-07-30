@@ -60,6 +60,8 @@
 .spoc {
     border-radius: 50%;
     filter: grayscale(0);
+    border: 8px solid orange ;
+    border-color: transparent orange;
 }
 
 .details {
@@ -240,12 +242,12 @@ hr.yellow {
     bottom: 0;
     right: 0;
     left: 0;
-    background: rgba(235, 11, 11, 0.5);
     opacity: 1;
     padding: 50% 0 0 0;
     text-align: center;
     transform: scale(1, 0);
     transform-origin: 0% 0%;
+    
 }
 
 #team-member #spoc .links h4,
@@ -280,12 +282,18 @@ hr.yellow {
     padding: 0 0 0 5px;
 }
 
-#team-member:hover #spoc .links {
-    border-radius: 50%;
-    transition: all 0.5s ease-in-out;
+
+#team-member:hover .spoc{
+   border: none;
+    filter: grayscale(100%);
+    transition-duration: 1s;
 }
 
+
+
 #team-member:hover #spoc .links {
+    border: 8px solid orange;
+    border-radius: 50%;
     opacity: 1;
     transform: scale(1);
 }
@@ -442,3 +450,4 @@ footer p {
     font-size: 15px;
     margin-top: 50px;
 }
+
