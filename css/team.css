@@ -1,3 +1,4 @@
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 .nav {
     overflow: hidden;
     background-color: black;
@@ -58,10 +59,12 @@
 }
 
 .spoc {
-    border-radius: 50%;
     filter: grayscale(0);
-    border: 8px solid orange ;
-    border-color: transparent orange;
+    position: relative;
+    display: inline-block;
+    box-shadow: none !important;
+    -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .details {
@@ -231,12 +234,14 @@ hr.yellow {
 
 #team-member,
 #team-member #spoc {
+
     overflow: hidden;
     position: relative;
     text-align: center;
 }
 
 #team-member #spoc .links {
+
     position: absolute;
     top: 0;
     bottom: 0;
@@ -250,11 +255,16 @@ hr.yellow {
     
 }
 
+#team-member #spoc{
+    border-radius: 50%; 
+}
+
+
 #team-member #spoc .links h4,
 #team-member #spoc .links span,
 #team-member #spoc .links a {
     opacity: 0;
-    transition-delay: 0.5s;
+    transition-delay: 0.25s;
 }
 
 #team-member #spoc .links h4 {
@@ -284,19 +294,52 @@ hr.yellow {
 
 
 #team-member:hover .spoc{
-   border: none;
+    border: none;
     filter: grayscale(100%);
-    transition-duration: 1s;
+    transition-duration: 1.5s;
+}
+
+#team-member #spoc{
+    border-radius: 50%;
+    border: 5px solid ;
+    border-color: transparent orange;
 }
 
 
-
+#team-member:hover #spoc{
+    border: 6px solid;
+    opacity: 1;
+    border-color: orange;
+    transform: scale(1);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
 #team-member:hover #spoc .links {
-    border: 8px solid orange;
-    border-radius: 50%;
     opacity: 1;
     transform: scale(1);
 }
+
+#spoc:hover:before,
+#spoc#hover:before,
+#spoc:hover:after,
+#spoc#hover:after {
+  border-width: 10px;
+}
+
+#spoc:hover:before,
+#spoc#hover:before {
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#spoc:hover:after,
+#spoc#hover:after  {
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
 
 #team-member:hover #spoc .links h4,
 #team-member:hover #spoc .links span,
