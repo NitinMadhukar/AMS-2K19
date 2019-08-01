@@ -1,0 +1,142 @@
+#home {
+    background-color: #212121;
+    font-family: sans-serif;
+}
+
+.homepage .logo {
+    position: absolute;
+    margin: 10px 0;
+    z-index: 100;
+    padding-left: 10px;
+}
+
+.homepage .container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+
+.homepage .title {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    color: #ECEFF1;
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.homepage .title-2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    color: #ECEFF1;
+    font-size: 40px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.homepage .img-container {
+    display: inline-block;
+    overflow: hidden;
+    margin-left: -2.8px;
+    margin-right: -2.8px;
+    width: 170px;
+    vertical-align: top;
+    border-radius: 0px 0px 80px 80px;
+    animation-name: flow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: -2.5s;
+    transition-timing-function: cubic-bezier(0, .57, 1, .46);
+    box-shadow: 2px 2px 16px 2px rgba(0, 0, 0, 0.5);
+}
+
+.homepage .second-animation {
+    animation-delay: -2s;
+}
+
+.homepage .third-animation {
+    animation-delay: -1.5s;
+}
+
+.homepage .fourth-animation {
+    animation-delay: -1s;
+}
+
+.homepage .fifth-animation {
+    animation-delay: -0.5s;
+}
+
+.homepage .sixth-animation {
+    animation-delay: 0s;
+}
+
+.homepage .seventh-animation {
+    animation-delay: 0.5s;
+}
+
+.homepage .eight-animation {
+    animation-delay: 1s;
+}
+
+.homepage .ninth-animation {
+    animation-delay: 1.5s;
+}
+
+.homepage .tenth-animation {
+    animation-delay: 2s;
+}
+
+.homepage .eleventh-animation {
+    animation-delay: 2.5s;
+}
+
+.homepage .img {
+    object-fit: cover;
+    width: 170px;
+    height: 100vh;
+    margin-top: -60px;
+}
+
+.homepage .nba {
+    margin-top: -20px;
+}
+
+@keyframes flow {
+    0% {
+        height: 20%;
+        border-radius: 0px 0px 30px 30px;
+    }
+    50% {
+        height: 90%;
+        border-radius: 0px 0px 100px 100px;
+    }
+    100% {
+        height: 20%;
+        border-radius: 0px 0px 30px 30px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    #img-7 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1028px) {
+    #img-1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    #img-6 {
+        display: none;
+    }
+}
