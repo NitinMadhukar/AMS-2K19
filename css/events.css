@@ -237,7 +237,7 @@ a:hover {
     font-size: 19px;
     transition-delay: 0.2s;
     transition-duration: 0.4s;
-    color: yellow;
+    color: #4ecdc4;
 }
 
 #r1 {
@@ -744,4 +744,4 @@ th {
 td {
     letter-spacing: 0.7px;
     margin-top: 4px;
-}
+}   

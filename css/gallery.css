@@ -1,9 +1,53 @@
-.nav {
+/* .nav {
     background: black;
     width: 80%;
     height: 40px;
+} */
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.nav {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    height: 40px;
+    width: 100%;
+    z-index: 10;
 }
 
+.nav ul {
+    margin: 12px 0 0 0;
+    padding: 0;
+    font-size: 18px;
+    font-family: Arial;
+}
+
+.nav ul li {
+    display: inline;
+}
+
+.right {
+    float: right;
+}
+
+.nav ul li a {
+    color: white;
+}
+
+.left {
+    margin-left: 2.5%;
+}
+
+.right {
+    margin-right: 2.5%;
+}
+
+.nav ul li a:hover {
+    font-size: 19px;
+    transition-delay: 0.2s;
+    transition-duration: 0.4s;
+    color: #4ecdc4;
+    text-decoration: none;
+}
 ul {
     margin: 100px 0;
     padding: 0;
@@ -34,15 +78,7 @@ a:hover {
     color: yellow;
 }
 
-.nav {
-    overflow: hidden;
-    background-color: black;
-    position: fixed;
-    top: 0;
-    height: 80px;
-    width: 100%;
-    z-index: 10;
-}
+
 
 .body {
     padding-bottom: 0;

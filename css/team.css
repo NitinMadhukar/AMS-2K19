@@ -1,4 +1,4 @@
-@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+    @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
 .nav {
     overflow: hidden;
     background-color: black;
@@ -40,7 +40,7 @@
     font-size: 19px;
     transition-delay: 0.2s;
     transition-duration: 0.4s;
-    color: yellow;
+    color: #4ecdc4;
     text-decoration: none;
 }
 
@@ -55,7 +55,10 @@
 }
 
 .team h1 #our {
-    color: orangered;
+    color: #00b09b;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 
 .spoc {
@@ -288,7 +291,10 @@ hr.yellow {
 }
 
 #team-member #spoc .links a {
-    color: yellow;
+    color: #00b09b;  /* fallback for old browsers */
+    color: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+    color: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
     padding: 0 0 0 5px;
 }
 
@@ -302,14 +308,14 @@ hr.yellow {
 #team-member #spoc{
     border-radius: 50%;
     border: 5px solid ;
-    border-color: transparent orange;
+    border-color: transparent #4ecdc4;
 }
 
 
 #team-member:hover #spoc{
     border: 6px solid;
     opacity: 1;
-    border-color: orange;
+    border-color: #4ecdc4;
     transform: scale(1);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -400,17 +406,15 @@ hr.yellow {
     }
 }
 
+/***
 
-/*.col-md-6.col-sm-12, .col-lg-4.col-md-4.col-sm-12, .col-md-3.col-sm-6.col-xs-6 , .col-md-2.col-md-offset-1 .col-sm-6.col-xs-6
-{
-	padding: 0;
-}*/
+====================================================================
+  Footer
+====================================================================
 
-i {
-    font-size: 24px;
-}
+ ***/
 
-footer {
+ footer {
     margin: 100px 0 0 0;
     background: #1e1e1e;
     padding: 60px 0 25px 0;
@@ -428,15 +432,10 @@ footer ul li {
 
 footer ul li a {
     width: 45px;
-    height: 48px;
-    font-size: 14px;
+    line-height: 45px;
+    font-size: 18px;
     margin: 0 7px;
-    padding-top: 3px;
     border: 1px solid transparent;
-}
-
-footer ul li a i {
-    font-size: 19px;
 }
 
 footer ul li:nth-child(1) a {
@@ -492,5 +491,4 @@ footer p {
     color: #fff;
     font-size: 15px;
     margin-top: 50px;
-}
-
+} 
