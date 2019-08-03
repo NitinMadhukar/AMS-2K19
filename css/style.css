@@ -369,13 +369,13 @@ div#about-us p {
 }
 
 div#about-us p b {
-    color: #cec044;
+    color: #DA5D44;
 }
 
 div#about-us hr {
     height: 2px;
     width: 40%;
-    color: #ffeb3b;
+    color: #DA5D44;
 }
 
 .theme-title h2 {
@@ -430,7 +430,7 @@ div#about-us hr {
 .blog-details-post-wrapper .post-share-area .share li a:hover,
 .theme-main-menu.navbar .nav>li ul li a:hover,
 .blog-details-post-wrapper .post-share-area .share li a.active {
-    color: #ffeb3b;
+    color: #DA4453;
 }
 
 .single-about-content:hover .icon,
@@ -438,10 +438,10 @@ div#about-us hr {
 #our-client .owl-theme .owl-dots .owl-dot.active span,
 #our-client .owl-theme .owl-dots .owl-dot:hover span,
 .blog-details-post-wrapper .comment-area .single-comment .comment button:hover {
-    background: #ffeb3b;
+    background: #DA4453;
 }
 .p-color-bg{
-    background: #4ecdc4;
+    background: #DA4453;
 }
 
 .banner .project-button,
@@ -461,7 +461,7 @@ div#about-us hr {
 .blog-details-post-wrapper .post-comment form button,
 .blog-details-post-wrapper .post-comment textarea:focus,
 .blog-details-post-wrapper .post-comment input:focus {
-    border-color: #ffeb3b;
+    border-color: #DA4453;
     border-style: solid;
 }
 /***
@@ -491,7 +491,7 @@ section#about-us .container {
 }
 
 div#about-us h2 {
-    color: #d4a346;
+    color: #DA4453;
 }
 
 div#about-us p {
@@ -551,7 +551,7 @@ Service section
     to {
         opacity: 0;
     }
-}
+    }
 
 #service-section {
     background: #252525;
@@ -559,7 +559,7 @@ Service section
 }
 
 #service-section .theme-title h2 {
-    color: #d4a346;
+    color: #DA4453;
     font-size: 30px;
 }
 
@@ -581,7 +581,7 @@ Service section
 }
 
 #service-section .single-service-content {
-    border: 1px solid #ffeb3b;
+    border: 1px solid #DA4453;
     ;
     text-align: center;
     margin-bottom: 20px;
@@ -612,7 +612,7 @@ Service section
 
 #service-section .single-service-content .icon-heading .icon {
     font-size: 48px;
-    color: #ffeb3b;
+    color: #DA4453;
     ;
     width: 80px;
     margin: 0 auto;
@@ -620,7 +620,7 @@ Service section
 }
 
 #service-section .single-service-content .icon-heading a {
-    color: #ffeb3b;
+    color: #DA4453;
     ;
     text-transform: capitalize;
     margin-top: 33px;
@@ -628,12 +628,12 @@ Service section
 
 #service-section .single-service-content .icon-heading {
     top: -10px;
-    color: #d4a346;
+    color: #DA5D44;
 }
 
 #service-section .single-service-content p {
     opacity: 1;
-    color: #d4a346;
+    color: #DA5D44;
     -webkit-transform: translate3D(0, 0, 0);
     -moz-transform: translate3D(0, 0, 0);
     -ms-transform: translate3D(0, 0, 0);
@@ -666,7 +666,7 @@ Project section
 
 #project-section .container .theme-title h2 {
     font-size: 40px;
-    color: #d4a346;
+    color: #DA4453;
 }
 
 #project-section .container .theme-title p {
@@ -682,7 +682,7 @@ Project section
 #project-section .container .theme-title span {
     font-size: 30px;
     font-weight: bold;
-    color: #d4a346;
+    color: #DA5D44;
     padding-bottom: 80px;
     letter-spacing: 2px;
     line-height: 1.3;
@@ -728,14 +728,14 @@ Project section
 }
 
 #project-section .project-gallery .single-img .opacity h6 a {
-    color: #d4a346;
+    color: #DA4453;
     font-family: sans-serif;
     font-size: 25px;
 }
 
 #project-section .project-gallery .single-img .opacity ul li {
     display: inline-block;
-    color: #d4a346;
+    color: #DA5D44;
     margin-top: 8px;
     font-family: sans-serif;
     font-size: 20px;
@@ -833,14 +833,14 @@ Page Middle Banner
 }
 
 .page-middle-banner .opacity h3 {
-    color: #d4a346;
+    color: #DA5D44;
     font-size: 40px;
     margin-bottom: 25px;
     font-weight: bold;
 }
 
 .page-middle-banner .opacity h3 span {
-    color: #d4a346;
+    color: #DA4453;
 }
 /***
 

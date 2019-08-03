@@ -442,7 +442,7 @@ textarea {
 #our-client .owl-theme .owl-dots .owl-dot.active span,
 #our-client .owl-theme .owl-dots .owl-dot:hover span,
 .blog-details-post-wrapper .comment-area .single-comment .comment button:hover {
-    background: #4ecdc4;
+    background: #DA4453;
 }
 
 .banner .project-button,
@@ -462,7 +462,7 @@ textarea {
 .blog-details-post-wrapper .post-comment form button,
 .blog-details-post-wrapper .post-comment textarea:focus,
 .blog-details-post-wrapper .post-comment input:focus {
-    border-color: #4ecdc4;
+    border-color: #DA4453;
     border-style: solid;
 }
 
