@@ -1,0 +1,4 @@
+{
+    "git.ignoreLimitWarning": true,
+    "java.format.settings.url": "eclipse-formatter.xml"
+}
