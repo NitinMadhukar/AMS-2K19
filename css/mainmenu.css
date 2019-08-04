@@ -1,6 +1,3 @@
-@import url("font-awesome/css/font-awesome.min.css");
-@import url("micons/micons.css");
-@import url("fonts.css");
 .main-page-wrapper #menu-nav-wrap .nav-list .mainmenu__item {
     font-size: 2.5rem;
     text-transform: uppercase;
@@ -40,7 +37,7 @@
 
 .label--bottomright {
     bottom: 2rem;
-    right: 3rem;
+    right: 2.5rem;
     font-size: 1.35em;
 }
 
@@ -66,7 +63,7 @@
     right: 10px;
     top: 15px;
     height: 42px;
-    width: 42px;
+    width: 50px;
     line-height: 42px;
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.4rem;
@@ -93,7 +90,7 @@
     display: block;
     height: 3px;
     width: 24px;
-    background-color: #FFFFFF;
+    background-color: #DA4453;
     position: absolute;
     top: 50%;
     right: 9px;
@@ -128,9 +125,9 @@
     background: #15171b;
     font-size: 1.5rem;
     font-weight: 500;
-    padding: 3.6rem 3rem;
+    padding: 10rem 3rem;
     height: 100%;
-    width: auto;
+    width: 300px;
     position: fixed;
     right: 0;
     top: 0;
@@ -172,20 +169,21 @@
     list-style: none;
     display: inline-block;
     margin: 6rem 0;
-    font-size: 2.1rem;
+    font-size: 2rem;
 }
 
 #menu-nav-wrap .header-social-list li {
-    margin-right: 12px;
+    margin-right: 4px;
     padding-left: 0;
     display: inline-block;
 }
 
 #menu-nav-wrap .header-social-list li a {
-    color: #ae7f3b;
-    border-right: 1px solid #ae7f3b;
-    padding-left: 5px;
-    padding-right: 10px;
+    color: #DA5D44;
+    border-right: 1px solid #DA5D44;
+    ;
+    padding-left: 3px;
+    padding-right: 8px;
 }
 
 #menu-nav-wrap .header-social-list li a:hover,
