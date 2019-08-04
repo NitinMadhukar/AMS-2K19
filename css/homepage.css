@@ -40,10 +40,12 @@
             top: 50%;
             transform: translate(-50%, -50%);
             z-index: 0;
-            color: #ffffff;
             font-size: 40px;
             font-weight: 500;
             text-transform: capitalize;
+            background: -webkit-linear-gradient(#DA4453, #DA5D44);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
         
         .homepage .img-container {
