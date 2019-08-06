@@ -283,14 +283,14 @@
         font-size: 25px;
     }
     .banner h6 {
-        color: #e04f5d;
+        color: white;
         font-weight: bold;
         font-size: 15px;
         margin-top: -50px;
     }
     .adverb {
         font-size: 15px;
-        color: #e04f5d;
+        color: black;
         font-weight: bold;
         margin-top: -50px;
     }
@@ -302,7 +302,7 @@
         padding-left: 10px;
     }
     #loader-wrapper #preloader_1 {
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 
@@ -369,7 +369,7 @@
         padding-left: 10px;
     }
     #loader-wrapper #preloader_1 {
-        font-size: 13px;
+        font-size: 12px;
     }
 }
 

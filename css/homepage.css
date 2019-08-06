@@ -21,10 +21,10 @@
         .homepage .title {
             position: absolute;
             left: 50%;
-            top: 40%;
+            top: 42%;
             transform: translate(-50%, -50%);
             z-index: 0;
-            font-size: 5em;
+            font-size: 4vw;
             font-weight: 600;
             background: url(https://media.giphy.com/media/3o6Ztb45EYezY9x9gQ/giphy.gif);
             background-size: contain;
@@ -40,7 +40,7 @@
             top: 50%;
             transform: translate(-50%, -50%);
             z-index: 0;
-            font-size: 40px;
+            font-size: 2vw;
             font-weight: 500;
             text-transform: capitalize;
             background: -webkit-linear-gradient(#DA4453, #DA5D44);
