@@ -220,13 +220,6 @@
     };
 
 
-    /* Placeholder Plugin Settings
-     * ------------------------------------------------------ */
-    var ssPlaceholder = function() {
-        $('input, textarea, select').placeholder();
-    };
-
-
     /* Alert Boxes
     ------------------------------------------------------- */
     var ssAlertBoxes = function() {
@@ -323,7 +316,6 @@
         ssMenuOnScrolldown();
         ssOffCanvas();
         ssSmoothScroll();
-        ssPlaceholder();
         ssAlertBoxes();
         ssAnimations();
         ssIntroAnimation();
