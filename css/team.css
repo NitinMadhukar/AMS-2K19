@@ -50,8 +50,28 @@
         margin: 40px 0 100px 0;
     }
     
-    .team h1 {
-        font-size: 100px;
+    .banner h1 {
+        background: -webkit-linear-gradient(#f2994a, #ff5e62);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font: 4vw 'TeXGyreAdventorBold';
+        text-transform: none;
+        text-align: center;
+        font-family: monospace;
+    }
+    
+    .banner h6 {
+        color: white;
+        font-weight: bold;
+        font-size: 1.5vw;
+        margin-top: -40px;
+    }
+    
+    .adverb {
+        font-size: 1.5vw;
+        color: black;
+        font-weight: bold;
+        margin-top: -50px;
     }
     
     .team h1 #our {
