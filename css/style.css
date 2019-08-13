@@ -705,6 +705,7 @@ Project section
  #project-section .project-gallery .single-img {
      position: relative;
      overflow: hidden;
+     height: 500px;
  }
  
  #project-section .project-gallery .single-img .opacity {
