@@ -208,7 +208,7 @@
     }
     
     .poster a {
-        color:white;
+        color: white;
         cursor: pointer;
     }
     
@@ -619,7 +619,7 @@
         }
         .poster .image .info a {
             width: 40%;
-            color: yellow;
+            color: black;
             font-size: 16px;
             text-transform: uppercase;
             letter-spacing: 1px;
