@@ -221,7 +221,7 @@
     }
     
     a {
-        color: white;
+        color:white;
     }
     
     .nav a:hover {
@@ -447,7 +447,27 @@
     img {
         border-radius: 3px;
     }
-    
+    @media screen and (max-width: 1200px){
+        a:hover {
+            color: black;
+        }
+       .poster a{
+            color: black;
+        }
+        .poster .image .info a {
+            text-transform: capitalize;
+            background: rgba(0, 0, 0, 0);
+            width: 30%;
+            height: 50px;
+            margin: -10px 0 0 2%;
+            border: 2px solid black;
+            padding: 9px 8px;
+            font-size: 16px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+    }
     @media (max-width:1200px) and (min-width: 990px) {
         .col-md-6 .info {
             height: 500px;
@@ -487,7 +507,7 @@
         .poster .image .info a {
             width: 30%;
             color: black;
-            font-size: 18px;
+            font-size: 12px;
             text-transform: uppercase;
             letter-spacing: 1px;
         }

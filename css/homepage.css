@@ -425,7 +425,8 @@
                 font-size: 4.5em;
             }
             .homepage .title-2 {
-                font-size: 3em;
+                font-size: 2.5em;
+                padding-top: 25px;
             }
         }
         
@@ -434,7 +435,8 @@
                 font-size: 3.5em;
             }
             .homepage .title-2 {
-                font-size: 2.5em;
+                font-size: 2.0em;
+                padding-top: 25px;
             }
         }
         
@@ -443,13 +445,17 @@
                 font-size: 3em;
             }
             .homepage .title-2 {
-                font-size: 2em;
+                font-size: 1.9em;
             }
         }
         
         @media (min-width: 750px) and (max-width: 900px) {
             .homepage .title {
                 font-size: 2.5em;
+            }
+            .homepage .title-2 {
+                font-size: 1.7em;
+                 
             }
         }
         
@@ -458,7 +464,7 @@
                 font-size: 2.3em;
             }
             .homepage .title-2 {
-                font-size: 1.8em;
+                font-size: 1.6em;
                 padding-top: 50px;
             }
         }
