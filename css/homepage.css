@@ -108,7 +108,7 @@
             object-fit: cover;
             width: 170px;
             height: 100vh;
-            margin-top: -60px;
+            margin-top: 0;
         }
         
         .homepage .nba {
@@ -121,7 +121,7 @@
                 border-radius: 0px 0px 30px 30px;
             }
             50% {
-                height: 90%;
+                height: 95%;
                 border-radius: 0px 0px 100px 100px;
             }
             100% {
@@ -455,7 +455,6 @@
             }
             .homepage .title-2 {
                 font-size: 1.7em;
-                 
             }
         }
         
