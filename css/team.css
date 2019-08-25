@@ -81,7 +81,7 @@
 }
 
 .spoc {
-    filter: grayscale(0);
+    /* filter: grayscale(0); */
     position: relative;
     display: inline-block;
     box-shadow: none !important;
@@ -310,11 +310,13 @@ hr.yellow {
     padding: 0 0 0 5px;
 }
 
-#team-member:hover .spoc {
+
+/* 
+ #team-member:hover .spoc {
     border: none;
     filter: grayscale(100%);
     transition-duration: 1.5s;
-}
+}  */
 
 #team-member #spoc {
     border-radius: 50%;
