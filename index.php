@@ -75,12 +75,12 @@
                 <li class="current"><a class="smoothscroll mainmenu__item" href="#home" title="">Home</a></li>
                 <li><a class="smoothscroll mainmenu__item" href="#about-us" title="">About Us</a></li>
                 <li><a class="smoothscroll mainmenu__item" href="#service-section" title="">Services</a></li>
-                <li><a class="smoothscroll mainmenu__item" href="gallery.html" title="">Gallery</a></li>
+                <li><a class="smoothscroll mainmenu__item" href="gallery.php" title="">Gallery</a></li>
                 <li>
-                    <a class="smoothscroll mainmenu__item" href="events.html" title="">Events</a>
+                    <a class="smoothscroll mainmenu__item" href="events.php" title="">Events</a>
                 </li>
                 <li>
-                    <a class="smoothscroll mainmenu__item" href="team.html" title="">Team</a>
+                    <a class="smoothscroll mainmenu__item" href="team.php" title="">Team</a>
                 </li>
                 <li>
                     <a class="smoothscroll mainmenu__item" href="#contact-section" title="">Contact Us</a>
@@ -728,7 +728,7 @@
 			-->
         <footer>
             <div class="container">
-                <a href="index.html" class="logo"><img src="images/logo/logoams.png" alt="Logo"></a>
+                <a href="index.php" class="logo"><img src="images/logo/logoams.png" alt="Logo"></a>
                 <ul>
                     <li><a href="https://www.facebook.com/AMS.IIITA/" class="tran3s round-border"><i
                                 class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
@@ -740,7 +740,7 @@
                     <li><a href="https://www.flickr.com/photos/ams_iiita/collections" class="tran3s round-border"><i
                                 class="fab fa-flickr" aria-hidden="true"></i></a></li>
                 </ul>
-                <p>All rights reserved | Designed with <i class="fas fa-heart" style="color:red" aria-hidden="true"></i> by <a href="team.html" target="_blank">team AMS</a></p>
+                <p>All rights reserved | Designed with <i class="fas fa-heart" style="color:red" aria-hidden="true"></i> by <a href="team.php" target="_blank">team AMS</a></p>
             </div>
         </footer>
 

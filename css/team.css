@@ -1,5 +1,10 @@
+
+img {
+    max-width: 100%;
+    display: block;
+}
 .nav {
-    overflow: hidden;
+    /* overflow: hidden; */
     background-color: black;
     top: 0;
     height: 50px;

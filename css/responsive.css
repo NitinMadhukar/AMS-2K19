@@ -238,6 +238,9 @@
         z-index: 100;
         padding-left: 10px;
     }
+    #loader-wrapper #preloader_1 {
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 550px) {
@@ -369,7 +372,7 @@
         padding-left: 10px;
     }
     #loader-wrapper #preloader_1 {
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 
@@ -380,5 +383,14 @@
     #about-us .container .theme-title p {
         font-size: 15px;
         line-height: 25px;
+    }
+    #loader-wrapper #preloader_1 {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:320px){
+    #loader-wrapper #preloader_1 {
+        font-size: 8px;
     }
 }
