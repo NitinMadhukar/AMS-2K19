@@ -33,152 +33,115 @@
 ====================================================================
 
 ***/
-    
-    .scroll-top {
-        width: 45px;
-        height: 45px;
-        position: fixed;
-        bottom: 52px;
-        right: 80px;
-        z-index: 9999;
-        text-align: center;
-        color: #fff;
-        font-size: 20px;
-        display: none;
-    }
-    
-    .scroll-top:after {
-        position: absolute;
-        z-index: -1;
-        content: '';
-        top: 100%;
-        left: 5%;
-        height: 10px;
-        width: 90%;
-        opacity: 1;
-        background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
-        background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0) 80%);
-    }
-    
-    .heading h2 {
-        font-weight: 600;
-        font-size: 40px;
-        background: -webkit-linear-gradient(#00f260, #0575e6);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    
-    .amsteam {
-        overflow: hidden;
-        top: 0;
-    }
-    
-    img {
-        max-width: 100%;
-        display: block;
-    }
+      
+/* img {
+    max-width: 100%;
+    display: block;
+} */
+
+   
     
     #r1 #Tasveer img {
-        height: 70%;
+        height: 600px;
         width: 100%;
     }
     
     #r1 #photobooth img {
-        height: 70%;
+        height: 600px;
         width: 100%;
     }
     
     #r2 #safar img {
-        height: 70%;
+        height: 600px;
         width: 100%;
     }
     
     #r2 #exploration img {
-        height: 70%;
+        height: 600px;
         width: 100%;
     }
     /* Tasveer */
     
     #r1 #tas1 img {
-        height: 70%;
+        height: 600px;
         width: 100%;
     }
     
     #r1 #tas2 img {
-        height: 70%;
+        height: 600px;
         width: 100%;
     }
     
     #r2 #tas3 img {
-        height: 70%;
+        height: 600px;
         width: 100%;
     }
     
     #r2 #tas4 img {
-        height: 70%;
+        height: 600px;
         width: 100%;
     }
     /* Photobooth */
     
     #r3 #pho1 img {
-        height: 50%;
+        height: 500px;
         width: 100%;
     }
     
     #r3 #pho3 img {
-        height: 50%;
+        height: 500px;
         width: 100%;
     }
     
     #r4 #pho2 img {
-        height: 50%;
+        height: 500px;
         width: 100%;
     }
     
     #r4 #pho4 img {
-        height: 50%;
+        height: 500px;
         width: 100%;
     }
     /* Safar */
     
     #r5 #saf1 img {
-        height: 60%;
+        height: 500px;
         width: 100%;
     }
     
     #r5 #saf4 img {
-        height: 60%;
+        height: 500px;
         width: 100%;
     }
     
     #r6 #saf2 img {
-        height: 60%;
+        height: 500px;
         width: 100%;
     }
     
     #r6 #saf3 img {
-        height: 60%;
+        height: 500px;
         width: 100%;
     }
     /* Exploracion */
     
     #r7 #exp1 img {
-        height: 60%;
+        height: 500px;
         width: 100%;
     }
     
     #r7 #exp2 img {
-        height: 60%;
+        height: 500px;
         width: 100%;
     }
     
     #r8 #exp3 img {
-        height: 60%;
+        height: 500px;
         width: 100%;
     }
     
     #r8 #exp4 img {
-        height: 60%;
+        height: 500px;
         width: 100%;
     }
     
@@ -360,11 +323,11 @@
     }
     
     #photobooth .image .info hr {
-        width: 50%;
+        width: 600px;
     }
     
     #exploration .image .info hr {
-        width: 50%;
+        width: 600px;
     }
     
     .poster .image .info p {
@@ -671,7 +634,7 @@
             margin-top: 25px;
         }
         .col-md-4.col-sm-12:nth-child(9) {
-            margin-right: 50%;
+            margin-right: 600px;
             margin-top: -330px;
         }
         .col-md-4.col-sm-12:nth-child(5) {
