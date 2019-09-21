@@ -21,7 +21,7 @@
 
 .label--topleft {
     top: 2rem;
-    left: -2rem;
+    left: 0.3em;
     font-size: 1.35em;
 }
 
@@ -37,7 +37,7 @@
 
 .label--bottomright {
     bottom: 2rem;
-    right: 2.5rem;
+    right: 1.2rem;
     font-size: 1.35em;
 }
 
