@@ -1,0 +1,732 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+
+    <!--page titile-->
+    <title>Team AMS</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/icon camera.png">
+
+    <!--for responsive device-->
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Main style sheet -->
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/team.css'>
+
+    <!-- responsive style sheet -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+    <!--for ready to use icons-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Architects+Daughter&display=swap" rel="stylesheet">
+
+    <!-- Scroll Effect -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li class="left"><a href="index.php">ThunderBolt</span></a></li>
+            <li class="right"><a href="index.php">Home</a></li>
+        </ul>
+    </div>
+
+    <div id="home" class="banner">
+        <div class="rev_slider_wrapper">
+            <!-- START REVOLUTION SLIDER 5.0.7 auto mode -->
+            <div id="main-banner-slider" class="rev_slider video-slider" data-version="5.0.7">
+                <ul>
+
+
+
+                    <!-- SLIDE1  -->
+                    <li data-index="rs-280" data-transition="fade" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-title="Title Goes Here" data-description="">
+                        <!-- MAIN IMAGE -->
+                        <img src="images/team/frontteam.gif" alt="image" class="rev-slidebg" data-bgparallax="3" data-bgposition="center center" data-duration="20000" data-ease="Linear.easeNone" data-kenburns="on" data-no-retina="" data-offsetend="0 0" data-offsetstart="0 0"
+                            data-rotateend="0" data-rotatestart="0" data-scaleend="100" data-scalestart="140">
+                        <!-- LAYERS -->
+
+                        <!-- LAYER NR. 1 -->
+                        <div class="tp-caption" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-58','-58','0','-50']" data-width="none" data-height="none" data-whitespace="nowrap"
+                            data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];"
+                            data-mask_out="x:inherit;y:inherit;" data-start="1000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; white-space: nowrap;">
+                            <h1>ThunderBolt AMS</h1>
+                        </div>
+
+                        <!-- LAYER NR. 2 -->
+                        <div class="tp-caption" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-voffset="['-05','-05','63','0']" data-width="none" data-height="none" data-whitespace="nowrap"
+                            data-transform_idle="o:1;" data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" data-mask_in="x:0px;y:[100%];"
+                            data-mask_out="x:inherit;y:inherit;" data-start="2000" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 6; white-space: nowrap;">
+                            <h6>Our people are our greatest asset <span class="adverb"> and biggest differentiator</span></h6>
+                        </div>
+
+
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- END REVOLUTION SLIDER -->
+    </div>
+    <!--  /#banner -->
+
+
+    <div class="team">
+        <h1><span id="our">Our</span> Team</h1>
+    </div>
+
+
+    <div id="r2" class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12 ">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="team-member">
+                    <div id="spoc">
+                        <img src="images/team/nikhilesh.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Coordinator</h4><br>
+                            <a class="fb" href="https://www.facebook.com/nikhilesh.kr23"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:iec2018061@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/_.the_potterhead._/"><i class="fab fa-instagram fa-2x"></i></a>
+                       </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Nikhilesh</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Coordinator</span>
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="col-lg-4 col-md-4 col-sm-12 ">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="team-member">
+                    <div id="spoc">
+                        <img src="images/team/adityakamble.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Coordinator</h4><br>
+                            <a class="fb" href="https://www.facebook.com/profile.php?id=100010214970766"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:iit2018126@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/aditya_kamble_99/?hl=en"><i class="fab fa-instagram fa-2x"></i></a>
+                            
+                        </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Aditya Kamble</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Coordinator</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="col-lg-4 col-md-4 col-sm-12 ">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="team-member">
+                    <div id="spoc">
+                        <img src="images/team/mahesh.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Coordinator</h4><br>
+                            <a class="fb" href="https://www.facebook.com/profile.php?id=100010107904124"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:iec2018031@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/maheshnayak_45/?hl=en/"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Mahesh</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Coordinator</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    </div><div id="r6" class="row member">
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 ">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+                        <img src="images/team/nitin.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Senior Member</h4><br>
+                            <a class="fb" href="https://www.facebook.com/nitin.madhukar.37"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:iec2018053@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/nitin._.madhukar/?hl=en"><i class="fab fa-instagram fa-2x"></i></a>
+                      </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Nitin Madhukar</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Senior Member</span>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 ">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+
+                        <img src="images/team/chinmay.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Senior Member</h4><br>
+                            <a class="fb" href="https://www.facebook.com/chinmay.nagar.09"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:iec2018057@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/nagar.chinmay/?hl=en/"><i class="fab fa-instagram fa-2x"></i></a>
+                          </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Chinmay Nagar</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Senior Member</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 ">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+                        <img src="images/team/chaitali.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Senior Member</h4><br>
+                            <a class="fb" href="https://www.facebook.com/chaitali.agrawal.9"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:iit2018504@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/chiya_agrawal05/"><i class="fab fa-instagram fa-2x"></i></a>
+                            </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Chaitali Agrawal</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Senior Member</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 ">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+                        <img src="images/team/onkar.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Senior Member</h4><br>
+                            <a class="fb" href="https://www.facebook.com/onkar.telange?ref=br_rs"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:iit2018065@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/onkartelange/"><i class="fab fa-instagram fa-2x fa-2x"></i></a>
+                      </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Onkar Telange</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Senior Member</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 last-element">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+                        <img src="images/team/madhu.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Senior Member</h4><br>
+                            <a class="fb" href="https://www.facebook.com/madhu.nayak.39501"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:2018068@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/madhu_nayak9/"><i class="fab fa-instagram fa-2x"></i></a>
+                              </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Madhu Nayak</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Senior Member</span>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div><div id="r6" class="row member">
+
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 ">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+                        <img src="images/team/aditi.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Member</h4><br>
+                            <a class="fb" href="https://www.facebook.com/profile.php?id=100026277772506"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:iec2018051@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/aditi._.0311"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Aditi Jain</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Member</span>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 ">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+
+                        <img src="images/team/aditya.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Member</h4><br>
+                            <a class="fb" href="https://www.facebook.com/aditya.machhaiya"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:IIT2019111@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/aditya.machhaiya"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Aditya Machhaiya</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Member</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 ">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+                        <img src="images/team/debashish.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Member</h4><br>
+                            <a class="fb" href="https://www.facebook.com/debashish.datt"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:ddatt0217@gmail.com"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/itsdebashish/"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Debashish Dutt</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Member</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 ">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+                        <img src="images/team/devendra.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Member</h4><br>
+                            <a class="fb" href="https://www.facebook.com/divyendra.gahlot.3"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:iec2019043@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://instagram.com/im._.divi?igshid=ngmx1oo91cpl"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Divyendra Gahlot</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Member</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 last-element">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+                        <img src="images/team/kaushtubh.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Member</h4><br>
+                            <a class="fb" href="http://www.facebook.com/kaustubhgangwar"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:iit2019115@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href=" www.instagram.com/kaustubhgangwar"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Kaustubh Gangwar</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Member</span>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div><div id="r6" class="row member">
+
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 ">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+                        <img src="images/team/krishna.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Member</h4><br>
+                            <a class="fb" href=" https://www.facebook.com/krishna.kaipa.98"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:iit2019203@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/kr1shna.k/"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Krishna Kaipa</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Member</span>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 ">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+
+                        <img src="images/team/mukul.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Member</h4><br>
+                            <a class="fb" href="https://www.facebook.com/mukul.mohmare.1"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:iit2019226@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/_mu_cool/"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Mukul Mohmare</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Member</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 ">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+                        <img src="images/team/prahtmesh.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Member</h4><br>
+                            <a class="fb" href="https://www.facebook.com/prathamesh.kakde.77"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:iit2019168@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="http://instagram.com/pratham3203"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Prathamesh Kakde</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Member</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 ">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+                        <img src="images/team/prakhar.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Member</h4><br>
+                            <a class="fb" href="https://m.facebook.com/the.bifocal.theorem?ref=m_notif&notif_t=birthday_reminder"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:singhprakhar316@gmail.com"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/_leviathan_17/"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Prakhar Singh</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Member</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 last-element">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+                        <img src="images/team/saloni.jpg" class="spoc">
+                        <div class="links">
+                            <!-- <h4>Nitin Mathur</h4> -->
+                            <h4>Member</h4><br>
+                            <a class="fb" href="https://m.facebook.com/saloni.thakral.186"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:iit2019128@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/_salonithakral_/"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Saloni Thakral</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Member</span>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div> </div>
+    <div id="r6" class="row member">
+
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 ">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+                        <img src="images/team/shikhar.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Member</h4><br>
+                            <a class="fb" href="https://www.facebook.com/shikhargupt04"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:iit2019118@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/shikhargupta___/"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Shikhar Gupta</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Member</span>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 ">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+
+                        <img src="images/team/tushar.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Member</h4><br>
+                            <a class="fb" href="https://www.facebook.com/profile.php?id=100038056486934"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:iec2019047@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/commander_official_/"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Tushar Kumar</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Member</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 ">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+                        <img src="images/team/vrishabh.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Member</h4><br>
+                            <a class="fb" href="https://www.facebook.com/vrishabh.agamya"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:iec2019058@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/shutter._.bug_8.1/"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Vrishabh Agamya</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Member</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 ">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+                        <img src="images/team/yash.jpg" class="spoc">
+                        <div class="links">
+                            <h4>Member</h4><br>
+                            <a class="fb" href="https://www.facebook.com/yash.mishra.9889"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:Iec2019006@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/_itsyashyeah/"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Yash Mishra</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Member</span>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="col-md-2 col-md-offset-1 col-sm-6 col-xs-6 last-element">
+            <div id="team-member" data-aos="fade-up" data-aos-duration="20000" data-aos-easing="linear">
+                <div class="member">
+                    <div id="spoc">
+                        <img src="images/team/ranveer.jpg" class="spoc">
+                        <div class="links">
+                            <!-- <h4>Nitin Mathur</h4> -->
+                            <h4>Member</h4><br>
+                            <a class="fb" href="https://www.facebook.com/manik.sidana.98/"><i class="fab fa-facebook-square fa-2x"></i></a>
+                            <a class="fb" href="mailto:iit2019080@iiita.ac.in"><i class="fa fa-envelope fa-2x"></i></a>
+                            <a class="fb" href="https://www.instagram.com/ranveersidana/"><i class="fab fa-instagram fa-2x"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="details">
+                    <h4 class="name">Ranveer Singh</h4>
+                    <hr class="yellow" style="width: 15%; border: 1px solid #DA5D44">
+                    <span>Member</span>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <!--
+				=====================================================
+					Footer
+				=====================================================
+				-->
+    <footer id="team">
+        <div class="container">
+            <a href="index.php" class="logo"><img src="images/logo/logoams.png" alt="Logo"></a>
+            <ul>
+                <li><a href="https://www.facebook.com/AMS.IIITA/" class="tran3s round-border"><i
+										class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.youtube.com/channel/UCiTmQIcZr59tzm_gUPtJ_mw" class="tran3s round-border"><i
+										class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/thunderboltams/" class="tran3s round-border instagram"><i
+										class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="mailto:ams.society@iiita.ac.in" class="tran3s round-border"><i class="far fa-envelope"
+										aria-hidden="true"></i></a></li>
+                <li><a href="https://www.flickr.com/photos/ams_iiita/collections" class="tran3s round-border"><i
+										class="fab fa-flickr" aria-hidden="true"></i></a></li>
+            </ul>
+            <p>All rights reserved | Designed with <i class="fas fa-heart" style="color:red" aria-hidden="true"></i> by <a href="team.php" target="_blank" style="color:blue">team AMS</a></p>
+        </div>
+    </footer>
+
+    <!-- Scroll Top Button -->
+    <button class="scroll-top tran3s p-color-bg">
+            <i class="fas fa-long-arrow-alt-up" aria-hidden="true"></i>
+        </button>
+
+
+
+
+    <!-- Js File_________________________________ -->
+
+    <!-- j Query -->
+    <script type="text/javascript" src="vendor/jquery.2.2.3.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Vendor js _________ -->
+
+    <!-- revolution -->
+    <script src="vendor/revolution/jquery.themepunch.tools.min.js"></script>
+    <script src="vendor/revolution/jquery.themepunch.revolution.min.js"></script>
+    <script type="text/javascript" src="vendor/revolution/revolution.extension.slideanims.min.js"></script>
+    <script type="text/javascript" src="vendor/revolution/revolution.extension.layeranimation.min.js"></script>
+    <script type="text/javascript" src="vendor/revolution/revolution.extension.navigation.min.js"></script>
+    <script type="text/javascript" src="vendor/revolution/revolution.extension.kenburn.min.js"></script>
+    <script type="text/javascript" src="vendor/revolution/revolution.extension.actions.min.js"></script>
+    <script type="text/javascript" src="vendor/revolution/revolution.extension.video.min.js"></script>
+
+    <!-- owl.carousel -->
+    <script type="text/javascript" src="vendor/owl-carousel/owl.carousel.min.js"></script>
+    <!-- mixitUp -->
+    <script type="text/javascript" src="vendor/jquery.mixitup.min.js"></script>
+    <!-- Progress Bar js -->
+    <script type="text/javascript" src="vendor/skills-master/jquery.skills.js"></script>
+    <!-- Validation -->
+    <script type="text/javascript" src="vendor/contact-form/validate.js"></script>
+    <script type="text/javascript" src="vendor/contact-form/jquery.form.js"></script>
+
+
+    <!-- Theme js -->
+    <script type="text/javascript" src="js2/theme.js"></script>
+
+
+    <!-- Scroll Effect -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
